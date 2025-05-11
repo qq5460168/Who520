@@ -245,7 +245,6 @@
 ||v5-be-pack.pglstatp-toutiao.com^
 ||sf6-be-pack.pglstatp-toutiao.com^
 ||p9-be-pack-sign.pglstatp-toutiao.com^
-||sf6-fe-tos.pglstatp-toutiao.com^
 ||ether-pack.pangolin-sdk-toutiao.com^
 ||lf*-ad-union-sdk.pglstatp-toutiao.com^
 ||monsetting.toutiao.com^
@@ -313,7 +312,6 @@
 ||v5-hl-h-bd.douyinvod.com^
 ||lf6-webcastcdn-tos-sign.douyinstatic.com^
 ||v95-bjb.douyinvod.com^
-||p11-webcast-sign.douyinpic.com^
 ||webcast5-open-hl.douyin.com^
 ||webcast5-open-lq.douyin.com^
 ||lf3-webcastcdn-tos-sign.douyinstatic.com^
@@ -652,7 +650,6 @@
 ||analy.qq.com^
 ||bugly.qq.com^
 ||aexception.bugly.qq.com^
-||android.bugly.qq.com^
 ||astat.bugly.qq.com^
 ||e.qq.com^
 ||*.gdt.qq.com^
@@ -1326,7 +1323,6 @@
 ||dxp.baidu.com^
 ||mobads-logs.baidu.com^
 ||mobads.baidu.com^
-||cpucdn.baidu.com^
 ||adscdn.baidu.com^
 ||eiv.baidu.com^
 ||iwanad.baidu.com^
@@ -3165,7 +3161,6 @@ www.itdog.cn##.rounded-lg
 ||778538.com^  
 ||49789c.com^  
 # [小说]
-||vfiles.gtimg.cn^
 ||5eucpusr8lbadd6e66vmuv1sok57bf04dcdpidko5hpg5od8erhfuuoo.saxysec.com^
 ||mc2jm0545vj420i4qbr2bds8q1pocd8jlfr887i10c0hdlsccqqfun19.saxysec.com^
 # [视频客户端过滤器]
@@ -3389,7 +3384,6 @@ www.itdog.cn##.rounded-lg
 ||aqdz149.com^
 ||appmetrica.yandex.ru^
 ||share.jileme.net^
-||msync-im1-vip6-std.easemob.com^
 ||settings.ttwebview.com^
 ||pangolin-sdk.com^
 ||jietuhb.com^
@@ -3643,9 +3637,7 @@ www.itdog.cn##.rounded-lg
 ||p3.bdxiguaimg.com^
 ||ad.byted.org^
 ||6osurvos.fn.bytedance.net^
-||ad-experience.bytedance.com^
 ||sf1-dycdn-tos.pstatp.com^
-||sf6-cdn-tos.bdxiguastatic.com^
 ||microapp.bytedance.com^
 ||bdxiguaimg.com^
 ##云闪付
