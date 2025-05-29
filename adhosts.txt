@@ -3,6 +3,8 @@
 ! Homepage: https://github.com/qq5460168/666
 
 
+0.0.0.0 creative.medproad.com
+0.0.0.0 qcwx.medproad.com
 0.0.0.0 4img.mgtv.com
 0.0.0.0 99cases.oceanengine.com
 0.0.0.0 accscdn4public.m.taobao.com
@@ -13,6 +15,7 @@
 0.0.0.0 ads-sdk-api.ranfenghd.com
 0.0.0.0 ads-tracker.ranfenghd.com
 0.0.0.0 ads.adfunlink.com
+0.0.0.0 enduser.adsrvr.org
 0.0.0.0 ads.heytapmobi.com
 0.0.0.0 ads.ishansong.com
 0.0.0.0 adsdkapi.dxys.pro
