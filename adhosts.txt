@@ -803,7 +803,6 @@
 0.0.0.0 p2sdmkj6t.bkt.clouddn.com
 0.0.0.0 ad.bayescom.com
 0.0.0.0 logs.amap.com
-0.0.0.0 zhihu-web-analytics.zhihu.com
 0.0.0.0 sdk.zsdfm.com
 0.0.0.0 adnew.wifi8.com
 0.0.0.0 ad.ikonke.com
@@ -894,7 +893,6 @@
 0.0.0.0 tracker.ai.xiaomi.com
 0.0.0.0 beacons*.gvt3.com
 0.0.0.0 loggw.alipay.com.cn
-0.0.0.0 zhihu-web-analytics.zhihu.com
 0.0.0.0 amdc.m.taobao.com
 0.0.0.0 dorangesource.alicdn.com
 0.0.0.0 report.*.qq.com
@@ -1840,7 +1838,6 @@
 0.0.0.0 adimage.bwton.com
 0.0.0.0 adiu.amap.com
 0.0.0.0 adktracking-1671721947.eu-west-3.elb.amazonaws.com
-0.0.0.0 adlab.spotify.com
 0.0.0.0 adm0.autoimg.cn
 0.0.0.0 adm1.autoimg.cn
 0.0.0.0 adm2.autoimg.cn
@@ -1853,15 +1850,11 @@
 0.0.0.0 adn.tapapis.cn
 0.0.0.0 adplus.umeng.com
 0.0.0.0 ads-816899299.ap-southeast-1.elb.amazonaws.com
-0.0.0.0 ads-akp.spotify.com
 0.0.0.0 ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com
 0.0.0.0 ads-b-480313385.us-west-1.elb.amazonaws.com
 0.0.0.0 ads-bidder-api.twitter.com
 0.0.0.0 ads-c-1854119718.us-west-1.elb.amazonaws.com
-0.0.0.0 ads-fa.spotify.com
 0.0.0.0 ads-privacy-api.prd.mz.internal.unity3d.com
-0.0.0.0 ads-sp-ash.cdn.spotify.com
-0.0.0.0 ads-sp-lon.cdn.spotify.com
 0.0.0.0 ads.95516.com
 0.0.0.0 ads.prd.ie.internal.unity3d.com
 0.0.0.0 ads.samsungads.com
@@ -1951,7 +1944,6 @@
 0.0.0.0 analytics.map.qq.com
 0.0.0.0 analytics.miui.com
 0.0.0.0 analytics.snssdk.com
-0.0.0.0 analytics.spotify.com
 0.0.0.0 analytics.twitter.com
 0.0.0.0 analytics.ws.126.net
 0.0.0.0 andeyeplus.umeng.com
@@ -2071,7 +2063,6 @@
 0.0.0.0 apicloud.mob.com
 0.0.0.0 apicloud.zol.com.cn
 0.0.0.0 apidy.vaas.jiguang.cn
-0.0.0.0 apk-upgrade.qingteng-inc.com
 0.0.0.0 apk.shouji.koowo.com
 0.0.0.0 apm.umeng.com
 0.0.0.0 apm.volccdn.com
@@ -2114,7 +2105,6 @@
 0.0.0.0 asmax.domobcdn.com
 0.0.0.0 aspect-upush.umeng.com
 0.0.0.0 assets.gunosy.com
-0.0.0.0 assets.spotify.com
 0.0.0.0 assistant.pandora.xiaomi.com
 0.0.0.0 astat.bugly.qq.com
 0.0.0.0 at.umtrack.com
@@ -2128,20 +2118,6 @@
 0.0.0.0 audd.shuzilm.cn
 0.0.0.0 audid.umeng.com
 0.0.0.0 audience-164723144.us-east-1.elb.amazonaws.com
-0.0.0.0 audio-ak-spotify-com.akaimaized.net
-0.0.0.0 audio-ak.spotify.com
-0.0.0.0 audio-ak.spotify.com.eip.akadns.net
-0.0.0.0 audio-akp.spotify.com
-0.0.0.0 audio-cf.spotify.com
-0.0.0.0 audio-ec.spotify.com
-0.0.0.0 audio-fa.scdn.co
-0.0.0.0 audio-fab.spotify.com
-0.0.0.0 audio-fac-spotify.com
-0.0.0.0 audio-gc.scdn.co
-0.0.0.0 audio-gc.spotify.com
-0.0.0.0 audio-sp-lon.spotify.com
-0.0.0.0 audio-sp-sto.spotify.com
-0.0.0.0 audio2.spotify.com
 0.0.0.0 auth.dlb.mob.com
 0.0.0.0 auth.irs01.com
 0.0.0.0 autoupdate.tantanapp.com
@@ -2177,7 +2153,6 @@
 0.0.0.0 beacon-mp.tingyun.com
 0.0.0.0 beaconserver-ce-vpc0-1537565064.eu-west-1.elb.amazonaws.com
 0.0.0.0 beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com
-0.0.0.0 beta.spotify.map.fastly.net
 0.0.0.0 beta.umeng.com
 0.0.0.0 bidder.tradplusad.com
 183.136.207.132 bigota.d.miui.com
@@ -2383,8 +2358,6 @@
 0.0.0.0 cpc-service-square.aiclk.com
 0.0.0.0 cr-status.iqiyi.com
 0.0.0.0 crash.browser.qq.com
-0.0.0.0 crashdump.ciqe-gslb.spotify.com
-0.0.0.0 crashdump.spotify.com
 0.0.0.0 credits.bz.mgtv.com
 0.0.0.0 crosspro-track.tradplusad.com
 0.0.0.0 cs.voiceads.cn
@@ -2620,7 +2593,6 @@
 0.0.0.0 geo3.ggpht.com
 0.0.0.0 geocdn.unityads.unity3d.com
 0.0.0.0 getui.igexin.com
-0.0.0.0 gew1.ap.spotify.com
 0.0.0.0 geyan.getui.com
 0.0.0.0 gezhen-api.getui.com
 0.0.0.0 gg.kugou.com
@@ -2671,14 +2643,6 @@
 0.0.0.0 hb.kg.qq.com
 0.0.0.0 hcrlm2.wsq.umeng.com
 0.0.0.0 hd.mmstat.com
-0.0.0.0 heads-ak.spotify.com
-0.0.0.0 heads-akp.spotify.com
-0.0.0.0 heads-cf.spotify.com
-0.0.0.0 heads-ec.spotify.com
-0.0.0.0 heads-fa.scdn.co
-0.0.0.0 heads-fa.spotify.com
-0.0.0.0 heads-fab.spotify.com
-0.0.0.0 heads-fac.spotify.com
 0.0.0.0 hisense-mipdx.cn.miaozhen.com
 0.0.0.0 homefront.qunar.com
 0.0.0.0 hotapi-va.isnssdk.com
@@ -2777,7 +2741,6 @@
 0.0.0.0 ip6-localhost
 0.0.0.0 ipi.shuzilm.cn
 0.0.0.0 ipt.qchannel03.cn
-0.0.0.0 ipv4.scdnco.spotify.map.fastly.net
 0.0.0.0 ipv4.shuzilm.cn
 0.0.0.0 ipv6.shuzilm.cn
 0.0.0.0 ipv6.umeng.com
@@ -2808,8 +2771,6 @@
 0.0.0.0 jd.sundxs.com
 0.0.0.0 jd.wxnmvwb.cn
 0.0.0.0 jd.zxsmxt.com
-0.0.0.0 jefes-ec.spotify.com
-0.0.0.0 jefes-fa.scdn.co
 0.0.0.0 jenkins.tradplusad.com
 0.0.0.0 jg-cms.jiguang.cn
 0.0.0.0 jingjia.qq.com
@@ -2875,7 +2836,6 @@
 0.0.0.0 lf9-ttcdn-tos.pstatp.com
 0.0.0.0 lianmengapi.snssdk.com
 0.0.0.0 link.1905.com
-0.0.0.0 links.spotify.com
 0.0.0.0 live-ads.huya.com
 0.0.0.0 live-s3m.mediav.com
 0.0.0.0 lks.share.mob.com
@@ -2892,7 +2852,6 @@
 0.0.0.0 log.qchannel01.cn
 0.0.0.0 log.sms.mob.com
 0.0.0.0 log.snssdk.com.bytedns.net
-0.0.0.0 log.spotify.com
 0.0.0.0 log.umeng.com
 0.0.0.0 log.umengcloud.com
 0.0.0.0 log.umtrack.com
@@ -2900,7 +2859,6 @@
 0.0.0.0 log0-misc-alinc2.amemv.com
 0.0.0.0 log1wtlogin.qq.com
 0.0.0.0 log2.air.yoyi.com.cn
-0.0.0.0 log2.spotify.com
 0.0.0.0 log3-applog-hl.fqnovel.com
 0.0.0.0 log3-misc-lq.amemv.com
 0.0.0.0 log3-normal-lq.toutiaoapi.com
@@ -2911,7 +2869,6 @@
 0.0.0.0 logs.umeng.com
 0.0.0.0 logsdk.qq.com
 0.0.0.0 logserver.insight.ucweb.com
-0.0.0.0 lon6-accesspoint-a33.lon6.spotify.com
 0.0.0.0 lupic.cdn.bcebos.com
 0.0.0.0 lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com
 0.0.0.0 m-adnet.dutils.com
@@ -3016,7 +2973,6 @@
 0.0.0.0 moviets.tc.qq.com
 0.0.0.0 mp.bz.mgtv.com
 0.0.0.0 mp.umeng.com
-0.0.0.0 mp3ad.scdn.co
 0.0.0.0 mparticle.uc.cn
 0.0.0.0 mpcs.suning.com
 0.0.0.0 mqq.qq.com
@@ -3158,15 +3114,11 @@
 0.0.0.0 pandoramedia-mkt-prod1-t.campaign.adobe.com
 0.0.0.0 pangolin16.isnssdk.com
 0.0.0.0 pangolin16.sgsnssdk.com
-0.0.0.0 partner-service-testing.spotify.com
-0.0.0.0 partner-service.spotify.com
 0.0.0.0 partner.uc.cn
 0.0.0.0 partnerad.l.doubleclick.net
 0.0.0.0 passport.umeng.com
-0.0.0.0 payment-callback.spotify.com
 0.0.0.0 pcauto.irs01.com
 0.0.0.0 pcbrowser.dd.qq.com
-0.0.0.0 pci.spotify.com
 0.0.0.0 perf.mmstat.com
 0.0.0.0 pg.xdrig.com
 0.0.0.0 phone.getui.com
@@ -3175,7 +3127,6 @@
 0.0.0.0 pigeon.umeng.com
 0.0.0.0 pinghot.qq.com
 0.0.0.0 pitaya.bytedance.com
-0.0.0.0 pixel.spotify.com
 0.0.0.0 pixon.ads-pixiv.net
 0.0.0.0 pkgcn.tradplusad.com
 0.0.0.0 plblog.umeng.com
@@ -3201,9 +3152,6 @@
 0.0.0.0 prod-ash-beacon-1960876484.us-east-1.elb.amazonaws.com
 0.0.0.0 prod-dem-collector-elb-611025824.eu-west-1.elb.amazonaws.com
 0.0.0.0 prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com
-0.0.0.0 prod.spotify-heads.map.fastlylb.net
-0.0.0.0 prod.spotify.map.fastly.net
-0.0.0.0 prod.spotify.map.fastlylb.net
 0.0.0.0 prom.b.qq.com
 0.0.0.0 ps-w.applk.cn
 0.0.0.0 ps.browser.qq.com
@@ -3246,7 +3194,6 @@
 0.0.0.0 qring-tms.qq.com
 0.0.0.0 qss-client.qq.com
 0.0.0.0 qtsftl.m.cn.miaozhen.com
-0.0.0.0 quicksilver.scdn.co
 0.0.0.0 qy.qchannel03.cn
 0.0.0.0 qzs.qq.com
 0.0.0.0 r.ads.sohu.com
@@ -3445,7 +3392,6 @@
 0.0.0.0 splash.yy.com
 0.0.0.0 splashimgretrybssdl.cloud.kugou.com
 0.0.0.0 splashqqlive.gtimg.com
-0.0.0.0 spotify-desktop.com
 0.0.0.0 spt.qchannel03.cn
 0.0.0.0 sqsh.3g.qq.com
 0.0.0.0 ssl.msdk.qq.com
@@ -3486,8 +3432,6 @@
 0.0.0.0 status.jpush.cn
 0.0.0.0 stdl.qq.com
 0.0.0.0 stm.cn.miaozhen.com
-0.0.0.0 sto3-accesspoint-a88.sto3.spotify.net
-0.0.0.0 sto3.spotify.com
 0.0.0.0 storage-public.zhaopin.cn
 0.0.0.0 stream.shuzilm.cn
 0.0.0.0 stream.snssdk.com
@@ -3618,7 +3562,6 @@
 0.0.0.0 tw13b093.sandai.net
 0.0.0.0 txt.go.sohu.com
 0.0.0.0 tyrd1.tingyun.com
-0.0.0.0 u.scdn.co
 0.0.0.0 u.uc123.com
 0.0.0.0 u.ucfly.com
 0.0.0.0 u.x.jd.com
@@ -3647,8 +3590,6 @@
 0.0.0.0 update.baidu.com
 0.0.0.0 update.sdk.jiguang.cn
 0.0.0.0 update.wtzw.com
-0.0.0.0 upgrade.scdn.co
-0.0.0.0 upgrade.spotify.com
 0.0.0.0 upload.aiclk.com
 0.0.0.0 upload.juxiao.mediav.com
 0.0.0.0 upload_data.qq.com
@@ -3693,7 +3634,6 @@
 0.0.0.0 v26-be-pack.pglstatp-toutiao.com
 0.0.0.0 v3-be-pack.pglstatp-toutiao.com
 0.0.0.0 v3-fe-pack.pglstatp-toutiao.com
-0.0.0.0 v4-only.eip-ntt.audio-ak.spotify.com.akahost.net
 0.0.0.0 v6-api-d.dutils.com
 0.0.0.0 v6-api-fc.dutils.com
 0.0.0.0 v6-api-share.mob.com
@@ -3713,11 +3653,7 @@
 0.0.0.0 vcs.zijieapi.com
 0.0.0.0 verify.snssdk.com
 0.0.0.0 vhotlxp.video.qq.com
-0.0.0.0 video-akp-cdn-spotify-com.akamaized.net
 0.0.0.0 video-cn.snssdk.com
-0.0.0.0 video-fa-b.cdn.spotify.com
-0.0.0.0 video-fa.cdn.spotify.com
-0.0.0.0 video-fa.scdn.co
 0.0.0.0 video.mediav.com
 0.0.0.0 video.mpush.qq.com
 0.0.0.0 video.umeng.com
@@ -3754,7 +3690,6 @@
 0.0.0.0 webcast3-core-c-lf.amemv.com
 0.0.0.0 webcast3-normal-c-lf.amemv.com
 0.0.0.0 webcast5-normal-lf.amemv.com
-0.0.0.0 weblb-wg.gslb.spotify.com
 0.0.0.0 weblog.html5.qq.com
 0.0.0.0 webmail.miaozhen.com
 0.0.0.0 webstat.kuwo.cn
@@ -3795,7 +3730,6 @@
 0.0.0.0 ww.cn.miaozhen.com
 0.0.0.0 www.admobile.top
 0.0.0.0 www.anythinktech.com
-0.0.0.0 www.audio2.spotify.com
 0.0.0.0 www.baifubao.com
 0.0.0.0 www.chengzijianzhan.com
 0.0.0.0 www.domob.cn
@@ -3818,7 +3752,6 @@
 0.0.0.0 www.pangolin-dsp-toutiao.com
 0.0.0.0 www.shuzilm.cn
 0.0.0.0 www.sigmob.com
-0.0.0.0 www.spotify-desktop.com
 0.0.0.0 www.tingyun.com
 0.0.0.0 www.tradplusad.com
 0.0.0.0 www.umeng.co
@@ -3862,7 +3795,6 @@
 0.0.0.0 z-na.amazon-adsystem.com
 0.0.0.0 z.5th.zone
 0.0.0.0 zhanzhang.toutiao.com
-0.0.0.0 zhihu-analytics.zhihu.com
 0.0.0.0 zixuncooperation.html5.qq.com
 0.0.0.0 zlink.toutiao.com
 0.0.0.0 zt.gifshow.com
@@ -3995,7 +3927,6 @@
 0.0.0.0 adcs-ue.myappsget.com
 0.0.0.0 ade.googlesyndication.com
 0.0.0.0 adeng.hpplay.cn
-0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 adfilter.imtt.qq.com
 0.0.0.0 adgeo.163.com
 0.0.0.0 adim.pinduoduo.com
@@ -4339,7 +4270,6 @@
 0.0.0.0 c.l.qq.com
 0.0.0.0 c.msn.com
 0.0.0.0 c.msn.com.cn
-0.0.0.0 c.pc.qq.com
 0.0.0.0 c.uaa.iqiyi.com
 0.0.0.0 c.yes.youku.com
 0.0.0.0 c1.adform.net
@@ -5295,7 +5225,6 @@
 0.0.0.0 stsdk.vivo.com.cn
 0.0.0.0 su.bdimg.com
 0.0.0.0 su.bdstatic.com
-0.0.0.0 sugar.zhihu.com
 0.0.0.0 sugs.m.sm.cn
 0.0.0.0 survey.watson.microsoft.com
 0.0.0.0 swa.gtimg.com
@@ -5678,7 +5607,6 @@
 0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 rr1---sn-ni5eln7z.gvt1.com
 0.0.0.0 yandex.ru
-0.0.0.0 appcloud.zhihu.com
 0.0.0.0 rtmretry.kugou.com
 0.0.0.0 rt-m.kugou.com
 0.0.0.0 wup.imtt.qq.com
@@ -5745,7 +5673,6 @@
 0.0.0.0 upush.res.meizu.com
 0.0.0.0 uxip.meizu.com
 0.0.0.0 mz-api.smzdm.com 
-
 192.0.80.242 0.gravatar.com
 192.0.80.242 1.gravatar.com
 192.0.80.242 2.gravatar.com
@@ -5772,7 +5699,6 @@
 20.27.177.116 api.github.com
 0.0.0.0 api.iqiyi.com
 23.49.100.232 api.pinterest.com
-0.0.0.0 api.zhihu.com
 0.0.0.0 api3-normal-lf.fqnovel.com
 0.0.0.0 api3-normal-lq.fqnovel.com
 0.0.0.0 api3-normal.fqnovel.com
@@ -5802,7 +5728,6 @@
 185.199.110.133 cloud.githubusercontent.com
 140.82.113.21 collector.github.com
 0.0.0.0 creative.medproad.com
-0.0.0.0 datahub.zhihu.com
 185.199.110.133 desktop.githubusercontent.com
 0.0.0.0 dns.qiyipic.iqiyi.com
 0.0.0.0 dns.qq.com
@@ -5858,11 +5783,9 @@
 0.0.0.0 ichannel.snssdk.com.bytedns.net
 0.0.0.0 iflyad.bjb.openstorage.cn
 192.0.80.242 lb.gravatar.com
-0.0.0.0 lens.zhihu.com
 140.82.112.25 live.github.com
 0.0.0.0 lofter.httpdns.c.163.com
 185.199.110.153 lsposed.github.io
-0.0.0.0 m-cloud.zhihu.com
 0.0.0.0 map-mobile-opnimg.cdn.bcebos.com
 0.0.0.0 mb.readke.com
 0.0.0.0 mbdp02.bdstatic.com
@@ -5870,8 +5793,6 @@
 0.0.0.0 minorshort.weixin.qq.com
 0.0.0.0 mon3-misc-lf.fqnovel.com
 0.0.0.0 mon3-misc.fqnovel.com
-0.0.0.0 mqtt-internal-public.zhihu.com
-0.0.0.0 mqtt.zhihu.com
 0.0.0.0 msft-ssp.adnxs.com
 64.233.188.188 mtalk.google.com
 0.0.0.0 music.httpdns.c.163.com
