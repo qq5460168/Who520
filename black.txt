@@ -1822,6 +1822,23 @@
 ||zd.fzmf.cn^$important
 
 #18+不良网站
+||xc.zhongguohao123.com^$important
+||p*.bdxiguaimg.com^$important
+||jtu24k.aoqinglv.cn^$important
+||i.laifupal.com^$important
+||img.44444444444.xyz^$important
+||img.031i12oe.xyz^$important
+||img.55555555555.online^$important
+||img.031i12oe.shop^$important
+||img.3333333333333.xyz^$important
+||ww7814.win^$important
+||hnr.scjpqut.cn^$important
+||hnr.wsacjdg.cn^$important
+||hvr.tjkfcnn.cn^$important
+||cdsxaz02.xyz^$important
+||kmr.mjnbrt.xyz^$important
+||kmmber.jmnwafa.xyz^$important
+||hnr.svdpgmt.cn^$important
 ||*.cyfupnq.com^$important
 ||3022.fohbgjv.com^$important
 ||dpic.xn--*.com^$important
