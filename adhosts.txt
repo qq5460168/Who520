@@ -2,7 +2,16 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 
-
+52.84.166.71 api.themoviedb.org
+52.84.166.68 api.themoviedb.org
+18.65.159.31 api.themoviedb.org
+13.35.0.128 api.themoviedb.org
+99.84.238.181 image.tmdb.org
+13.226.254.58 image.tmdb.org
+65.8.164.121 image.tmdb.org
+54.192.73.28 image.tmdb.org
+108.138.246.125 api.themoviedb.org
+13.226.198.225 thetvdb.com
 0.0.0.0 creative.medproad.com
 0.0.0.0 qcwx.medproad.com
 0.0.0.0 4img.mgtv.com
