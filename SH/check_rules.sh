@@ -1,20 +1,20 @@
 #!/bin/bash
 
-# 获取 git 仓库根目录
+set -e
+
 ROOT_DIR="$(git rev-parse --show-toplevel)"
 ERROR_FILE="$ROOT_DIR/error.txt"
-
-# 检查主目录下的 black.txt 和 white.txt
 FILES=("$ROOT_DIR/black.txt" "$ROOT_DIR/white.txt")
 
-# 清空 error.txt
-> "$ERROR_FILE"
-
 for file in "${FILES[@]}"; do
-  echo "正在处理文件：$file"
+  echo "正在处理文件：$(basename "$file")"
+
   tmpfile=$(mktemp)
 
   awk -v ERROR_FILE="$ERROR_FILE" '
+  # 保留 # 开头的注释行
+  /^#/ { print $0; next }
+
   function is_error(line) {
     if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.c(\^|$)/) return 1
     if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.comqq\^/) return 1
@@ -31,7 +31,8 @@ for file in "${FILES[@]}"; do
   }
   {
     if (is_error($0)) {
-      print $0 >> ERROR_FILE
+      print FILENAME ": " $0 >> ERROR_FILE
+      print "[已删除] " FILENAME ": " $0
     } else {
       print $0
     }
@@ -39,7 +40,7 @@ for file in "${FILES[@]}"; do
   ' "$file" > "$tmpfile"
 
   mv "$tmpfile" "$file"
-  echo "已删除错误规则，写入 $ERROR_FILE"
+  echo "处理完毕：$(basename "$file")"
 done
 
-echo "全部处理完成。"
+echo "所有错误规则已追加到 $ERROR_FILE"
