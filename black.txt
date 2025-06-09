@@ -83,7 +83,6 @@
 ||open.snssdk.com.bytedns.net^
 ||smr.snssdk.com^
 ||stream.snssdk.com^
-||tnc3-bjlgy.snssdk.^
 ||saveu5-normal-lf.zijieapi.com^
 ||lf6-orange.byteorge.com^
 ||lf9-orange.byteorge.com^
@@ -139,7 +138,6 @@
 ||tnc3-bjlgy.zijieapi.com^
 ||ads*-normal.zijieapi.com^
 ||gecko*-lq.zijieapi.com^
-||polaris*-normal-lf.zijieapi^
 ||gecko*-lf.zijieapi.com^
 ||abtest*-misc-lf.zijieapi.com^
 ||bsync3-normal-lq.zijieapi.com^
@@ -354,7 +352,6 @@
 ||p*-ff.ad*kwai.com^
 ||p*-ad.ad*kwai.com^
 ||adukwai.com^
-||open.kwaizt.com^^
 ||w*.*skwai.com^
 ||e.kuaishou.cn^
 ||ulogjs.gifshow.com^
@@ -402,7 +399,6 @@
 ||p3.adkwai.com^
 ||p1-lm.adkwai.com^
 ||open.kwaizt.com^
-||*-*.ad*kwai.com^
 ||p*-*.adkwai.com^
 ||ad-rs6-bjmt5406.idcyz.hb1.kwaidc.com^
 ||v1-lm.adbkwai.com^
@@ -446,7 +442,6 @@
 ||tracker.kugou.com^
 ||trackercdnbj.kugou.com^
 ||webcollects.kugou.com^
-||ads*kugou.com^
 ||fxservice1.kugou.com^
 ||adsfilebssdlbig.ali.kugou.com^
 ||adsfile20.bssdlbig.kugou.com^
@@ -784,7 +779,6 @@
 ||dldir5.qq.com^
 ||dlied6.qq.com^
 ||dmtrack.buy.qq.com^
-||dp3.qq.comqq^
 ||gouwu.qq.com^
 ||huatuocode.huatuo.qq.com^
 ||huskieaccess.bugly.qq.com^
@@ -794,7 +788,6 @@
 ||info.gdt.qq.com^
 ||jrlt.beacon.qq.com^
 ||jsapi.qq.com^
-||jsqmt.qq.c^
 ||k.ssp.qq.com^
 ||kr59779-qq.com^
 ||log1wtlogin.qq.com^
@@ -965,7 +958,6 @@
 ||if.mingxing.qq.com^
 ||imc.l.qq.com^
 ||isdspeed.qq.com^
-!||iwx.mail.qq.com^
 ||j.wit.qq.com^
 ||jingjia.qq.com^
 ||jpush.html5.qq.com^
