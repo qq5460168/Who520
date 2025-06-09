@@ -1,0 +1,26 @@
+name: Rule Syntax Check
+
+on:
+  workflow_dispatch:      # 支持手动触发
+  schedule:              # 定时触发（每天凌晨1点 UTC，可根据需要调整）
+    - cron: '0 1 * * *'
+
+jobs:
+  rule-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Make check script executable
+        run: chmod +x ./check_rules.sh
+
+      - name: Run Syntax Checker
+        run: ./check_rules.sh
+
+      - name: Upload error.txt if exists
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: error_rules
+          path: error.txt
