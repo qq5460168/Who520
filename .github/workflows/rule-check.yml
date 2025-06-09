@@ -12,17 +12,14 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # 允许后续提交更改
-          fetch-depth: 0  # 获取完整历史
+          persist-credentials: false
+          fetch-depth: 0
 
       - name: Make check script executable
         run: chmod +x ./SH/check_rules.sh
 
       - name: Run Syntax Checker
-        run: |
-          ./SH/check_rules.sh
-          echo "报告位置: $(pwd)/rule_reports"
-          ls -la rule_reports
+        run: ./SH/check_rules.sh
 
       - name: Commit Reports to Repository
         run: |
@@ -37,21 +34,44 @@ jobs:
           if git diff-index --quiet HEAD --; then
             echo "无新报告可提交"
           else
-            git commit -m "自动更新规则检查报告 [skip ci]"
+            git commit -m "📊 自动更新规则检查报告 [skip ci]"
             git push
           fi
 
-      - name: Create GitHub Issue on errors
-        if: failure() && github.event_name == 'schedule'
+      - name: Create Summary Comment
+        if: always()
         uses: actions/github-script@v6
         with:
           script: |
             const fs = require('fs');
-            const report = fs.readFileSync('rule_reports/error.txt', 'utf8');
-            await github.rest.issues.create({
+            let summary = `### 🛠️ 规则检查报告生成完成\n`;
+            summary += `**生成时间:** ${new Date().toLocaleString()}\n\n`;
+            
+            try {
+              const logContent = fs.readFileSync('rule_reports/rule-check.log', 'utf8');
+              const errorCount = logContent.match(/错误规则总数: (\d+)/)?.[1] || 0;
+              
+              summary += `**错误规则总数:** ${errorCount}\n\n`;
+              
+              if (parseInt(errorCount) > 0) {
+                summary += `**⚠️ 检测到错误规则!** 请查看详细报告:\n`;
+                summary += `- [格式化错误报告](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/formatted-error.md)\n`;
+                summary += `- [原始错误日志](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/error.txt)\n`;
+                summary += `- [完整检查日志](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/rule-check.log)\n\n`;
+                
+                summary += `建议修复错误后重新提交规则。`;
+              } else {
+                summary += `**✅ 未发现错误规则!** 所有规则格式正确。\n`;
+                summary += `查看[完整检查日志](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/rule-check.log)`;
+              }
+            } catch (e) {
+              summary = `❌ 生成报告时出错: ${e.message}`;
+            }
+            
+            // 在工作流运行中添加总结评论
+            github.rest.actions.createWorkflowRunComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `[自动报告] 发现无效规则`,
-              body: `检测到无效规则需要处理：\n\n\`\`\`\n${report}\n\`\`\`\n\n请查看完整报告: rule_reports/error.txt`,
-              labels: ['bug', 'rules']
+              run_id: context.runId,
+              body: summary
             });
