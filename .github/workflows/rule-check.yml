@@ -13,10 +13,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Make check script executable
-        run: chmod +x ./sh/check_rules.sh
+        run: chmod +x ./SH/check_rules.sh
 
       - name: Run Syntax Checker
-        run: ./sh/check_rules.sh
+        run: ./SH/check_rules.sh
 
       - name: Upload error.txt if exists
         if: always()
