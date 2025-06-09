@@ -1,7 +1,7 @@
 #!/bin/bash
+set -euo pipefail
 
-set -e
-
+# 获取根目录（如果是 Git 仓库则取仓库根目录，否则使用当前目录）
 ROOT_DIR="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
 FILES=("$ROOT_DIR/black.txt" "$ROOT_DIR/white.txt")
 REPORT_DIR="$ROOT_DIR/rule_reports"
@@ -12,91 +12,101 @@ LOG_FILE="$REPORT_DIR/rule-check.log"
 # 创建报告目录
 mkdir -p "$REPORT_DIR"
 
-# 初始化文件
-echo "# 规则检查错误报告" > "$ERROR_FILE"
-echo "# 生成时间: $(date '+%Y-%m-%d %H:%M:%S')" >> "$ERROR_FILE"
-echo "# 报告位置: $REPORT_DIR" >> "$ERROR_FILE"
-echo "========================================" >> "$ERROR_FILE"
+# 初始化错误报告文件
+cat > "$ERROR_FILE" <<EOF
+# 规则检查错误报告
+# 生成时间: $(date '+%Y-%m-%d %H:%M:%S')
+# 报告位置: $REPORT_DIR
+========================================
+EOF
 
-echo "# 规则检查日志" > "$LOG_FILE"
-echo "## 开始时间: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE"
-echo "" >> "$LOG_FILE"
+# 初始化日志文件
+cat > "$LOG_FILE" <<EOF
+# 规则检查日志
+## 开始时间: $(date '+%Y-%m-%d %H:%M:%S')
 
-# 创建格式化错误报告
-echo "# 规则检查错误报告" > "$FORMATTED_ERROR_FILE"
-echo "## 生成时间: $(date '+%Y-%m-%d %H:%M:%S')" >> "$FORMATTED_ERROR_FILE"
-echo "" >> "$FORMATTED_ERROR_FILE"
-echo "## 错误代码说明" >> "$FORMATTED_ERROR_FILE"
-echo "| 代码 | 描述 |" >> "$FORMATTED_ERROR_FILE"
-echo "|------|------|" >> "$FORMATTED_ERROR_FILE"
-echo "| E1 | 无效的 .c 域名后缀 |" >> "$FORMATTED_ERROR_FILE"
-echo "| E2 | 包含 .comqq^ 的错误格式 |" >> "$FORMATTED_ERROR_FILE"
-echo "| E3 | 连续 ^^ 符号 |" >> "$FORMATTED_ERROR_FILE"
-echo "| E5 | 无效的通配符组合 *- |" >> "$FORMATTED_ERROR_FILE"
-echo "| E6 | 包含 qq.comqq 的错误格式 |" >> "$FORMATTED_ERROR_FILE"
-echo "| E7 | 包含 .comc^ 的错误格式 |" >> "$FORMATTED_ERROR_FILE"
-echo "" >> "$FORMATTED_ERROR_FILE"
-echo "## 错误详情" >> "$FORMATTED_ERROR_FILE"
+EOF
 
+# 初始化格式化错误报告文件
+cat > "$FORMATTED_ERROR_FILE" <<EOF
+# 规则检查错误报告
+## 生成时间: $(date '+%Y-%m-%d %H:%M:%S')
+
+## 错误代码说明
+| 代码 | 描述 |
+|------|------|
+| E1 | 无效的 .c 域名后缀 |
+| E2 | 包含 .comqq^ 的错误格式 |
+| E3 | 连续 ^^ 符号 |
+| E5 | 无效的通配符组合 *- |
+| E6 | 包含 qq.comqq 的错误格式 |
+| E7 | 包含 .comc^ 的错误格式 |
+
+## 错误详情
+EOF
+
+# 遍历处理每个规则文件
 for file in "${FILES[@]}"; do
-  echo "### 正在处理文件: $(basename "$file")" | tee -a "$LOG_FILE"
-
-  error_count=0
-
-  awk -v filename="$(basename "$file")" -v error_file="$ERROR_FILE" -v formatted_file="$FORMATTED_ERROR_FILE" '
+    filename="$(basename "$file")"
+    echo "### 正在处理文件: $filename" | tee -a "$LOG_FILE"
+    
+    awk -v fname="$filename" -v err_file="$ERROR_FILE" -v fmt_file="$FORMATTED_ERROR_FILE" '
     BEGIN {
-      print "[" filename "]" >> error_file
-      print "### " filename >> formatted_file
+        print "[" fname "]" >> err_file
+        print "### " fname >> fmt_file
     }
     # 跳过注释和空行
     /^#/ || /^!/ || /^$/ { next }
     function is_error(line) {
-      if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.c\^[\$]?/) return 0
-      if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.co\^[\$]?/) return 0
-      if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.c(\^|$)/) return "E1"
-      if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.comqq\^/) return "E2"
-      if (line ~ /\^\^/) return "E3"
-      if (line ~ /\*\-.*\*/) return "E5"
-      if (line ~ /(qq\.comqq|\.comqq\^)/) return "E6"
-      if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.comc\^/) return "E7"
-      return 0
+        # 如果规则为合法的 .c 或 .co 格式则不返回错误 (返回 0)
+        if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.c\^[\$]?/) return 0
+        if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.co\^[\$]?/) return 0
+        if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.c(\^|$)/) return "E1"
+        if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.comqq\^/) return "E2"
+        if (line ~ /\^\^/) return "E3"
+        if (line ~ /\*\-.*\*/) return "E5"
+        if (line ~ /(qq\.comqq|\.comqq\^)/) return "E6"
+        if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.comc\^/) return "E7"
+        return 0
     }
     {
-      err_code = is_error($0)
-      if (err_code) {
-        printf "%s\tL%d\t%s\n", err_code, NR, $0 >> error_file
-        printf("- **%s** - 行号: %d  \n  `%s`\n\n", err_code, NR, $0) >> formatted_file
-      }
+        err_code = is_error($0)
+        if (err_code) {
+            printf "%s\tL%d\t%s\n", err_code, NR, $0 >> err_file
+            printf("- **%s** - 行号: %d  \n  `%s`\n\n", err_code, NR, $0) >> fmt_file
+        }
     }
-  ' "$file"
-
-  # 统计错误数量
-  error_count=$(awk -v fname="$(basename "$file")" '$0 ~ fname {c++} END{print c+0}' "$ERROR_FILE")
-
-  if [[ $error_count -gt 0 ]]; then
-    echo "  - 发现 $error_count 条无效规则" | tee -a "$LOG_FILE"
-  else
-    echo "  - 未发现无效规则" | tee -a "$LOG_FILE"
-    echo "无错误" >> "$FORMATTED_ERROR_FILE"
-  fi
-
-  echo "" >> "$FORMATTED_ERROR_FILE"
+    ' "$file"
+    
+    # 统计当前文件错误数量（统计 ERROR_FILE 中以 E 开头的错误行）
+    error_count=$(grep -E "^E[0-9]" "$ERROR_FILE" | wc -l)
+    
+    if [[ $error_count -gt 0 ]]; then
+        echo "  - 发现 $error_count 条无效规则" | tee -a "$LOG_FILE"
+    else
+        echo "  - 未发现无效规则" | tee -a "$LOG_FILE"
+        echo "无错误" >> "$FORMATTED_ERROR_FILE"
+    fi
+    
+    echo "" >> "$FORMATTED_ERROR_FILE"
 done
 
-# 添加统计信息
-echo "## 处理结果统计" >> "$LOG_FILE"
-echo "### 错误规则总数: $(grep -cE '^E[0-9]' "$ERROR_FILE" || echo 0)" >> "$LOG_FILE"
-echo "### 按错误类型统计:" >> "$LOG_FILE"
-awk -F '\t' '{print $1}' "$ERROR_FILE" | grep -E '^E[0-9]' | sort | uniq -c | sort -nr >> "$LOG_FILE"
+# 添加统计信息到日志文件
+{
+    echo "## 处理结果统计"
+    echo "### 错误规则总数: $(grep -cE '^E[0-9]' "$ERROR_FILE" || echo 0)"
+    echo "### 按错误类型统计:"
+    awk -F '\t' '{print $1}' "$ERROR_FILE" | grep -E '^E[0-9]' | sort | uniq -c | sort -nr
+    echo ""
+    echo "## 报告文件"
+    echo "- [错误报告]($ERROR_FILE)"
+    echo "- [格式化错误报告]($FORMATTED_ERROR_FILE)"
+    echo "- [完整日志]($LOG_FILE)"
+} >> "$LOG_FILE"
 
-echo "" >> "$LOG_FILE"
-echo "## 报告文件" >> "$LOG_FILE"
-echo "- [错误报告]($ERROR_FILE)" >> "$LOG_FILE"
-echo "- [格式化错误报告]($FORMATTED_ERROR_FILE)" >> "$LOG_FILE"
-echo "- [完整日志]($LOG_FILE)" >> "$LOG_FILE"
-
-# 添加完成时间
 echo "========================================" >> "$ERROR_FILE"
-echo "处理完成时间: $(date '+%Y-%m-%d %H:%M:%S')" | tee -a "$LOG_FILE"
-echo "错误报告位置: $ERROR_FILE" | tee -a "$LOG_FILE"
-echo "格式化报告位置: $FORMATTED_ERROR_FILE" | tee -a "$LOG_FILE"
+{
+    echo "处理完成时间: $(date '+%Y-%m-%d %H:%M:%S')"
+    echo "错误报告位置: $ERROR_FILE"
+    echo "格式化报告位置: $FORMATTED_ERROR_FILE"
+} | tee -a "$LOG_FILE"
