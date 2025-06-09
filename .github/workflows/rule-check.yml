@@ -18,6 +18,7 @@ jobs:
       - name: Run Syntax Checker
         run: ./SH/check_rules.sh
 
+      # 可选：上传 error.txt 供 Actions 页面下载
       - name: Upload error.txt if exists
         if: always()
         uses: actions/upload-artifact@v4
