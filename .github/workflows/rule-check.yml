@@ -1,8 +1,8 @@
 name: Rule Syntax Check
 
 on:
-  workflow_dispatch:      # 支持手动触发
-  schedule:              # 每天凌晨1点(UTC)
+  workflow_dispatch:
+  schedule:
     - cron: '0 1 * * *'
 
 jobs:
@@ -16,12 +16,18 @@ jobs:
         run: chmod +x ./SH/check_rules.sh
 
       - name: Run Syntax Checker
-        run: ./SH/check_rules.sh
+        run: ./SH/check_rules.sh | tee rule-check.log
 
-      # 可选：上传 error.txt 供 Actions 页面下载
-      - name: Upload error.txt if exists
+      - name: Upload error.txt for review
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: error_rules
           path: error.txt
+
+      - name: Upload workflow log for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rule_check_log
+          path: rule-check.log
