@@ -420,8 +420,8 @@
 #苹果商店图片
 @@||is1-ssl.mzstatic.com^$important
 #三星手机商店
-@@|img.samsungapps.com^
-@@|img.galaxyappstore.com^
+@@||img.samsungapps.com^
+@@||img.galaxyappstore.com^
 #酷安图片
 @@||image.coolapk.com^
 #丰巢
@@ -1031,7 +1031,7 @@
 @@||mdevstat.qqlive.qq.com^
 @@||vv.video.qq.com^$important
 @@||mini2015.qq.com^
-@@llpbaccess.video.qq.com^$important
+@@||pbaccess.video.qq.com^$important
 @@||a.video.qq.com^$important
 @@||richmedia.video.qq.com^$important
 @@||disp-qryapi.3g.qq.com^$important
@@ -1052,7 +1052,7 @@
 #腾讯手游加速器
 @@||h.trace.qq.com^$important
 @@||otheve.beacon.qq.com^$important
-@@|img1.360buyimg.com^
+@@||img1.360buyimg.com^
 #腾讯游戏登录相关
 @@||ssl.msdk.qq.com^
 #王者一些图片
@@ -1123,7 +1123,7 @@
 #腾讯云实时音视频
 @@||mlvbdc.live.qcloud.com^$important
 !腾讯系 头像
-@@qlogo.cn^
+@@||qlogo.cn^
 
 # 小米系
 
@@ -1237,7 +1237,7 @@
 @@||updateinfo.market.xiaomi.com^$important
 @@||api.developer.xiaomi.com^$important
 @@||resolver.msg.xiaomi.net^
-@@m.video.xiaomi.com
+@@||m.video.xiaomi.com^
 @@||api.account.xiaomi.com^$important
 @@||api.comm.miui.com^$important
 @@||api.device.xiaomi.net^$important
@@ -1508,11 +1508,11 @@
 #番茄小说听书
 @@||v3-novelapp.fqnovelvod.com^$important
 #番茄小说
-@@|tnc3-aliec2.snssdk.com^
-@@|v*-fq-tts.fqnovelvod.com^
-@@|abtest3-misc-lf.zijieapi.com^
+@@||tnc3-aliec2.snssdk.com^
+@@||v*-fq-tts.fqnovelvod.com^
+@@||abtest3-misc-lf.zijieapi.com^
 @@|log5-applog-lf.fqnovel.com^
-@@|reading.snssdk.com^
+@@||reading.snssdk.com^
 @@||log5-applog.fqnovel.com^
 @@||p6-novel.byteimg.com
 @@||p3-novel-sign.byteimg.com^
@@ -1860,7 +1860,7 @@
 @@||clientlog*music.163.com^
 @@||clientlog3.music.163.com^
 #网易云api
-@@|api.iplay.163.com
+@@||api.iplay.163.com^
 ## 163登陆
 @@||dl.reg.163.com^$important
 #天下手游
@@ -1890,7 +1890,7 @@
 @@||live-trace.bilibili.com^
 @@||g.msn.com^
 !B站弹幕
-@@broadcastlv.chat.bilibili.com^
+@@||broadcastlv.chat.bilibili.com^
 #pilipalax
 @@||mcdn.bilivideo.cn^$important
 #B直播
@@ -2252,9 +2252,9 @@ b站视频加载
 @@||img.360kuai.com^$important
 #360升级
 @@||update.360safe.com^
-@@|down.360safe.com^
+@@||down.360safe.com^
 #360搜图
-@@|m.image.so.com^
+@@||m.image.so.com^
 #360下载安装
 @@||dl.360safe.com^$important
 #360清理大师
