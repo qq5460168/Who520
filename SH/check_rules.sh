@@ -40,62 +40,46 @@ echo "## 错误详情" >> "$FORMATTED_ERROR_FILE"
 
 for file in "${FILES[@]}"; do
   echo "### 正在处理文件: $(basename "$file")" | tee -a "$LOG_FILE"
-  
-  tmpfile=$(mktemp)
+
   error_count=0
 
   awk -v filename="$(basename "$file")" -v error_file="$ERROR_FILE" -v formatted_file="$FORMATTED_ERROR_FILE" '
-    BEGIN { 
+    BEGIN {
       print "[" filename "]" >> error_file
       print "### " filename >> formatted_file
     }
-    
-    # 保留注释行、备注行和空行
-    /^#/ || /^!/ || /^$/ { 
-      print $0
-      next 
-    }
-    
+    # 跳过注释和空行
+    /^#/ || /^!/ || /^$/ { next }
     function is_error(line) {
-      # 修复域名后缀误判（允许 .c^/.co^ 等有效格式）
       if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.c\^[\$]?/) return 0
       if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.co\^[\$]?/) return 0
-      
-      # 错误模式检测
       if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.c(\^|$)/) return "E1"
       if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.comqq\^/) return "E2"
       if (line ~ /\^\^/) return "E3"
       if (line ~ /\*\-.*\*/) return "E5"
       if (line ~ /(qq\.comqq|\.comqq\^)/) return "E6"
       if (line ~ /\|\|[a-zA-Z0-9\-\*\.]+\.comc\^/) return "E7"
-      
       return 0
     }
-    
     {
       err_code = is_error($0)
       if (err_code) {
-        # 记录错误到文件（格式：错误类型 行号 原始内容）
         printf "%s\tL%d\t%s\n", err_code, NR, $0 >> error_file
         printf("- **%s** - 行号: %d  \n  `%s`\n\n", err_code, NR, $0) >> formatted_file
-        next
       }
-      print $0
     }
-  ' "$file" > "$tmpfile"
-  
+  ' "$file"
+
   # 统计错误数量
-  error_count=$(grep -c "$(basename "$file")" "$ERROR_FILE" || true)
-  
+  error_count=$(awk -v fname="$(basename "$file")" '$0 ~ fname {c++} END{print c+0}' "$ERROR_FILE")
+
   if [[ $error_count -gt 0 ]]; then
     echo "  - 发现 $error_count 条无效规则" | tee -a "$LOG_FILE"
-    mv "$tmpfile" "$file"
   else
     echo "  - 未发现无效规则" | tee -a "$LOG_FILE"
-    rm "$tmpfile"
     echo "无错误" >> "$FORMATTED_ERROR_FILE"
   fi
-  
+
   echo "" >> "$FORMATTED_ERROR_FILE"
 done
 
