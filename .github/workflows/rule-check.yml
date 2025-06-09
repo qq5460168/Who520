@@ -1,82 +1,17 @@
-name: Rule Syntax Check
+name: 检查规则
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 1 * * *'
+    # 每天北京时间早上6点（UTC时间22点）自动运行
+    - cron: '0 22 * * *'
+  workflow_dispatch: # 支持手动运行
 
 jobs:
-  rule-check:
+  run-check-rules:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-
-      - name: Make check script executable
-        run: chmod +x ./SH/check_rules.sh
-
-      - name: Run Syntax Checker
-        run: |
-          # 即使有错误也继续执行后续步骤
-          ./SH/check_rules.sh || true
-          echo "检查完成，错误规则未被删除"
-
-      - name: Commit Reports to Repository
-        run: |
-          # 配置Git用户
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          
-          # 添加报告文件
-          git add rule_reports/
-          
-          # 检查是否有变化
-          if git diff-index --quiet HEAD --; then
-            echo "无新报告可提交"
-          else
-            git commit -m "📊 自动更新规则检查报告 [skip ci]"
-            git push
-          fi
-
-      - name: Create Summary Comment
-        if: always()
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const fs = require('fs');
-            let summary = `### 🛠️ 规则检查报告生成完成\n`;
-            summary += `**生成时间:** ${new Date().toLocaleString()}\n\n`;
-            
-            try {
-              const logContent = fs.readFileSync('rule_reports/rule-check.log', 'utf8');
-              const errorMatch = logContent.match(/错误规则总数: (\d+)/);
-              const errorCount = errorMatch ? parseInt(errorMatch[1]) : 0;
-              
-              summary += `**错误规则总数:** ${errorCount}\n\n`;
-              
-              if (errorCount > 0) {
-                summary += `**⚠️ 检测到错误规则!** 错误规则未被删除，请手动修复。\n`;
-                summary += `查看详细报告:\n`;
-                summary += `- [格式化错误报告](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/formatted-error.md)\n`;
-                summary += `- [原始错误日志](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/error.txt)\n`;
-                summary += `- [完整检查日志](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/rule-check.log)\n\n`;
-                
-                summary += `**注意:** 错误规则未被删除，请根据报告手动修复。`;
-              } else {
-                summary += `**✅ 未发现错误规则!** 所有规则格式正确。\n`;
-                summary += `查看[完整检查日志](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/rule-check.log)`;
-              }
-            } catch (e) {
-              summary = `❌ 生成报告时出错: ${e.message}`;
-            }
-            
-            // 在工作流运行中添加总结评论
-            github.rest.actions.createWorkflowRunComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              run_id: context.runId,
-              body: summary
-            });
+      - name: 检出代码
+        uses: actions/checkout@v3
+      
+      - name: 运行 check_rules.sh
+        run: bash SH/check_rules.sh
