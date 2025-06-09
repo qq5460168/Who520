@@ -2,8 +2,7 @@
 
 set -e
 
-ROOT_DIR="$(git rev-parse --show-toplevel)"
-ERROR_FILE="$ROOT_DIR/error.txt"
+ROOT_DIR="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
 FILES=("$ROOT_DIR/black.txt" "$ROOT_DIR/white.txt")
 
 for file in "${FILES[@]}"; do
@@ -11,7 +10,7 @@ for file in "${FILES[@]}"; do
 
   tmpfile=$(mktemp)
 
-  awk -v ERROR_FILE="$ERROR_FILE" '
+  awk '
   # 保留 # 开头的注释行
   /^#/ { print $0; next }
 
@@ -31,8 +30,7 @@ for file in "${FILES[@]}"; do
   }
   {
     if (is_error($0)) {
-      print FILENAME ": " $0 >> ERROR_FILE
-      print "[已删除] " FILENAME ": " $0
+      print "[已删除] " FILENAME ": " $0 > "/dev/stderr"
     } else {
       print $0
     }
@@ -43,4 +41,4 @@ for file in "${FILES[@]}"; do
   echo "处理完毕：$(basename "$file")"
 done
 
-echo "所有错误规则已追加到 $ERROR_FILE"
+echo "所有错误规则已在运行时输出（未生成 artifacts）"
