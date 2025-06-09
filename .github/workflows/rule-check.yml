@@ -19,7 +19,10 @@ jobs:
         run: chmod +x ./SH/check_rules.sh
 
       - name: Run Syntax Checker
-        run: ./SH/check_rules.sh
+        run: |
+          # 即使有错误也继续执行后续步骤
+          ./SH/check_rules.sh || true
+          echo "检查完成，错误规则未被删除"
 
       - name: Commit Reports to Repository
         run: |
@@ -49,17 +52,19 @@ jobs:
             
             try {
               const logContent = fs.readFileSync('rule_reports/rule-check.log', 'utf8');
-              const errorCount = logContent.match(/错误规则总数: (\d+)/)?.[1] || 0;
+              const errorMatch = logContent.match(/错误规则总数: (\d+)/);
+              const errorCount = errorMatch ? parseInt(errorMatch[1]) : 0;
               
               summary += `**错误规则总数:** ${errorCount}\n\n`;
               
-              if (parseInt(errorCount) > 0) {
-                summary += `**⚠️ 检测到错误规则!** 请查看详细报告:\n`;
+              if (errorCount > 0) {
+                summary += `**⚠️ 检测到错误规则!** 错误规则未被删除，请手动修复。\n`;
+                summary += `查看详细报告:\n`;
                 summary += `- [格式化错误报告](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/formatted-error.md)\n`;
                 summary += `- [原始错误日志](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/error.txt)\n`;
                 summary += `- [完整检查日志](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/rule-check.log)\n\n`;
                 
-                summary += `建议修复错误后重新提交规则。`;
+                summary += `**注意:** 错误规则未被删除，请根据报告手动修复。`;
               } else {
                 summary += `**✅ 未发现错误规则!** 所有规则格式正确。\n`;
                 summary += `查看[完整检查日志](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/rule_reports/rule-check.log)`;
