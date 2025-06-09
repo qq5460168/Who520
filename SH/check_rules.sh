@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# 获取git项目根目录
+# 获取 git 仓库根目录
 ROOT_DIR="$(git rev-parse --show-toplevel)"
 ERROR_FILE="$ROOT_DIR/error.txt"
 
-# 需要检查的文件
-FILES=("$ROOT_DIR/SH/black.txt" "$ROOT_DIR/SH/white.txt")
+# 检查主目录下的 black.txt 和 white.txt
+FILES=("$ROOT_DIR/black.txt" "$ROOT_DIR/white.txt")
 
-# 清空error.txt
+# 清空 error.txt
 > "$ERROR_FILE"
 
 for file in "${FILES[@]}"; do
