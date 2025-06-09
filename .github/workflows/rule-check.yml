@@ -16,18 +16,75 @@ jobs:
         run: chmod +x ./SH/check_rules.sh
 
       - name: Run Syntax Checker
-        run: ./SH/check_rules.sh | tee rule-check.log
+        run: |
+          ./SH/check_rules.sh | tee rule-check.log
+          # 添加错误报告摘要
+          echo "## 错误规则统计 ##" >> rule-check.log
+          grep -cE '^E[0-9]' error.txt | xargs -I {} echo "错误规则总数: {}" >> rule-check.log
+          echo "按错误类型统计:" >> rule-check.log
+          awk -F '\t' '{print $1}' error.txt | grep -E '^E[0-9]' | sort | uniq -c | sort -nr >> rule-check.log
+          
+      - name: Generate error report
+        run: |
+          # 为错误报告添加可读性更强的格式
+          echo "# 规则检查错误报告" > formatted-error.txt
+          echo "## 生成时间: $(date '+%Y-%m-%d %H:%M:%S')" >> formatted-error.txt
+          echo "" >> formatted-error.txt
+          
+          # 错误类型说明
+          echo "### 错误代码说明:" >> formatted-error.txt
+          echo "| 代码 | 描述 |" >> formatted-error.txt
+          echo "|------|------|" >> formatted-error.txt
+          echo "| E1 | 无效的 .c 域名后缀 |" >> formatted-error.txt
+          echo "| E2 | 包含 .comqq^ 的错误格式 |" >> formatted-error.txt
+          echo "| E3 | 连续 ^^ 符号 |" >> formatted-error.txt
+          echo "| E4 | !开头规则格式错误 |" >> formatted-error.txt
+          echo "| E5 | 无效的通配符组合 *- |" >> formatted-error.txt
+          echo "| E6 | 包含 qq.comqq 的错误格式 |" >> formatted-error.txt
+          echo "| E7 | 包含 .comc^ 的错误格式 |" >> formatted-error.txt
+          echo "" >> formatted-error.txt
+          
+          # 添加实际错误内容
+          echo "### 错误详情:" >> formatted-error.txt
+          awk -F '\t' '
+          /^\[/ { 
+            print "## " $0 
+            next 
+          }
+          {
+            printf("**%s** - 行号: %s  \n`%s`\n\n", $1, $2, $3)
+          }
+          ' error.txt >> formatted-error.txt
 
-      - name: Upload error.txt for review
+      - name: Upload error report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: error_rules
-          path: error.txt
+          name: rule_error_report
+          path: |
+            formatted-error.txt
+            error.txt
 
-      - name: Upload workflow log for review
+      - name: Upload workflow log
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: rule_check_log
           path: rule-check.log
+          
+      - name: Create GitHub Issue on errors
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('formatted-error.txt', 'utf8');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[自动报告] 发现 ${process.env.ERROR_COUNT} 条无效规则`,
+              body: `检测到无效规则需要处理：\n\n${report}\n\n请检查附件中的完整报告`,
+              labels: ['bug', 'rules']
+            });
+        env:
+          ERROR_COUNT: $(grep -cE '^E[0-9]' error.txt || echo 0)
