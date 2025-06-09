@@ -237,7 +237,7 @@
 #4399小游戏
 @@||stat.api.4399.com^
 #大圣净化
-@@||wiki.ad-gone.com
+@@||wiki.ad-gone.com^
 #天气
 @@||i.tianqi.com^$important
 #  糯米PHP 网站
@@ -280,7 +280,7 @@
 @@||bjfesdk.douyucdn.cn^$important
 @@||gift.douyucdn.cn^$important
 ##图床
-@@||pic.imgdb.cn
+@@||pic.imgdb.cn^
 #阿里推送(未知用途)
 @@||mpush-api.aliyun.com^$important
 # Todesk
@@ -454,7 +454,7 @@
 @@||p3-sign.bdxiguaimg.com^$important
 @@||p26-sign.bdxiguaimg.com^$important
 #天猫app
-#@@||appdownload.alicdn.com^$important
+@@||appdownload.alicdn.com^$important
 #音乐适配
 @@||nmobi.kuwo.cn^$important
 #ios上的pixiv
@@ -809,9 +809,9 @@
 @@||f12.baidu.com^$important
 @@||f11.baidu.com^$important
 @@||f10.baidu.com^$important
-！ ↑ 百度系 ↑ 
+#↑ 百度系 ↑ 
 
-！ 快手系
+#快手系
 
 #快手图标
 @@||ali.static.yximgs.com^$important
@@ -836,7 +836,7 @@
 @@||js-gamezone.static.yximgs.com^
 @@||ali-gamezone.static.yximgs.com^
 
-！ 优酷系
+#优酷系
 #优酷app 兑换vip
 @@||activity.youku.com^$important
 #拦截该域名电脑端页面提示广告加载失败，无实际性作用容易产生歧义
@@ -854,7 +854,7 @@
 @@||qr.cp31.ott.cibntv.net^$important
 @@||heyi-acs.cp31.ott.cibntv.net^$important
 
-！ 微信系
+#微信系
 
 #微信公众号视频
 @@||finderpdd.video.qq.com^$important
@@ -899,7 +899,7 @@
 @@||py2.qlogo.cn^
 @@||p.qlogo.cn^
 
-！ QQ系
+#QQ系
 
 #QQ空间图片加载＆视频加载
 @@||qzs.qq.com^
@@ -1284,7 +1284,7 @@
 @@||o2o.api.xiaomi.com^$important
 @@||tvepg.pandora.xiaomi.com^$important
 
-！ 爱奇艺系  
+#爱奇艺系  
 
 #微信爱奇艺
 @@||static-s.iqiyi.com^$important
@@ -1317,7 +1317,7 @@
 #爱奇艺一个域名误杀会导致首页无法刷新
 @@||cards.iqiyi.com^$important
 
-！  抖音系
+# 抖音系
 
 #App登录接口
 #拦截后登录提示「系统繁忙」
@@ -1474,7 +1474,7 @@
 #阿里图片
 @@||img.alicdn.com^$important
 
-！  番茄系
+# 番茄系
 #网页排版
 @@||lf3-cdn-tos.bytescm.com^
 @@||lf3-short.bytegoofy.com^
@@ -1873,7 +1873,7 @@
 @@||*.img.mobile.sina.cn^$important
 @@||wx2.sinaimg.cn^$important
 
-！  酷狗
+# 酷狗
 
 #酷狗vip抽年卡
 @@||gateway.kugou.com^$important
@@ -1967,7 +1967,7 @@ b站视频加载
 #网页中输入此地址会跳转至页面端界面
 @@||big.bilibili.com^
 
-！ 头条
+#头条
 
 #头条pro
 @@||ib.snssdk.com^
@@ -2229,7 +2229,7 @@ b站视频加载
 #猫眼
 @@||api-unionid.meituan.com^$important
 
-！ 360
+#360
 
 @@||h5.mse.360.cn^
 @@||jspassport.ssl.qhimg.com^
