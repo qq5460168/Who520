@@ -1,5 +1,5 @@
-[个人收集 2.0]
-! Title: 去广告规则，酷安反馈反馈
+![个人收集 2.0]
+!! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 
 52.84.166.71 api.themoviedb.org
@@ -18,7 +18,7 @@
 0.0.0.0 99cases.oceanengine.com
 0.0.0.0 accscdn4public.m.taobao.com
 0.0.0.0 acs4public.m.taobao.com
-0.0.0.0 ad.99jiasu.com
+0.0.0.0 ad.99jiasu.co
 0.0.0.0 ad.weibo.com
 0.0.0.0 ad.xhey.top
 0.0.0.0 ads-sdk-api.ranfenghd.com
