@@ -19,20 +19,19 @@
 ||line3-adscore-api.biligame.net^
 
 #贴吧弹窗
-||arm.z74d.cn^$important
-||mine.z74d.com^$important
-||twqwq.z74d.com^$important
-||syrs.z74d.com^$important
-||nztl.z74d.com^$important
-||sbkh5.z74d.com^$important
-||arm.z74d.com^$important
-||www.z74d.com^$important
-||q.z74d.com^$important
+||arm.z74d.cn^important
+||mine.z74d.com^important
+||twqwq.z74d.com^important
+||syrs.z74d.com^important
+||nztl.z74d.com^important
+||sbkh5.z74d.com^important
+||arm.z74d.com^important
+||www.z74d.com^important
+||q.z74d.com^important
 
 #字节系 AD API SDK 屏蔽
 ||snssdk.com^
 ||security.snssdk.com^
-||toblog.ctobsnssdk.com^$app=com.pcncn.jj
 ||ctobsnssdk.com^
 ||pangolin.snssdk.com^
 ||gecko.snssdk.com^
@@ -260,7 +259,7 @@
 ||pangolin-sdk-toutiao-b.com^
 ||frontier-toutiao.snssdk.com^
 ||v6-be-pack.pglstatp-toutiao.com^
-||pglstatp-toutiao.com^ ​‌​‍‍‍‍‌‍‌​​​‌‍
+||pglstatp-toutiao.com^
 ||pglstatp-toutiao.com^
 ||pglstatp-sdk-toutiao.com^
 ||pglstatp-snssdk-toutiao.com^
