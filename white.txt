@@ -81,7 +81,7 @@
 #官网
 @@||www.anjuke.com^
 #地区官网
-@@||*.anjuke.com
+@@||*.anjuke.com^
 #移动端官网
 @@||m.anjuke.com^
 #分类图片接口
@@ -699,7 +699,7 @@
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
 
-！↓ 百度系 ↓
+#↓ 百度系 ↓
 #百度天气图标
 @@||dss0.bdstatic.com^
 #百度支付接口
@@ -1056,7 +1056,7 @@
 #腾讯游戏登录相关
 @@||ssl.msdk.qq.com^
 #王者一些图片
-@@|img.ssl.msdk.qq.com^
+@@||img.ssl.msdk.qq.com^
 #> > 应用宝
 @@||sqdd.myapp.com^
 #QQ相关
@@ -1253,8 +1253,8 @@
 @@||bigota.d.miui.com^
 @@||data.mistat.intl.xiaomi.com^
 @@||f8.market.xiaomi.com^
-@@||file.market.xiaomi.com^$import
-@@||nileapi.market.xiaomi.com^$import
+@@||file.market.xiaomi.com^
+@@||nileapi.market.xiaomi.com^
 @@||cn.app.chat.xiaomi.net^
 @@||connect.rom.miui.com/generate_204^
 @@||m.video.xiaomi.com^
@@ -1511,10 +1511,10 @@
 @@||tnc3-aliec2.snssdk.com^
 @@||v*-fq-tts.fqnovelvod.com^
 @@||abtest3-misc-lf.zijieapi.com^
-@@|log5-applog-lf.fqnovel.com^
+@@||log5-applog-lf.fqnovel.com^
 @@||reading.snssdk.com^
 @@||log5-applog.fqnovel.com^
-@@||p6-novel.byteimg.com
+@@||p6-novel.byteimg.com^
 @@||p3-novel-sign.byteimg.com^
 @@||p3-novel.byteimg.com^
 @@||lf3-reading.fqnovelpic.com^
@@ -1627,15 +1627,15 @@
 @@||www.youtube.com^
 @@||youtu.be^
 @@||youtubei.googleapis.com^
-@@||apis.google.com
-@@||clients.l.google.com
-@@||clients1.google.com
-@@||gstatic.com
-@@||manifest.googlevideo.com
-@@||i.ytimg.com
-@@||www.gstatic.com
-@@||www.youtube-nocookie.com
-@@||youtube-nocookie.com
+@@||apis.google.com^
+@@||clients.l.google.com^
+@@||clients1.google.com^
+@@||gstatic.com^
+@@||manifest.googlevideo.com^
+@@||i.ytimg.com^
+@@||www.gstatic.com^
+@@||www.youtube-nocookie.com^
+@@||youtube-nocookie.com^
 @@||r4---sn-qxo7rn7e.googlevideo.com^
 @@||r5---sn-4g5ednsl.googlevideo.com^
 @@||r4---sn-a5meknek.googlevideo.com^
@@ -1897,7 +1897,7 @@
 @@||api.live.bilibili.com^
 #B站APP关注列表
 @@||space.bilibili.com^
-b站视频加载
+#b站视频加载
 @@||upos-sz-*.bilivideo.com^
 #官网
 @@||www.bilibili.com^
@@ -2013,7 +2013,7 @@ b站视频加载
 #夸克/神马
 @@||quark.sm.cn^
 @@||broccoli.uc.cn^
-@@||uop.quark.cn
+@@||uop.quark.cn^
 @@||api2-album.quark.cn^
 @@||pan.quark.cn^
 #手机号码登陆接口＆网页端扫描登陆接口
@@ -2215,7 +2215,7 @@ b站视频加载
 @@||api.neixin.cn^
 #APP聊天窗口内图片加载
 @@||file.neixin.cn^
-！美团
+#美团
 @@||dreport.meituan.net^
 #美团推送(大众点评)
 @@||dpmtpush.dianping.com^
@@ -2263,7 +2263,7 @@ b站视频加载
 #360翻译
 @@||gw.shouji.360.cn^
 @@||msedown.360safe.com^
-网页总体布局
+#网页总体布局
 @@||s*.ssl.qhimg.com^
 @@||s*.ssl.qhmsg.com^
 @@||s*.ssl.qhres2.com^
@@ -2680,7 +2680,7 @@ b站视频加载
 @@||yun.rili.cn^
 @@||counter-strike.net^
 @@||www.chemdraw.com.cn^
-@@||pool.v6.bt.n0808.com
+@@||pool.v6.bt.n0808.com^
 @@||parked-content.godaddy.com^
 @@||ydstatic.com^
 @@||iteye.com^
