@@ -365,7 +365,7 @@
 ||resolver.msg.global.xiaomi.net^
 
 #快手相关
-||log-sdk.ksapisrv.com
+||log-sdk.ksapisrv.com^
 ||p*-yx.adkwai.com^
 ||e.kuaishou.com^
 ||p*-lm.ad*kwai.com^
@@ -1281,7 +1281,7 @@
 ||public-deliver5.miguvideo.com^
 
 #百度
-|wjz-cdn.baidu.com^
+||wjz-cdn.baidu.com^
 ||pcdn-tracker.baidu.com^
 ||puncher.dcdn.baidu.com^
 ||collector.dcdn.baidu.com^
@@ -1389,7 +1389,7 @@
 ||prt-stsdk.vivo.com.cn^
 ||moni-onrt-stsdk.vivo.com.cn^
 ||ssp.vivo.com.cn^
-||ads-marketing-vivofs.vivo.com.cn
+||ads-marketing-vivofs.vivo.com.cn^
 ||st-adsgame.vivo.com.cn^
 ||uapi-ads.vivo.com.cn^
 ||stp.vivo.com.cn^
@@ -3098,7 +3098,7 @@ www.itdog.cn##.rounded-lg
 ||kfpicimage.xyz^
 ||imagecloub.com^
 ||getads.tianad.cn^
-||ads-sg.tiktok.com
+||ads-sg.tiktok.com^
 ||gadx.hubcloud.com.cn^
 ||e189.21cn.com^
 ||*.saxysec.com^
@@ -3155,8 +3155,8 @@ www.itdog.cn##.rounded-lg
 ||video-dsp.pddpic.com^
 ||download.qidian.com^
 ||adx.zuoyebang.com^
-||ipinfo.io
-||qzs.gdtimg.com
+||ipinfo.io^
+||qzs.gdtimg.com^
 ||raddus.bayescom.com^
 ||sdkoptedge.chinanetcenter.com^
 ||walle.bayescom.com^
@@ -3390,7 +3390,7 @@ www.itdog.cn##.rounded-lg
 ||aifwjekfe.xyz^
 ||app.thestaxapp.com^
 ||acquirethem.com^
-||app.rm
+||app.rm^
 ||mgsdk-sign^
 ||pangolin-sdk^
 ||gd.xinhuanet.com^
@@ -3428,7 +3428,7 @@ www.itdog.cn##.rounded-lg
 ||proxy-mob-cld.alicdn.com^
 ||www.uyunad.com^
 ||umdc.aliapp.org^
-||volcsirius.com
+||volcsirius.com^
 ||sdklog.adintl.cn^
 ||sdk-infra.inmobi.cn^
 ||trc-sdk.inmobi.cn^
@@ -3515,7 +3515,7 @@ www.itdog.cn##.rounded-lg
 ||adashx.ut.dingtalk.com^
 ||opencdnpddpic2.cdn.vsjwtcdn.com^
 ||uploads2.gifshow.com^
-||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^、
+||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^
 ||xmadsdk.cos.tx.xmcdn.com^
 ||configv2.unityads.unitychina.cn^
 ||monitor.ads.8le8le.com^
@@ -3563,12 +3563,6 @@ www.itdog.cn##.rounded-lg
 ||imp.ads.rgyun.com^
 ||c.ads.rgyun.com^
 ||ads.adfox.ru^
-||trtc-sdk-log-
-||kit-device-log-
-||logagent-rum-
-||nsp-logservice
-||wxtracelogprd-
-||upweb-app-log-
 ||sdk.open.talk.gepush.com^
 ||log.mmstat.com^
 ||imtmp.net^
