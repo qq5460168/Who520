@@ -23,7 +23,6 @@
 ||as1.dcloud.net.cn^
 ||apis.xayabx.com^
 ||bkimg.cdn.bcebos.com^
-||pic9.iqiyipic.com^
 ||qcwx.medproad.com^
 ||image.uczzd.cn^
 ||adtracker.adfunlink.com^
