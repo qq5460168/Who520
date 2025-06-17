@@ -3250,7 +3250,7 @@ www.itdog.cn##.rounded-lg
 ||tailscale.io^
 ||api.open.adsaide.cn^
 ||adisaid.cn^
-某些其他
+#某些其他
 ||yunconfig.com^
 !思必驰 
 ||log.aispeech.com^
@@ -3262,7 +3262,7 @@ www.itdog.cn##.rounded-lg
 ||golona.ink^
 ||wcuiqyu.cn^
 ||ningbojisheng.cn^
-＃去除丰巢新版取件码页面广告
+#去除丰巢新版取件码页面广告
 ||bigdatacloud.net^
 ##作业精灵
 ||comp.360os.com^
