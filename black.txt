@@ -3933,7 +3933,6 @@ www.itdog.cn##.rounded-lg
 ||static.ads-twitter.com^
 ||ads-api.twitter.com^
 # 避免迅雷版权问题
-||hub5idx.v6.shub.sandai.net^
 ||hub5emu.v6.shub.sandai.net^
 
 #电影港
