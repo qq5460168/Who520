@@ -1,6 +1,8 @@
 ﻿! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#华风爱科气象
+@@||api.weathercn.com^
 ##火山引擎
 @@||portal.volccdn.com^
 ##有柿
@@ -883,6 +885,9 @@
 # 微信红包
 @@||as.weixin.qq.com^
 ##微信支付
+@@||wxpay.qpic.cn^
+@@||gtimg.wechatpay.cn^
+@@|wxpaylogo.qpic.cn^
 @@||payapp.weixin.qq.com^
 !部分微信小程序登录
 @@||cnlogin.cainiao.com^
@@ -2178,6 +2183,8 @@
 
 #   美团
 
+#美团外卖
+@@||wmapi-mt.meituan.com^
 #官网
 @@||www.meituan.com^
 #网页布局
@@ -2216,6 +2223,7 @@
 #APP聊天窗口内图片加载
 @@||file.neixin.cn^
 #美团
+@@||apimobile.meituan.com^
 @@||dreport.meituan.net^
 #美团推送(大众点评)
 @@||dpmtpush.dianping.com^
@@ -2480,6 +2488,7 @@
 @@||sugar.zhihu.com^
 
 #> 其他
+
 @@||auditude.com^
 @@||bitsumactivationserver.com^
 @@||c.evidon.com^
