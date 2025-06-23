@@ -626,6 +626,7 @@
 @@||www.ximalaya.com^
 #22听书网音频接口
 #含喜马拉雅域名
+@@||audiopay.pcdn.xmcdn.com^
 @@||aod.cos.tx.xmcdn.com^
 @@||fdfs.xmcdn.com^
 # 放行便民查询网
