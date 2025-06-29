@@ -886,6 +886,8 @@
 # 微信红包
 @@||as.weixin.qq.com^
 ##微信支付
+@@||pay.weixin.qq.com^
+@@||wx.tenpay.com^
 @@||wxpay.qpic.cn^
 @@||gtimg.wechatpay.cn^
 @@|wxpaylogo.qpic.cn^
