@@ -1900,6 +1900,7 @@
 @@||cm.bilibili.com^
 @@||broadcastlv.chat.bilibili.com^
 @@||app.bilibili.com^
+@@||api.bilibili.com^
 @@||data.bilibili.com^
 @@||live-trace.bilibili.com^
 @@||g.msn.com^
@@ -2232,6 +2233,7 @@
 #APP聊天窗口内图片加载
 @@||file.neixin.cn^
 #美团
+@@||api.meituan.com^
 @@||apimobile.meituan.com^
 @@||dreport.meituan.net^
 #美团推送(大众点评)
