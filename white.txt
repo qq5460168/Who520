@@ -300,6 +300,8 @@
 @@||pbs.twimg.com^
 !华为账号登录
 @@||oauth-login-drcn.platform.dbankcloud.com^
+#华为网盘
+@@||api.cloud.huawei.com^
 #> 同盾
 @@||fp.tongdun.net^
 @@||fraudmetrix.cn^
@@ -861,6 +863,8 @@
 
 #微信系
 
+#微信图片
+@@||mmbiz.qpic.cn^
 #微信公众号视频
 @@||finderpdd.video.qq.com^
 @@||apd-vlive.apdcdn.tc.qq.com^
