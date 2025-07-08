@@ -893,6 +893,7 @@
 # 微信红包
 @@||as.weixin.qq.com^
 ##微信支付
+@@||paydns.wechatpay.cn^
 @@||pay.weixin.qq.com^
 @@||wx.tenpay.com^
 @@||wxpay.qpic.cn^
