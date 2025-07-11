@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/qq5460168/me
 
 #老毛桃更新
-@@||pzdown.laomaotao.com^$important
+@@||pzdown.laomaotao.com^
 #搜狗输入法表情
 @@||get.shouji.sogou.com^
 #华风爱科气象
