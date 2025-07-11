@@ -1,6 +1,8 @@
 ﻿! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#老毛桃更新
+@@||pzdown.laomaotao.com^$important
 #搜狗输入法表情
 @@||get.shouji.sogou.com^
 #华风爱科气象
