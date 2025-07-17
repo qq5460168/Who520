@@ -1834,6 +1834,7 @@
 ||zd.fzmf.cn^
 
 #18+不良网站
+||szaction.cc^
 ||xc.zhongguohao123.com^
 ||p*.bdxiguaimg.com^
 ||jtu24k.aoqinglv.cn^
