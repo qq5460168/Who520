@@ -1357,6 +1357,8 @@
 @@||p26-sign.douyinpic.com^
 #拦截后登录没反应
 @@||auth.zijieapi.com^
+#抖音小游戏
+@@||minigame5-normal-hl.zijieapi.com^
 #拦截后显示「网络故障」
 @@||verify.zijieapi.com^
 #拦截后验证图片无法加载
