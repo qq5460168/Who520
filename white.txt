@@ -1,6 +1,8 @@
-﻿! Title: 广告白名单规则，反馈🐧群
+! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#搜狗输入法跨屏输入
+@@||channel.shouji.sogou.com^
 #老毛桃更新
 @@||pzdown.laomaotao.com^
 #搜狗输入法表情
