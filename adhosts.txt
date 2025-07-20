@@ -5705,10 +5705,8 @@
 142.251.10.188 alt7-mtalk.google.com
 74.125.200.188 alt8-mtalk.google.com
 0.0.0.0 android-imgs.25pp.com
-0.0.0.0 api-game.meizu.com
 0.0.0.0 api.douban.com
 20.27.177.116 api.github.com
-0.0.0.0 api.iqiyi.com
 23.49.100.232 api.pinterest.com
 0.0.0.0 api3-normal-lf.fqnovel.com
 0.0.0.0 api3-normal-lq.fqnovel.com
