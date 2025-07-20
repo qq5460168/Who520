@@ -120,7 +120,6 @@
 0.0.0.0 httpdns.meituan.com
 0.0.0.0 httpdns.ng.imgo.tv
 0.0.0.0 httpdns.yunxindns.com
-0.0.0.0 https://ynuf.aliapp.org/saveWb.json?
 0.0.0.0 httpsdns.baidu.com
 0.0.0.0 hunantv-dtv.m.cn.miaozhen.com
 0.0.0.0 iconpark.oceanengine.com
@@ -882,7 +881,6 @@
 0.0.0.0 cdn.appnext.com
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 tt.cn
-0.0.0.0 beizi.biz
 0.0.0.0 *.bjmantis.net
 0.0.0.0 ads.cup.com.cn
 0.0.0.0 tongji.baidu.com
