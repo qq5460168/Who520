@@ -1041,20 +1041,13 @@
 0.0.0.0 103.107.217.65
 0.0.0.0 114.118.4.4
 0.0.0.0 api.gifshow.com
-0.0.0.0 jsmov2.a.yximgs.com
-0.0.0.0 txmov2.a.yximgs.com
 0.0.0.0 alimov2.a.yximgs.com
 0.0.0.0 apissl.gifshow.com
-0.0.0.0 js2.a.yximgs.com
-0.0.0.0 ali2.a.yximgs.com
-0.0.0.0 aliimg.a.yximgs.com
-0.0.0.0 qn.a.yximgs.com
 0.0.0.0 ipdispatch.live.xycdn.com
 0.0.0.0 upload.gifshow.com
 0.0.0.0 api.ksapisrv.com
 0.0.0.0 sf2018-api.gifshow.com
 0.0.0.0 umc.danuoyi.alicdn.com
-0.0.0.0 qnmov.a.yximgs.com
 0.0.0.0 upload.ksapisrv.com
 0.0.0.0 sdkoptedge.chinanetcenter.com
 0.0.0.0 apissl.ksapisrv.com
@@ -1169,7 +1162,6 @@
 0.0.0.0 ads.heytapmobi.com
 0.0.0.0 ads.huan.tv
 0.0.0.0 ads.huantest.com
-0.0.0.0 ads.music.126.net
 0.0.0.0 ads.oppomobile.com
 0.0.0.0 adsense.google.cn
 0.0.0.0 adservice.google.cn
@@ -1254,7 +1246,6 @@
 0.0.0.0 httpdns.ocloud.oppomobile.com
 0.0.0.0 httpdns.push.oppomobile.com
 0.0.0.0 hugelog.fcbox.com
-0.0.0.0 hw-ot-ad.a.yximgs.com
 0.0.0.0 hwpub-s01-drcn.cloud.dbankcloud.cn
 0.0.0.0 hya.comp.360os.com
 0.0.0.0 hye.comp.360os.com
@@ -1672,7 +1663,6 @@
 0.0.0.0 vali-ugc.cp31.ott.cibntv.net
 0.0.0.0 vali.cp31.ott.cibntv.net
 0.0.0.0 vali.cp31.ott.cibntv.net.302.myalicdn.com
-0.0.0.0 video.market.xiaomi.com
 0.0.0.0 vpptv.admaster.com.cn
 0.0.0.0 vstat.my.tv.sohu.com
 0.0.0.0 vstat.v.blog.sohu.com
@@ -3954,7 +3944,6 @@
 0.0.0.0 admarvel.s3.amazonaws.com
 0.0.0.0 admgr.qingting.fm
 0.0.0.0 admin.baihemob.com
-0.0.0.0 admusicpic.music.126.net
 0.0.0.0 adn.insight.ucweb.com
 0.0.0.0 adopt-sdk.xg.tagtic.cn
 0.0.0.0 adpai.thepaper.cn
@@ -4090,7 +4079,6 @@
 0.0.0.0 ag.qq.com
 0.0.0.0 agn.aty.sohu.com
 0.0.0.0 agstat.html5.qq.com
-0.0.0.0 ali-ad.a.yximgs.com
 0.0.0.0 ali-stats.jpush.cn
 0.0.0.0 alissl.ucdl.pp.uc.cn
 0.0.0.0 allnews.uodoo.com
@@ -4220,7 +4208,6 @@
 0.0.0.0 bats.video.yahoo.com
 0.0.0.0 bce.baidu.com
 0.0.0.0 bcp.crwdcntrl.net
-0.0.0.0 bd.a.yximgs.com
 0.0.0.0 bdapi.ads.oppomobile.com
 0.0.0.0 bdimg.share.baidu.com
 0.0.0.0 bdplus.baidu.com
@@ -4620,8 +4607,6 @@
 0.0.0.0 i1.services.social.microsoft.com
 0.0.0.0 i1.services.social.microsoft.com.nsatc.net
 0.0.0.0 iad.g.163.com
-0.0.0.0 iadmusicmat.music.126.net
-0.0.0.0 iadmusicmatvideo.music.126.net
 0.0.0.0 iadsdk.apple.com
 0.0.0.0 iam.inmobi.com
 0.0.0.0 ib.adnxs.com
@@ -4692,7 +4677,6 @@
 0.0.0.0 jqmt.qq.com
 0.0.0.0 jrad.jd.com
 0.0.0.0 jrclick.jd.com
-0.0.0.0 js-ad.a.yximgs.com
 0.0.0.0 js.miaozhen.com
 0.0.0.0 js.w.inmobi.com
 0.0.0.0 jsapi.html5.qq.com
@@ -4929,7 +4913,6 @@
 0.0.0.0 p1-lm.adukwai.com
 0.0.0.0 p1.adkwai.com
 0.0.0.0 p2-lm.adukwai.com
-0.0.0.0 p2.a.yximgs.com
 0.0.0.0 p2.l.qq.com
 0.0.0.0 p3-be-pack-sign.pglstatp-toutiao.com
 0.0.0.0 p3.adkwai.com
@@ -5328,13 +5311,11 @@
 0.0.0.0 tui.gtimg.com
 0.0.0.0 tuijian.baidu.com
 0.0.0.0 tunion-api.m.taobao.com
-0.0.0.0 tx-ad.a.yximgs.com
 0.0.0.0 tyaqy.m.cn.miaozhen.com
 0.0.0.0 tytx.m.cn.miaozhen.com
 0.0.0.0 u-x.jd.com
 0.0.0.0 u.l.qq.com
 0.0.0.0 u.ssp.admobile.top
-0.0.0.0 u1.img.mobile.sina.cn
 0.0.0.0 uapi.ads.heytapmobi.com
 0.0.0.0 uat-demo.pulse.inmobi.com
 0.0.0.0 ubmcmm.baidustatic.com
@@ -5552,7 +5533,6 @@
 0.0.0.0 go.mi.edu
 0.0.0.0 hysdkservice.g.mi.com
 0.0.0.0 inpost-polska-mi.order6457.me
-0.0.0.0 lite.a.market.xiaomi.com
 0.0.0.0 mgvrst.mi-shop.com
 0.0.0.0 mi-de-ner-nis3.info
 0.0.0.0 mi-manga-hentai.blogspot.com
@@ -5590,7 +5570,6 @@
 0.0.0.0 stat.xiaomi.com
 0.0.0.0 storeconfig.mistat.intl.xiaomi.com
 0.0.0.0 t.track.ad.xiaomi.com
-0.0.0.0 t6.a.market.xiaomi.com
 0.0.0.0 test.zeus.ad.xiaomi.com
 0.0.0.0 tr.news.mi-oferta.es
 0.0.0.0 url8807.global.passport.xiaomi.com
@@ -5620,7 +5599,6 @@
 0.0.0.0 rtmretry.kugou.com
 0.0.0.0 rt-m.kugou.com
 0.0.0.0 wup.imtt.qq.com
-0.0.0.0 api.g.micloud.xiaomi.net
 0.0.0.0 icosa-service-in.allawnos.com
 0.0.0.0 allawntech.com
 0.0.0.0 sidebar-apps-cn.allawntech.com
