@@ -1,12 +1,9 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
-#搜狗输入法跨屏输入
-@@||channel.shouji.sogou.com^
+
 #老毛桃更新
 @@||pzdown.laomaotao.com^
-#搜狗输入法表情
-@@||get.shouji.sogou.com^
 #华风爱科气象
 @@||api.weathercn.com^
 ##火山引擎
@@ -168,6 +165,8 @@
 @@||www.twitter.com^
 #手机搜狗输入法
 @@||shouji.sougou.com^
+#搜狗输入法表情
+@@||get.shouji.sogou.com^
 # 搜狗输入法
 @@||input.shouji.sogou.com^
 @@||worldwide.sogou.com^
@@ -181,6 +180,8 @@
 @@||img02.sogoucdn.com^
 @@||img03.sogoucdn.com^
 @@||img04.sogoucdn.com^
+#搜狗输入法跨屏输入
+@@||channel.shouji.sogou.com^
 #墨墨背单词
 @@||www.maimemo.com^
 #Blogger
