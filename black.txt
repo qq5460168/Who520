@@ -621,7 +621,6 @@
 ||static.qblv.qq.com^
 ||qqpublic.qpic.cn^
 ||newsc.html5.qq.com^
-||img.gamecenter.qq.com^
 ||youxi.gamecenter.qq.com^
 ||unicom.shuzilm.cn^
 ||ipv6.shuzilm.cn^
@@ -690,7 +689,6 @@
 ||log.wtlogin.qq.com^
 ||ysdk.qq.com^
 ||t.gdt.qq.com^
-||news.ssp.qq.com^
 ||monitor.kg.qq.com^
 ||qqdata.ab.qq.com^
 ||mi-eo.gdt.qq.com^
