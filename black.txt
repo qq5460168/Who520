@@ -607,7 +607,6 @@
 ||taobao.qq.com^
 ||sjarvis.taobao.com^
 ||adashx.m.taobao.com^
-||sdk.taobao.com.ailbaba.me^
 ||tns.simba.taobao.com^
 ||ud.click.taobao.com^
 ||baichuan-sdk.taobao.com^
