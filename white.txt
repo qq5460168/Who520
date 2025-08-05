@@ -269,7 +269,8 @@
 @@||turing.captcha.gtimg.com^
 #七猫小说
 @@||api-cmnt.wtzw.com^
-#听书
+@@||cdn-audio.qimao.com^
+#七猫小说听书
 @@||api-ks.wtzw.com^
 #探探
 @@||i.tancdn.com^
