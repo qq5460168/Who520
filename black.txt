@@ -2923,7 +2923,6 @@ www.itdog.cn##.rounded-lg
 ||log-stats.weathercn.com^
 ||wallpaper-*.file.myqcloud.com^
 ||rconfig-*.file.myqcloud.com^
-||log2.cmpassport.com^
 ||ma-adx.ctrip.com^
 ||apijsv6.ksapisrv.com^
 ||adx.maplehaze.cn^
