@@ -3204,9 +3204,7 @@ ip-cidr, 223.111.27.248/32^
 ||talkingdata.com^
 ||tangoutianxia.com^
 ||tansuotv.com^
-||tanv.com^
 ||tanwanyx.com^
-||tanx.com^
 ||taobaobo5.com^
 ||taoggou.com^
 ||taohanpai.com^
