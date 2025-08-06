@@ -321,6 +321,7 @@
 #> 饿了么
 @@||inr-op.elemecdn.com^
 @@||ipassport.ele.me^
+@@||sp.ele.me^
 #天翼账号本机号码免注册一键登录
 @@||id6.me^
 #> 建设银行
