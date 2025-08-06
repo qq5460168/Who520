@@ -1603,6 +1603,9 @@
 #英文介绍页宣传视频加载
 #PC网页端登录界面二维码加载＆评论显示接口
 @@||fe-video-qc.xhscdn.com^
+#网络诊断
+@@||edith.xiaohongshu.com^
+
 
 # 放行拼多多
 #官网
