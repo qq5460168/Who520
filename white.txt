@@ -1613,6 +1613,7 @@
 @@||www.pinduoduo.com^
 #移动端官网
 @@||m.pinduoduo.com^
+@@||api.pinduoduo.com^
 #移动端网页布局
 #拦截后「打开网页白屏」
 @@||mcdn.pinduoduo.com^
