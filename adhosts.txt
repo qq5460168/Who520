@@ -2,6 +2,7 @@
 !! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 
+0.0.0.0 icosa-service-cn-01.allawntech.com
 52.84.166.71 api.themoviedb.org
 52.84.166.68 api.themoviedb.org
 18.65.159.31 api.themoviedb.org
