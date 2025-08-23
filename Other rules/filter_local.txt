@@ -1,0 +1,17 @@
+[filter_local]
+# 国内应用白名单（直连）
+host-suffix, taobao.com, DIRECT
+host-suffix, tmall.com, DIRECT
+host-suffix, aliyun.com, DIRECT
+host-suffix, qq.com, DIRECT
+host-suffix, weixin.qq.com, DIRECT
+host-suffix, jd.com, DIRECT
+host-suffix, alipay.com, DIRECT
+host-suffix, meituan.com, DIRECT
+host-suffix, douyin.com, DIRECT
+host-suffix, kuaishou.com, DIRECT
+host-suffix, bilibili.com, DIRECT  # 国内B站直连
+host, www.baidu.com, DIRECT
+host, cdn.jsdelivr.net, DIRECT    # 国内CDN
+host, api.weixin.qq.com, DIRECT   # 微信接口
+
