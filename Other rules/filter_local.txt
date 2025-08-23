@@ -10,7 +10,4 @@ host-suffix, meituan.com, DIRECT
 host-suffix, douyin.com, DIRECT
 host-suffix, kuaishou.com, DIRECT
 host-suffix, bilibili.com, DIRECT  # 国内B站直连
-host, www.baidu.com, DIRECT
-host, cdn.jsdelivr.net, DIRECT    # 国内CDN
-host, api.weixin.qq.com, DIRECT   # 微信接口
 
