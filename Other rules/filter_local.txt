@@ -1,4 +1,3 @@
-# 国内应用白名单（直连）
 host-suffix, taobao.com, DIRECT
 host-suffix, tmall.com, DIRECT
 host-suffix, aliyun.com, DIRECT
@@ -9,5 +8,44 @@ host-suffix, alipay.com, DIRECT
 host-suffix, meituan.com, DIRECT
 host-suffix, douyin.com, DIRECT
 host-suffix, kuaishou.com, DIRECT
-host-suffix, bilibili.com, DIRECT  # 国内B站直连
+host-suffix, bilibili.com, DIRECT # 国内 B 站直连
+host-suffix, weibo.com, DIRECT # 微博直连
+host-suffix, zhihu.com, DIRECT # 知乎直连
+host-suffix, iqiyi.com, DIRECT # 爱奇艺直连
+host-suffix, youku.com, DIRECT # 优酷直连
+host-suffix, baidu.com, DIRECT # 百度及旗下服务直连
+host-suffix, 163.com, DIRECT # 网易系（邮箱、新闻等）直连
+host-suffix, tencent.com, DIRECT # 腾讯系（视频、邮箱等）直连
+host-suffix, tenpay.com, DIRECT # 微信支付直连
+host-suffix, cmbchina.com, DIRECT # 招商银行直连
+host-suffix, icbc.com.cn, DIRECT # 中国工商银行直连
+host-suffix, abchina.com, DIRECT # 中国农业银行直连
+host-suffix, ele.me, DIRECT # 饿了么直连
+host-suffix, ctrip.com, DIRECT # 携程直连
+host-suffix, tencentcloud.com, DIRECT # 腾讯云直连
+host-suffix, xinhuanet.com, DIRECT # 新华网直连
+host-suffix, people.com.cn, DIRECT # 人民网直连
+host-suffix, pbc.gov.cn, DIRECT # 中国人民银行
+host-suffix, cdb.com.cn, DIRECT # 国家开发银行
+host-suffix, eximbank.gov.cn, DIRECT # 中国进出口银行
+host-suffix, adbc.com.cn, DIRECT # 中国农业发展银行
+host-suffix, icbc.com.cn, DIRECT # 中国工商银行
+host-suffix, abchina.com, DIRECT # 中国农业银行
+host-suffix, boc.cn, DIRECT # 中国银行
+host-suffix, ccb.com, DIRECT # 中国建设银行
+host-suffix, bankcomm.com, DIRECT # 交通银行
+host-suffix, psbc.com, DIRECT # 中国邮政储蓄银行
+host-suffix, cmbchina.com, DIRECT # 招商银行
+host-suffix, citicbank.com, DIRECT # 中信银行
+host-suffix, spdb.com.cn, DIRECT # 上海浦东发展银行
+host-suffix, cebbank.com, DIRECT # 中国光大银行
+host-suffix, cmbc.com.cn, DIRECT # 中国民生银行
+host-suffix, cgbchina.com.cn, DIRECT # 广发银行
+host-suffix, bank.pingan.com, DIRECT # 平安银行
+host-suffix, cib.com.cn, DIRECT # 兴业银行
+host-suffix, hxb.com.cn, DIRECT # 华夏银行
+host-suffix, 189.cn, DIRECT # 中国电信
+host-suffix, 10086.cn, DIRECT # 中国移动
+host-suffix, 10010.com, DIRECT # 中国联通
+host-suffix, 10099.com.cn, DIRECT # 中国广电
 
