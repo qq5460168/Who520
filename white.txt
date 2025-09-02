@@ -1,8 +1,10 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#大师兄
+@@||anythinktech.com^
 #星空视频
-@@||h35.ynodd.cn^$important
+@@||h35.ynodd.cn^$
 # CrashGuard服务
 @@||api.crashguard.me^
 #老毛桃更新
