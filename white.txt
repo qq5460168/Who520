@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/qq5460168/me
 
 #高德地图工具箱图标
-@@||free-aos-cdn-image.amap.com^$important
+@@||free-aos-cdn-image.amap.com^
 #大师兄
 @@||anythinktech.com^
 #星空视频
