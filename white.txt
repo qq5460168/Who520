@@ -2217,6 +2217,8 @@
 
 #   美团
 
+#美团图片
+@@||p0.pipi.cn^
 #美团外卖
 @@||wmapi-mt.meituan.com^
 #官网
