@@ -975,6 +975,7 @@
 #听歌时长记录
 @@||stat6.y.qq.com^
 #QQ音乐首页
+@@||api.tencentmusic.com^
 @@||y.qq.com^
 #推荐歌曲图片加载
 @@||y.gtimg.cn^
