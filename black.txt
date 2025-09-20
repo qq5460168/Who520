@@ -671,7 +671,6 @@
 ||logsdk.qq.com^
 ||omgmta.qq.com^
 ||api.playlet.qq.com^
-||api.tencentmusic.com^
 ||playlet.qq.com^
 ||rpt.gdt.qq.com^
 ||tmead.y.qq.com^
