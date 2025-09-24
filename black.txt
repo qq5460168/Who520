@@ -1790,6 +1790,8 @@
 ||event-tracking.xinfei.cn^
 #好分期
 ||w9t.cn^
+||ql7.cn^
+||ql7.cn.w.kunlunaq.com^
 ||g5o.cn^
 ||www.51hicard.com^
 ||datahub.haohuan.com^
@@ -1828,8 +1830,15 @@
 ||yhyunjin.com^
 #分子借钱
 ||zd.fzmf.cn^
+#小辉付
+||j5z.cn^
+||j5z.cn.w.kunlunaq.com^
 
 #18+不良网站
+||k3l.cn^
+||k3l.cn.w.kunlunpi.com^
+||vip.k3l.cn^
+||vip.k3l.cn.w.kunlunpi.com^
 ||vip.7j0.cn^
 ||szaction.cc^
 ||xc.zhongguohao123.com^
