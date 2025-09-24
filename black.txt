@@ -1725,6 +1725,13 @@
 ||cresauth2.fenqile.cn^
 ||dc.fenqile.com^
 ||coss-shark-down.fenqile.com^
+||*.fenqile.com^$important
+||hcdnw120.vip.global.cdnhwctnm107.com^$important
+||cm.m.fenqile.com^$important
+||coss-fit.fenqile.com^$important
+||bridge.fenqile.com^$important
+||szl-oa-other-default.gtm.fenqile.com^$important
+||zone-szl-moblie-app.gtm.fenqile.com^$important
 #小赢
 ||cardloan.xiaoying.com^
 #快贷
@@ -1788,6 +1795,8 @@
 ||api.xinfei.cn^
 ||xyf-test.oss-cn-beijing.aliyuncs.com^
 ||event-tracking.xinfei.cn^
+||sr0.cn^
+||sr0.cn.w.kunlunaq.com^
 #好分期
 ||w9t.cn^
 ||ql7.cn^
