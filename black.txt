@@ -2885,7 +2885,6 @@ www.itdog.cn##.rounded-lg
 ||ad.xmmnsl.com^
 ||adcaffe-bard.atcloudbox.com^
 ||msg.qy.net^
-||metrics1-drcn.dt.dbankcloud.cn^
 ||datacollector-drcn.dt.dbankcloud.cn^
 ||datacollector-drcn.dt.hicloud.com^
 ||pig.pupuapi.com^
