@@ -274,6 +274,7 @@
 #某些网页的图片加载
 @@||img.mp.itc.cn^
 #一些应用调用的高德api
+@@||aps.amap.com^
 @@||mpsapi.amap.com^
 #同程旅行
 @@||40017.cn^
