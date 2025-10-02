@@ -1,6 +1,8 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#领跑抽奖
+@@||aisite.wejianzhan.com^$important
 #华为智慧生活
 @@||smarthome-drcn.dbankcdn.com^$important
 @@||metrics1-drcn.dt.dbankcloud.cn^$important
