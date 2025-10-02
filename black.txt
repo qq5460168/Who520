@@ -1303,7 +1303,6 @@
 ||fakeurl.virtual.baidu.com^
 ||g.cn.miaozhen.com^
 ||ack.tuisong.baidu.com^
-||aisite.wejianzhan.com^
 ||qianhu.wejianzhan.com^
 ||error.baidu.com^
 ||wanba.baidu.com^
