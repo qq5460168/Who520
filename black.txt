@@ -1704,8 +1704,6 @@
 ||c.didi.cn^
 #招联金融
 ||mucf.cc^
-#微粒贷
-||s.webank.com^
 #携程金融
 ||t.ctrip.cn^
 #天星金融
