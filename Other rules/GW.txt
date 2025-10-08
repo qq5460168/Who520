@@ -108,7 +108,7 @@ url-latency-benchmark=狮城节点, server-tag-regex=新加坡|狮|獅|SG|🇸�
 
 # ==========【远程订阅设置】==========
 [server_remote]
-https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=4c59ed4b2d294c06bf83c69bb9787de2, tag=一元机场, update-interval=172800, opt-parser=false, enabled=true
+https://link.dingyueapi.net/api/v1/client/subscribe?token=3a27110128832cdc2cc52a81f4de5824, tag=gw云洞, update-interval=172800, opt-parser=false, enabled=true https://edu.dianping.men/iv/verify_mode.htm?token=8d48d24d5363b2c9b67b3fe7ddc5e802, tag=猎户座, update-interval=172800, opt-parser=false, enabled=true https://acx3s.gardenparty.one/link/2K1Y1aZF2K4hQzu9?sub=3, tag=Tag-1759907418, update-interval=172800, opt-parser=true, enabled=true https://www.yfjc.xyz/api/v1/client/subscribe?token=84f71bcce2dafaa39fc101dc60292c93, tag=yfjc, update-interval=172800, opt-parser=false, enabled=true http://81.71.147.168:48888/api/v1/client/subscribe?token=f06ce30069445a3f8fc7dc71bc0b131b, tag=西瓜, update-interval=172800, opt-parser=false, enabled=true https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=f9d7175212085ec1dc3a929719953559, tag=Tag-1752510803, update-interval=172800, opt-parser=false, enabled=true https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=4c59ed4b2d294c06bf83c69bb9787de2, tag=一元机场, update-interval=172800, opt-parser=true, enabled=true
 
 [filter_local]
 # 其他规则...
