@@ -22,7 +22,6 @@
 ||adsmartget.guangtuikeji.com^
 ||as1.dcloud.net.cn^
 ||apis.xayabx.com^
-||bkimg.cdn.bcebos.com^
 ||qcwx.medproad.com^
 ||image.uczzd.cn^
 ||adtracker.adfunlink.com^
