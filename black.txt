@@ -1838,6 +1838,9 @@
 #小辉付
 ||j5z.cn^
 ||j5z.cn.w.kunlunaq.com^
+#安心花
+||uk.sgrrz.cn^$important
+
 
 #18+不良网站
 ||k3l.cn^
