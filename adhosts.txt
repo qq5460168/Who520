@@ -6023,3 +6023,13 @@
 0.0.0.0 qa.viglink.com
 0.0.0.0 track.aso1.net
 0.0.0.0 delivery-node-aziz.voe-network.net
+
+#themoviedb
+13.224.163.98 api.themoviedb.org
+99.84.133.50 www.themoviedb.org
+169.150.249.166 image.tmdb.org
+54.192.18.90 themoviedb.org
+
+
+
+
