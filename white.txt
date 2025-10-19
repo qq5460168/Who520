@@ -979,6 +979,7 @@
 #QQ空间精选照片
 @@||qzone-web-v2.cdn-go.cn^
 #QQ相关
+@@||info.zb.qq.com^$important
 @@||npm.cdn-go.cn^
 @@||pub.idqqimg.com^
 @@||qq-web.cdn-go.cn^
@@ -1499,6 +1500,7 @@
 ##菜鸟裹裹
 @@||cainiao-app-logs.cn-zhangjiakou.log.aliyuncs.com^
 @@||na61-na62.wagbridge.alibaba.tanx.com^
+@@||w2.kskwai.com^$important
 #账号与安全页面加载
 @@||my.cainiao.com^
 # 支付宝
