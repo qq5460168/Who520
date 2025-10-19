@@ -484,6 +484,8 @@
 @@||about.gitlab.cn^
 #soul签到
 @@||increase-openapi.soulapp.cn^
+#soul支付
+@@||api-pay.soulapp.cn^
 #soul ai
 @@||api-chat.soulapp.cn^$important
 #脚本之家
