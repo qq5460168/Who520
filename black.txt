@@ -727,8 +727,6 @@
 ||masdk.3g.qq.com^
 ||*vmind.qqvideo.tc.qq.com^
 ||lhp.map.qq.com^
-||info.zb.qq.com^
-||bk.info.zb.qq.com^
 ||astrategy.beacon.qq.com^
 ||analytics.map.qq.com^
 ||log.tbs.qq.com^
