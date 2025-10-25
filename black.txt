@@ -826,7 +826,6 @@
 ||p.mb.qq.com^
 ||p.ssp.qq.com^
 ||pagespeed.report.qq.com^
-||pnewsapp.tc.qq.com^
 ||prom.b.qq.com^
 ||ps.browser.qq.com^
 ||ptlogin2.bugly.qq.com^
