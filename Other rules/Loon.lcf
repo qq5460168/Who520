@@ -25,19 +25,23 @@ internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
 proxy-test-url = http://www.gstatic.com/generate_204
 resource-parser = https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-parser.loon.min.js
 geoip-url = https://geodata.kelee.one/Country-Masaiki.mmdb
-ipasn-url = https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
 skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
 bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
 
 [Proxy]
 
 [Remote Proxy]
+f72ac69653a1264c = https://42.194.232.60:10387/iplist/rSqulWDuRPglw7Oy?clash=2&new=1,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+Gw云洞 = https://link.dingyueapi.net/api/v1/client/subscribe?token=3a27110128832cdc2cc52a81f4de5824,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+372dc93f5e548ddc = https://acx3s.gardenparty.one/link/2K1Y1aZF2K4hQzu9?sub=3,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+猎户座 = https://edu.dianping.men/iv/verify_mode.htm?token=8d48d24d5363b2c9b67b3fe7ddc5e802,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+yfjc = https://www.yfjc.xyz/api/v1/client/subscribe?token=84f71bcce2dafaa39fc101dc60292c93,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+8fd6eecc76d9fd04 = https://yfjc.xyz/api/v1/client/subscribe?token=a78d819ee4d50493a82d8f866031ada6,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+717da8830614cea3 = https://wode.hcl2025.dpdns.org/download/sub,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+泡芙云 = https://www.paofusub2.com/link/UhYmljLve9J9DR9K?sub=1,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 59231fc2477bf161 = https://mojie.app/api/v1/client/subscribe?token=13f124d4d2262744a4617190aac2b3ad,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-14f2c058e4ff2e5e = https://zhs.futbol/link/a7htuh41Qpaw9uNC?mu=4&tj=1,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-6bab727f945256a9 = https://sub.riolu.link/api/v1/client/subscribe?token=ef7d96c76a416c09557ec851613c34a3,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 da012850ed9b8ef9 = https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=f9d7175212085ec1dc3a929719953559,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-一元 = https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=bbb3939acbc8408c900d826adb46467b,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-付豪 = https://ji5t7.no-mad-world.club/link/BStUbUqx3qmpKXt3?clash=3&extend=1,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+一元 = https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=4c59ed4b2d294c06bf83c69bb9787de2,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 贝雪云 = https://pear.besnow.uk/api/v1/client/subscribe?token=bc89b545139c7a2cddadffa194d165ef,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 
 [Remote Filter]
@@ -126,6 +130,7 @@ IP-CIDR6,fc00::/18,DIRECT
 FINAL,兜底后备策略
 
 [Remote Rule]
+https://kelee.one/Tool/Loon/Lsr/SpeedtestChina.lsr, policy=DIRECT, tag=大陆, enabled=true
 https://rule.kelee.one/Loon/Telegram.lsr, policy=兜底后备策略, tag=Telegram, enabled=true
 https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=新国手动场景, tag=TikTok, enabled=true
 https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=美国手动场景, tag=AI, enabled=true
@@ -155,6 +160,7 @@ ssid:PHICOMM_5G = server:10.0.0.1
 https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, tag=HTTPDNS拦截器, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/AliYunDrive_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/ShuQiCenterReader_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx, enabled=true
