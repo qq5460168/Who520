@@ -1,7 +1,10 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
-
+#冷漠
+@@||jomodns.com^$important
+#清心云
+@@||bcelive.com^$important
 #动漫共和国视频封面
 @@||p4-ad.adukwai.com^$important
 #联通云盘…福利中心
