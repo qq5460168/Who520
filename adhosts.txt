@@ -1055,10 +1055,7 @@
 0.0.0.0 ntp.nc.gifshow.com
 0.0.0.0 bd-livemate.pull.yximgs.com
 0.0.0.0 pull.yximgs.com
-0.0.0.0 yximgs.com
 0.0.0.0 etoote.com
-0.0.0.0 bcelive.com
-0.0.0.0 gifshow.com
 0.0.0.0 jscmmov.a.etoote.com
 0.0.0.0 bdcm.a.etoote.com
 0.0.0.0 bdcmmov.a.etoote.com
