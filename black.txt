@@ -3866,7 +3866,6 @@ www.itdog.cn##.rounded-lg
 ||xa1jgfbdlwf2ncxq.*.com^
 ||*.jennylisnerphotography.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
-||*-*.ap-southeast-1.elb.amazonaws.com^
 !哔咔漫画
 ||*.diwodiwo.xyz^
 ||push-ads-cn.heytapmobi.com^
