@@ -5207,7 +5207,6 @@
 0.0.0.0 stm-cdn.cn.miaozhen.com
 0.0.0.0 stm-collect.cn.miaozhen.com
 0.0.0.0 stnetsdk.vivo.com.cn
-0.0.0.0 store.is.autonavi.com
 0.0.0.0 store.tv.api.3g.youku.com
 0.0.0.0 store.xl.api.3g.youku.com
 0.0.0.0 strategy.beacon.qq.com
