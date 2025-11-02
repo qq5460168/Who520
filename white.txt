@@ -1,6 +1,9 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#OxygenOS系统游戏空间
+@@||mini-game-gl.heytapmobile.com^$important
+@@||games-community-gl.heytapmobile.com^$important
 #冷漠
 @@||jomodns.com^$important
 #清心云
@@ -18,6 +21,8 @@
 @@||mall.csdn.net^
 #高德地图工具箱图标
 @@||free-aos-cdn-image.amap.com^
+#高德地图商家图片
+@@||store.is.autonavi.com^$important
 #大师兄
 @@||anythinktech.com^
 #星空视频
@@ -284,6 +289,7 @@
 #某些网页的图片加载
 @@||img.mp.itc.cn^
 #一些应用调用的高德api
+@@||webapi.amap.com^$important
 @@||aps.amap.com^
 @@||mpsapi.amap.com^
 #同程旅行
