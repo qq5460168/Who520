@@ -1384,6 +1384,8 @@
 
 # 抖音系
 
+#手机网页端抖音直播
+@@||webcast.amemv.com^$important
 #App登录接口
 #拦截后登录提示「系统繁忙」
 @@||log.snssdk.com^
