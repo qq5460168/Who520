@@ -3231,7 +3231,6 @@ www.itdog.cn##.rounded-lg
 ||zpm-platform.cdnjtzy.com^
 ||httpdns.kwd.inkuai.com^
 ||ws-keyboard.shouji.sogou.com^
-||webcast.amemv.com^
 ||zt-sup.kwd.inkuai.com^
 ||s2s.adjust.com^
 ||q.yunduanzi365.cn^  
