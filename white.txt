@@ -1524,6 +1524,8 @@
 #阿里巴巴购物
 @@||dj.1688.com^
 !阿里系
+@@||su.uc.cn^$important
+@@||pc-api.uc.cn^$important
 @@||uczzd.cn^
 @@||cl2.webterren.com^
 @@||alissl.ucdl.pp.uc.cn^
