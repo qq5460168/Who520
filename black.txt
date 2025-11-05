@@ -3289,7 +3289,6 @@ www.itdog.cn##.rounded-lg
 ||lv-api-sinfonlinea.ulikecam.com/lv/v1/ad/*^
 ||lv-api-sinfonlinea.ulikecam.com^
 ||api.kurobbs.com/config/getOpenScreen*^
-||webcast.amemv.com/webcast/gamecp/*^
 ||xiaoshuo.km.com^
 ||www.bayread.com^
 ||chengzijianzhan.com^
@@ -3594,7 +3593,6 @@ www.itdog.cn##.rounded-lg
 ||v6-adashx.ut.amap.com^
 ||ad-audit-provider.soulapp.cn^
 ||o2o-ad-log-gateway.alibaba.com^
-||default.cn.zb.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
 ||secgw-default.cn.nt.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
 ||m1.ad.10010.com.w.cdngslb.com^
 ||business-ad.cdn-go.cn^
