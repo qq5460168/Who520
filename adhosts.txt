@@ -5627,8 +5627,8 @@
 0.0.0.0 component-ota-cn.allawntech.com
 0.0.0.0 h5fs.coloros.com
 #一加论坛
-35.181.164.242 community.oneplus.com
-35.181.220.27 community.oneplus.com
+13.39.63.107 community.oneplus.com
+13.39.75.239 community.oneplus.com
 #魅族
 0.0.0.0 api-flow.flyme.cn
 0.0.0.0 bro.flyme.cn
@@ -6025,6 +6025,10 @@
 99.84.133.50 www.themoviedb.org
 169.150.249.166 image.tmdb.org
 54.192.18.90 themoviedb.org
+
+#一加官方ROM下载
+23.48.224.239 oxygenos.oneplus.net
+
 
 
 
