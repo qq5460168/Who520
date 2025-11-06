@@ -1384,6 +1384,10 @@
 
 # 抖音系
 
+#PC版抖音封面
+@@||p9-pc-sign.douyinpic.com^$important
+#APP 评论区图片
+@@||imagex.bytedanceapi.com^$important
 #手机网页端抖音直播
 @@||webcast.amemv.com^$important
 #App登录接口
