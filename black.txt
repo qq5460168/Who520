@@ -3691,8 +3691,6 @@ www.itdog.cn##.rounded-lg
 ||api.megvii.com^
 ||*.ads.huawei.com^
 ||*.ads.huawei.com.au^
-##开放平台
-||bytedanceapi.com^
 ##Appshare
 ||api.ads66.com^
 ||tradplusad.com^
