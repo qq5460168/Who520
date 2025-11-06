@@ -691,7 +691,6 @@
 ||musicpunch.p2p.qq.com^
 ||tp2p.kg.qq.com^
 ||twns.p2ptun.qq.com^
-||*.gamecenter.qq.com^
 ||file.daihuo.qq.com^
 ||configsvr.msf.3g.qq.com^
 ||pcm-img.zhls.qq.com^
