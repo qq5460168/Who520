@@ -947,7 +947,6 @@
 ||privacy.qq.com^
 ||d3g.qq.com^
 ||mdc.html5.qq.com^
-||rule.tencent.com^
 ||diffpkg.browser.qq.com^
 ||news.l.qq.com^
 ||st.tencent-cloud.com^
