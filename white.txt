@@ -982,6 +982,8 @@
 @@||v.stream.qq.com^
 #腾讯健康系统
 @@||jiazhang.qq.com^
+#腾讯游戏协议
+@@||rule.tencent.com^
 #QQ收藏
 @@||sharechain.qq.com^
 #QQ互动标识图
