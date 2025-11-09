@@ -1028,7 +1028,6 @@ ip-cidr, 223.111.27.248/32^
 ||huishenghuiying.com.cn^
 ||jihehuaban.com.cn^
 ||jj123.com.cn^
-||mairuan.com.cn^
 ||maskbaby.com.cn^
 ||moodoocrv.com.cn^
 ||moonwish.com.cn^
