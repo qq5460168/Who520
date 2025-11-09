@@ -1,6 +1,9 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#麦软
+@@||www.mairuan.com^$important
+@@||mairuan.com^
 #实用工具箱
 @@||www.sygjx.com^
 #OxygenOS系统游戏空间
