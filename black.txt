@@ -1776,7 +1776,6 @@
 ||dc.fenqile.com^
 ||coss-shark-down.fenqile.com^
 ||*.fenqile.com^
-||hcdnw120.vip.global.cdnhwctnm107.com^
 ||cm.m.fenqile.com^
 ||coss-fit.fenqile.com^
 ||bridge.fenqile.com^
