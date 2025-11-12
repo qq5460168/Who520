@@ -981,6 +981,8 @@
 @@||v6.pic.upqzfile.com^
 #QQ链接跳转
 @@||qm.qq.com^
+#微信转账到QQ
+@@||trpc.qianbao.qq.com^$important
 #QQ日签卡图片加载
 @@||tianshu.gtimg.cn^
 #听歌时长记录
