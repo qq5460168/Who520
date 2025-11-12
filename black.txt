@@ -790,7 +790,6 @@
 ||log.tbs.qq.com^
 ||aeventlog.beacon.qq.com^
 ||cache.wuji.qq.com^
-||trpc.qianbao.qq.com^
 ||m.v.qq.com/activity/qqvideo/interact/gift.html^
 ||lives.l.qq.com/livemsg?&ad_type=*^
 ||tab.video.qq.com/tab/GetTabRemoteConfig*^
