@@ -109,7 +109,6 @@
 ||q.z74d.com^
 
 #字节系 AD API SDK 屏蔽
-||snssdk.com^
 ||security.snssdk.com^
 ||ctobsnssdk.com^
 ||pangolin.snssdk.com^
