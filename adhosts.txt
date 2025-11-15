@@ -113,7 +113,6 @@
 66.203.127.13 g.static.mega.co.nz
 0.0.0.0 game.eve.mdt.qq.com
 0.0.0.0 glores2.taisantech.com
-0.0.0.0 guide-acs.m.taobao.com
 0.0.0.0 h5.oceanengine.com
 23.204.10.89 help.steampowered.com
 0.0.0.0 hlmj.broker.tplay.qq.com
