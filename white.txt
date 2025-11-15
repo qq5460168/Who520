@@ -1469,6 +1469,8 @@
 
 #  阿里系
 
+#支付宝淘宝链接
+@@||guide-acs.m.taobao.com^$important
 #> 阿里巴巴
 @@||dcms.1688.com^
 @@||gm.mmstat.com^
