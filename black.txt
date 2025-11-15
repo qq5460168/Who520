@@ -62,6 +62,13 @@
 ||serveraddr.service.kugou.com^
 ||tens.p2p.tun.qq.com^
 ||tp2p.kg.qq.com^
+httpdns.gslb.yy.com
+httpdns.meituan.com
+dns2.titannetwork.cn
+loggw.alipaydns.com
+httpdns.bilivideo.com
+dns.wechat.com
+
 
 ##哔哩哔哩
 ||httpdns.bilivideo.com^
