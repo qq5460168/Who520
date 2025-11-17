@@ -109,6 +109,7 @@
 @@||p1-lm.adukwai.com^
 #中国电信app
 @@||appgoad.189.cn^
+@@||xbk.189.cn^$important
 #爱回收
 @@||aihuishou.com^
 #雨课堂
