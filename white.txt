@@ -1,14 +1,16 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#新浪股票页面行情
+@@||woocall.sina.com.cn^
 #deepseek
-@@||static.deepseek.com^$important
-@@||cdn.deepseek.com^$important
+@@||static.deepseek.com^
+@@||cdn.deepseek.com^
 #东坡下载 
-@@||www.uzzf.com^$important
-@@||uzzf.com^$important
+@@||www.uzzf.com^
+@@||uzzf.com^
 #麦软
-@@||www.mairuan.com^$important
+@@||www.mairuan.com^
 @@||mairuan.com^
 #实用工具箱
 @@||www.sygjx.com^
@@ -109,7 +111,7 @@
 @@||p1-lm.adukwai.com^
 #中国电信app
 @@||appgoad.189.cn^
-@@||xbk.189.cn^$important
+@@||xbk.189.cn^
 #爱回收
 @@||aihuishou.com^
 #雨课堂
@@ -983,7 +985,7 @@
 #QQ链接跳转
 @@||qm.qq.com^
 #微信转账到QQ
-@@||trpc.qianbao.qq.com^$important
+@@||trpc.qianbao.qq.com^
 #QQ日签卡图片加载
 @@||tianshu.gtimg.cn^
 #听歌时长记录
@@ -1471,7 +1473,7 @@
 #  阿里系
 
 #支付宝淘宝链接
-@@||guide-acs.m.taobao.com^$important
+@@||guide-acs.m.taobao.com^
 #> 阿里巴巴
 @@||dcms.1688.com^
 @@||gm.mmstat.com^
