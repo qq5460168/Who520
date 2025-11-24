@@ -238,7 +238,6 @@
 0.0.0.0 video-cn.oceanengine.com
 0.0.0.0 vm.gtimg.cn
 0.0.0.0 volc-track-dsp.66mobi.com
-0.0.0.0 vpic.cms.qq.com
 66.203.125.53 w.api.mega.co.nz
 0.0.0.0 wup.imtt.qq.com
 0.0.0.0 www.advlion.com
