@@ -977,7 +977,8 @@
 
 #QQ系
 
-@@||tcdn.qq.com^
+#图标相关
+@@||vpic.cms.qq.com^$important
 #QQ空间图片加载＆视频加载
 @@||qzs.qq.com^
 #QQ空间说说图片上传接口
@@ -1007,6 +1008,8 @@
 #QQ空间精选照片
 @@||qzone-web-v2.cdn-go.cn^
 #QQ相关
+@@||soft.imtt.qq.com^$important
+@@||tcdn.qq.com^
 @@||info.zb.qq.com^
 @@||npm.cdn-go.cn^
 @@||pub.idqqimg.com^
