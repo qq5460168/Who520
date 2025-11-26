@@ -2248,7 +2248,6 @@
 0.0.0.0 cgi.qianbao.qq.com
 0.0.0.0 cgicol.amap.com
 0.0.0.0 channel.getui.com
-0.0.0.0 channels.weixin.qq.com
 0.0.0.0 charge.adapp.baidu.com
 0.0.0.0 cic.umeng.com
 0.0.0.0 cjhd.mediav.com
