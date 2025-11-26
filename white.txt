@@ -943,6 +943,8 @@
 @@||wx.qlogo.cn^
 #微信视频号图片
 @@||dldir1.qq.com^
+#微信视频号
+@@||channels.weixin.qq.com^$important
 #微信帮助与反馈
 @@||kf-ui.cdn-go.cn^
 #> > 微信
