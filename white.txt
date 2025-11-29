@@ -1,6 +1,8 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#gamezop
+@@||gamezop.com^$important
 #新浪股票页面行情
 @@||woocall.sina.com.cn^
 #deepseek
@@ -683,13 +685,12 @@
 @@||m.ip138.com^
 #页面排版
 @@||cache.ip138.com^
-#喜马拉雅音源加载
-@@||www.ximalaya.com^
 #22听书网音频接口
 #含喜马拉雅域名
 @@||audiopay.pcdn.xmcdn.com^
 @@||aod.cos.tx.xmcdn.com^
 @@||fdfs.xmcdn.com^
+@@||award.xmcdn.com^$important
 # 放行便民查询网
 #官网
 @@||www.bmcx.com^
