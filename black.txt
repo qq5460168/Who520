@@ -1296,7 +1296,6 @@ dns.wechat.com
 ||adse.wsa.ximalaya.com^
 ||pns.ximalaya.com^
 ||xuid-server.ximalaya.com^
-||award.xmcdn.com^
 ||adse.ximalaya.com^
 ||api.verify.mob.com^
 ||mermaid.ximalaya.com^
