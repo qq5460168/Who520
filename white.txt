@@ -1,6 +1,9 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#芒果手机网页版
+@@||video.da.mgtv.com^$important
+@@||m2.da.mgtv.com^$important
 #gamezop
 @@||gamezop.com^$important
 #新浪股票页面行情
