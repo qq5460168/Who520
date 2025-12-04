@@ -1,11 +1,13 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#迅雷app
+@@|admin-oss-xlvip.a.88cdn.com^
 #芒果手机网页版
-@@||video.da.mgtv.com^$important
-@@||m2.da.mgtv.com^$important
+@@||video.da.mgtv.com^
+@@||m2.da.mgtv.com^
 #gamezop
-@@||gamezop.com^$important
+@@||gamezop.com^
 #新浪股票页面行情
 @@||woocall.sina.com.cn^
 #deepseek
@@ -693,7 +695,7 @@
 @@||audiopay.pcdn.xmcdn.com^
 @@||aod.cos.tx.xmcdn.com^
 @@||fdfs.xmcdn.com^
-@@||award.xmcdn.com^$important
+@@||award.xmcdn.com^
 # 放行便民查询网
 #官网
 @@||www.bmcx.com^
@@ -948,7 +950,7 @@
 #微信视频号图片
 @@||dldir1.qq.com^
 #微信视频号
-@@||channels.weixin.qq.com^$important
+@@||channels.weixin.qq.com^
 #微信帮助与反馈
 @@||kf-ui.cdn-go.cn^
 #> > 微信
@@ -984,7 +986,7 @@
 #QQ系
 
 #图标相关
-@@||vpic.cms.qq.com^$important
+@@||vpic.cms.qq.com^
 #QQ空间图片加载＆视频加载
 @@||qzs.qq.com^
 #QQ空间说说图片上传接口
@@ -1014,7 +1016,7 @@
 #QQ空间精选照片
 @@||qzone-web-v2.cdn-go.cn^
 #QQ相关
-@@||soft.imtt.qq.com^$important
+@@||soft.imtt.qq.com^
 @@||tcdn.qq.com^
 @@||info.zb.qq.com^
 @@||npm.cdn-go.cn^
