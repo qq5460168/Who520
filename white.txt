@@ -154,6 +154,7 @@
 @@||jxdown.com^
 #一加相册插件
 @@||fourier-videoclip-eu.allawnos.com^
+@@||fourier-videoclip-in.allawnos.com^$important
 # 放行海信官网
 @@||www.hisense.com^
 # 放行海尔官网
