@@ -621,7 +621,6 @@ dns.wechat.com
 ||clue.oceanengine.com^
 ||vemarsdev.com^
 ||qc.bsccdn.net^
-||dailygn.com^
 ||ohayoo.cn^
 ||rtlog3-applog-lq.fqnovel.com^
 ||rtlog5-applog-lq.fqnovel.com^
