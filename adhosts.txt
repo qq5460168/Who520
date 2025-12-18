@@ -5624,8 +5624,10 @@
 0.0.0.0 component-ota-cn.allawntech.com
 0.0.0.0 h5fs.coloros.com
 #一加论坛
-13.39.63.107 community.oneplus.com
-13.39.75.239 community.oneplus.com
+35.181.212.54 community.oneplus.com
+13.38.212.209 community.oneplus.com
+13.38.212.209 www.community.oneplus.com
+35.181.212.54 www.community.oneplus.com
 #魅族
 0.0.0.0 api-flow.flyme.cn
 0.0.0.0 bro.flyme.cn
