@@ -1,8 +1,14 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+<<<<<<< HEAD
 #OPPO系统更新
 @@||h5fs.coloros.com^$important
+=======
+#oppo手机推送
+@@||spcsz.cdn.bcebos.com^
+@@||*.allawntech.com^
+>>>>>>> b65aadea823b356da4271e3b1ab0b65af60c2785
 #迅雷app
 @@|admin-oss-xlvip.a.88cdn.com^
 #芒果手机网页版
