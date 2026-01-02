@@ -5620,9 +5620,6 @@
 45.116.79.187 fakeloc.cc
 45.116.79.187 fakelocation.api.lerist.dev
 45.116.79.187 av1.xdrig.com
-#一加12屏蔽系统更新
-0.0.0.0 component-ota-cn.allawntech.com
-0.0.0.0 h5fs.coloros.com
 #魅族
 0.0.0.0 api-flow.flyme.cn
 0.0.0.0 bro.flyme.cn
