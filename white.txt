@@ -1,14 +1,14 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
-<<<<<<< HEAD
+
+#cdn相关
+@@||v.smtcdns.com^
 #OPPO系统更新
-@@||h5fs.coloros.com^$important
-=======
+@@||h5fs.coloros.com^
 #oppo手机推送
 @@||spcsz.cdn.bcebos.com^
 @@||*.allawntech.com^
->>>>>>> b65aadea823b356da4271e3b1ab0b65af60c2785
 #迅雷app
 @@|admin-oss-xlvip.a.88cdn.com^
 #芒果手机网页版
@@ -162,7 +162,7 @@
 @@||jxdown.com^
 #一加相册插件
 @@||fourier-videoclip-eu.allawnos.com^
-@@||fourier-videoclip-in.allawnos.com^$important
+@@||fourier-videoclip-in.allawnos.com^
 # 放行海信官网
 @@||www.hisense.com^
 # 放行海尔官网
@@ -1611,6 +1611,7 @@
 @@||v5-novelapp.fqnovelvod.com^
 @@||v26-novelapp.fqnovelvod.com^
 # 放行番茄畅听
+@@||v9-novelapp.fqnovelvod.com^
 #官网
 @@||novelfm.changdunovel.com^
 #音乐版官网
