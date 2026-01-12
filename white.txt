@@ -2,8 +2,7 @@
 ! Homepage: https://github.com/qq5460168/me
 
 
-#cdn相关
-@@||v.smtcdns.com^
+
 #OPPO系统更新
 @@||h5fs.coloros.com^
 #oppo手机推送
