@@ -400,7 +400,6 @@ dns.wechat.com
 ||pull-flv-f13.douyincdn.com^
 ||webcast5-open-lf.douyin.com^
 ||p*-webcast-sign.douyinpic.com^
-||open.douyin.com^
 ||open-client.douyin.com^
 ||webcast*-open-lq.douyin.com^
 
