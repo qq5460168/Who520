@@ -236,7 +236,6 @@
 0.0.0.0 v9-linkchat.oceanengine.com
 0.0.0.0 valipl.cp31.ott.cibntv.net
 0.0.0.0 video-cn.oceanengine.com
-0.0.0.0 vm.gtimg.cn
 0.0.0.0 volc-track-dsp.66mobi.com
 66.203.125.53 w.api.mega.co.nz
 0.0.0.0 wup.imtt.qq.com
