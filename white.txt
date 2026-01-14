@@ -2,7 +2,10 @@
 ! Homepage: https://github.com/qq5460168/me
 
 
-
+#微信公众号
+@@||vm.gtimg.cn^$important
+#抖音扫码登陆
+@@||open.douyin.com^$important
 #OPPO系统更新
 @@||h5fs.coloros.com^
 #oppo手机推送
