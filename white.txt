@@ -2,6 +2,10 @@
 ! Homepage: https://github.com/qq5460168/me
 
 
+#腾讯相关cdn
+@@||v.smtcdns.com^
+#MTAPP 更新
+@@||p3-flow-download-sign.byteimg.com^
 #微信公众号
 @@||vm.gtimg.cn^$important
 #抖音扫码登陆
