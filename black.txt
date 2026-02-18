@@ -62,12 +62,12 @@
 ||serveraddr.service.kugou.com^
 ||tens.p2p.tun.qq.com^
 ||tp2p.kg.qq.com^
-httpdns.gslb.yy.com
-httpdns.meituan.com
-dns2.titannetwork.cn
-loggw.alipaydns.com
-httpdns.bilivideo.com
-dns.wechat.com
+||httpdns.gslb.yy.com^
+||httpdns.meituan.com^
+||dns2.titannetwork.cn^
+||loggw.alipaydns.com^
+||httpdns.bilivideo.com^
+||dns.wechat.com^
 
 
 ##哔哩哔哩
@@ -531,7 +531,6 @@ dns.wechat.com
 ||adsfileretry.service.kugou.com^
 
 #爱奇艺
-||pre-cache.video.iqiyi.com^
 ||meta-cdn.video.iqiyi.com^
 ||*dy-pic*.iqiyipic.com^
 ||baiducdnct.inter.iqiyi.com^
@@ -3892,7 +3891,6 @@ www.itdog.cn##.rounded-lg
 ||ads.morefreegame.com^
 ||ad-api.morefreegame.com^
 ||ad-ggtg-api.37.com.cn^
-||gator.volces.com^
 ||api-adservices.apple.com^
 ||apps.iad.apple.com^
 ||blueprints.iad.apple.com^
