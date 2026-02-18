@@ -785,6 +785,15 @@
 @@||s0.meituan.net^
 
 #↓ 百度系 ↓
+#爱奇艺视频拖动进度条后无法播放
+@@||policy.video.iqiyi.com^
+#影响贴吧表情
+#百度地图离线导航无法下载
+@@||boscdn.baidu.com^
+#误杀百度地图(V19)_底栏_周边
+@@||code.bdstatic.com^
+#百度网盘网页端提取码
+@@||nd-static.bdstatic.com^
 #小惠 生活服务助手
 @@||isite.baidu.com^
 #百度地图接口
@@ -1000,6 +1009,36 @@
 
 #QQ系
 
+#欢乐麻将、欢乐斗地主登录。
+@@||qqlogin.huanleapp.huanle.qq.com^
+#误杀欢乐麻将不少道具图标和角色装扮
+#王者荣耀资源包更新
+@@||down-update.qq.com^
+#掌上穿越火线无法登录
+@@||api2.helper.qq.com^
+#道聚城无法购买活动页面的游戏道具，掌上穿越火线的也是无法购买。腾讯系游戏都无法弹出付款窗口。
+#掌上穿越火线开屏，但会让一些腾讯系游戏活动无图。
+@@||yoyo.qq.com^
+#Tim空间图片
+#QQ微信小程序图标
+@@||miniapp.gtimg.cn^
+#QQ验证页
+@@||ti.qq.com^
+#QQ跳转登录卡最后一步无法登上
+@@||openmobile.qq.com^
+#QQ登录无法跳转验证
+@@||t.captcha.qq.com^
+@@||msfwifi.3g.qq.com^
+#QQ音乐歌单封面图
+@@||qpic.y.qq.com^
+#QQ音乐MV播放
+@@||mv6.music.tc.qq.com^
+#腾讯视频网页版无法播放视频
+@@||vm.gtimg.cn^
+#误杀腾讯视频评论图片。
+@@||community.image.video.qpic.cn^
+#有人说是TV端腾讯视频开屏？实测误杀安卓端腾讯视频首页不少视频封面
+@@||vmmp.qpic.cn^
 #图标相关
 @@||vpic.cms.qq.com^
 #QQ空间图片加载＆视频加载
@@ -1498,6 +1537,13 @@
 
 #  阿里系
 
+#高德地图主界面地图空白无图
+@@||render.amap.com^
+@@||render-prod-backup-tile.amap.com^
+#高德地图很多功能用不了
+@@||m5.amap.com^
+#淘宝和店铺聊天消息
+@@||msgacs.m.taobao.com^
 #支付宝淘宝链接
 @@||guide-acs.m.taobao.com^
 #> 阿里巴巴
@@ -2613,6 +2659,45 @@
 @@||sugar.zhihu.com^
 
 #> 其他
+
+#今日头条≈断网
+@@||api.toutiaoapi.com^
+#kimi智能助手没网，然而放行一次之后再禁却没事
+@@||gator.volces.com^
+! ========== 快手 ==========
+#快手评论区图片、快手少部分评论图
+! ========== 其他 ==========
+#据说影响iOS酷安上传图片
+@@||coolapk-oss-image.oss-cn-hangzhou.aliyuncs.com^
+#会影响酷安没有推送。
+#手机新浪网主页会没内容，以及网页新浪新闻推荐阅读
+@@||feeds.sina.cn^
+#七猫小说正文图片广告和全部小说的封面
+@@||cdn.wtzw.com^
+#七猫免费小说获取章节失败
+#据说123云盘卡开屏
+#sdk-api.beizi.biz
+#值得买无法跳转京东
+@@||dg.k.jd.com^
+#知乎推送
+#亲邻开门卡初始化
+@@||qlp.qinlinad.com^
+#①天翼云盘登录失败②天翼云盘无法登录
+@@||api.cloud.189.cn^
+@@||user.e.189.cn^
+#移动减少资源下载减少体积，但是无法查流量话费
+@@||res.app.coc.10086.cn^
+! ========== 网易云音乐 ==========
+#网易云音乐，前两条误杀大喇叭之类插件，后两条直接把本体干没网。
+@@||interface.music.163.com^
+@@||interface3.music.163.com^
+@@||interface.music.163.com.163jiasu.com^
+@@||interface3.music.163.com.163jiasu.com^
+#用于 firebase 消息推送组件的网络检查，等同于 connectivitycheck.gstatic.com。屏蔽此域名后某些 app（如Tiktok）直接报告网络不通，并拒绝连接尝试。
+#①spotify登录、主页联网，②播放歌曲
+@@||gae2-spclient.spotify.com^
+#【Reddit】无网络
+@@||gql-fed.reddit.com^
 
 @@||auditude.com^
 @@||bitsumactivationserver.com^
