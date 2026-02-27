@@ -24,25 +24,32 @@ proxy-test-url = http://www.gstatic.com/generate_204
 resource-parser = https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-parser.loon.min.js
 geoip-url = https://geodata.kelee.one/Country-Masaiki.mmdb
 ipasn-url = https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
-skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, e.crashlynatics.com
-bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
 
 
 [Proxy]
+🇯🇵日本 04 | 专线 = trojan,jp4.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.69408ae5.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇸🇬新加坡 06 | 专线 = trojan,sg6.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.0aca10d1.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇸🇬新加坡 08 | 专线 = trojan,sg8.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.c586e7c2.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇯🇵日本 02 | 专线 = trojan,jp2.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.02444020.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇯🇵日本 02 | 专线-2055320162 = trojan,jp2.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.02444020.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇯🇵日本 01 | 专线 = trojan,jp1.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.7adf211e.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇸🇬新加坡 05 | 专线-1733557077 = trojan,sg5.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.dede0d54.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇸🇬新加坡 05 | 专线-2916883 = trojan,sg5.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.dede0d54.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇯🇵日本 03 | 专线 = trojan,jp3.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.5584fc1f.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇺🇸美国 02 | 专线 = trojan,us2.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.2f6cd430.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇺🇸美国 01 | 专线 = trojan,us1.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.36a8c922.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+🇸🇬新加坡 05 | 专线-2916883 = trojan,sg5.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.dede0d54.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
 
 [Remote Proxy]
+656bdc19bd8db1c2 = https://zhuzhuzhu.whtjdasha.com/api/v1/client/subscribe?token=27ea6f0f6850808f52a43e3a70a64de7,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+魔戒 = https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=2d845e484b98393776129f1f59bbc3f9,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 f72ac69653a1264c = https://42.194.232.60:10387/iplist/rSqulWDuRPglw7Oy?clash=2&new=1,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-Gw云洞 = https://link.dingyueapi.net/api/v1/client/subscribe?token=3a27110128832cdc2cc52a81f4de5824,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-372dc93f5e548ddc = https://acx3s.gardenparty.one/link/2K1Y1aZF2K4hQzu9?sub=3,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 猎户座 = https://edu.dianping.men/iv/verify_mode.htm?token=8d48d24d5363b2c9b67b3fe7ddc5e802,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-yfjc = https://www.yfjc.xyz/api/v1/client/subscribe?token=84f71bcce2dafaa39fc101dc60292c93,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-8fd6eecc76d9fd04 = https://yfjc.xyz/api/v1/client/subscribe?token=a78d819ee4d50493a82d8f866031ada6,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 717da8830614cea3 = https://wode.hcl2025.dpdns.org/download/sub,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 泡芙云 = https://www.paofusub2.com/link/UhYmljLve9J9DR9K?sub=1,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-59231fc2477bf161 = https://mojie.app/api/v1/client/subscribe?token=13f124d4d2262744a4617190aac2b3ad,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-da012850ed9b8ef9 = https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=f9d7175212085ec1dc3a929719953559,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-一元 = https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=4c59ed4b2d294c06bf83c69bb9787de2,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-贝雪云 = https://pear.besnow.uk/api/v1/client/subscribe?token=bc89b545139c7a2cddadffa194d165ef,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+一元 = https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=d1ecc379051e4a3099208c4858b9564b,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 
 [Remote Filter]
 香港节点 = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
@@ -57,61 +64,61 @@ da012850ed9b8ef9 = https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?
 [Proxy Group]
 # --------------------------------
 # 场景策略
-香港手动场景 = ssid, default = 香港手动策略, cellular = 香港手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-台湾手动场景 = ssid, default = 台湾手动策略, cellular = 台湾手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-日本手动场景 = ssid, default = 日本手动策略, cellular = 日本手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-韩国手动场景 = ssid, default = 韩国手动策略, cellular = 韩国手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-新国手动场景 = ssid, default = 新国手动策略, cellular = 新国手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-美国手动场景 = ssid, default = 美国手动策略, cellular = 美国手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-游戏手动场景 = ssid, default = 游戏手动策略, cellular = 游戏手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-全球手动场景 = ssid, default = 全球手动策略, cellular = 全球手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-香港自动场景 = ssid, default = 香港自动策略, cellular = 香港自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-台湾自动场景 = ssid, default = 台湾自动策略, cellular = 台湾自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-日本自动场景 = ssid, default = 日本自动策略, cellular = 日本自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-韩国自动场景 = ssid, default = 韩国自动策略, cellular = 韩国自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-新国自动场景 = ssid, default = 新国自动策略, cellular = 新国自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-美国自动场景 = ssid, default = 美国自动策略, cellular = 美国自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+香港手动场景 = ssid,default=香港手动策略,cellular=香港手动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+台湾手动场景 = ssid,default=台湾手动策略,cellular=台湾手动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+日本手动场景 = ssid,default=日本手动策略,cellular=日本手动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+韩国手动场景 = ssid,default=韩国手动策略,cellular=韩国手动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+新国手动场景 = ssid,default=新国手动策略,cellular=新国手动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+美国手动场景 = ssid,default=美国手动策略,cellular=美国手动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+游戏手动场景 = ssid,default=游戏手动策略,cellular=游戏手动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+全球手动场景 = ssid,default=全球手动策略,cellular=全球手动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+香港自动场景 = ssid,default=香港自动策略,cellular=香港自动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+台湾自动场景 = ssid,default=台湾自动策略,cellular=台湾自动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+日本自动场景 = ssid,default=日本自动策略,cellular=日本自动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+韩国自动场景 = ssid,default=韩国自动策略,cellular=韩国自动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+新国自动场景 = ssid,default=新国自动策略,cellular=新国自动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+美国自动场景 = ssid,default=美国自动策略,cellular=美国自动策略,"PHICOMM_5G"=DIRECT,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 # --------------------------------
 # 地区策略
-香港手动策略 = select, 香港节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾手动策略 = select, 台湾节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本手动策略 = select, 日本节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国手动策略 = select, 韩国节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新国手动策略 = select, 新国节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国手动策略 = select, 美国节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
-游戏手动策略 = select, 游戏节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
-全球手动策略 = select, 全球节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
-香港自动策略 = select, 香港时延优选, 香港故障转移, 香港负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾自动策略 = select, 台湾时延优选, 台湾故障转移, 台湾负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本自动策略 = select, 日本时延优选, 日本故障转移, 日本负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国自动策略 = select, 韩国时延优选, 韩国故障转移, 韩国负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新国自动策略 = select, 新国时延优选, 新国故障转移, 新国负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国自动策略 = select, 美国时延优选, 美国故障转移, 美国负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+香港手动策略 = select,香港节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾手动策略 = select,台湾节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本手动策略 = select,日本节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+韩国手动策略 = select,韩国节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+新国手动策略 = select,新国节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国手动策略 = select,美国节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+游戏手动策略 = select,游戏节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
+全球手动策略 = select,全球节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+香港自动策略 = select,香港时延优选,香港故障转移,香港负载均衡,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾自动策略 = select,台湾时延优选,台湾故障转移,台湾负载均衡,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本自动策略 = select,日本时延优选,日本故障转移,日本负载均衡,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+韩国自动策略 = select,韩国时延优选,韩国故障转移,韩国负载均衡,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+新国自动策略 = select,新国时延优选,新国故障转移,新国负载均衡,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国自动策略 = select,美国时延优选,美国故障转移,美国负载均衡,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 # --------------------------------
 # 自动策略
-香港时延优选 = url-test, 香港节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾时延优选 = url-test, 台湾节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本时延优选 = url-test, 日本节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国时延优选 = url-test, 韩国节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新国时延优选 = url-test, 新国节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国时延优选 = url-test, 美国节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+香港时延优选 = url-test,香港节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾时延优选 = url-test,台湾节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本时延优选 = url-test,日本节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+韩国时延优选 = url-test,韩国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+新国时延优选 = url-test,新国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国时延优选 = url-test,美国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 
-香港故障转移 = fallback, 香港节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾故障转移 = fallback, 台湾节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本故障转移 = fallback, 日本节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国故障转移 = fallback, 韩国节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新国故障转移 = fallback, 新国节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国故障转移 = fallback, 美国节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+香港故障转移 = fallback,香港节点,interval = 60,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾故障转移 = fallback,台湾节点,interval = 60,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本故障转移 = fallback,日本节点,interval = 60,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+韩国故障转移 = fallback,韩国节点,interval = 60,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+新国故障转移 = fallback,新国节点,interval = 60,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国故障转移 = fallback,美国节点,interval = 60,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 
-香港负载均衡 = load-balance, 香港节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾负载均衡 = load-balance, 台湾节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本负载均衡 = load-balance, 日本节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国负载均衡 = load-balance, 韩国节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新国负载均衡 = load-balance, 新国节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国负载均衡 = load-balance, 美国节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+香港负载均衡 = load-balance,香港节点,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台湾负载均衡 = load-balance,台湾节点,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本负载均衡 = load-balance,日本节点,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+韩国负载均衡 = load-balance,韩国节点,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+新国负载均衡 = load-balance,新国节点,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美国负载均衡 = load-balance,美国节点,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 # --------------------------------
 # 兜底策略后备
-兜底后备策略 = fallback, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新国自动场景, 美国自动场景, interval = 60, max-timeout = 2000, img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
+兜底后备策略 = fallback,香港自动场景,台湾自动场景,日本自动场景,韩国自动场景,新国自动场景,美国自动场景,interval = 60,max-timeout = 2000,img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
 [Rule]
 # Local Rule
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,IP-CIDR6,IP-ASN
@@ -123,19 +130,19 @@ da012850ed9b8ef9 = https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?
 # IP-CIDR, 127.0.0.0/8, DIRECT
 # 配置文件已自带远程GEOIP, cn, DIRECT规则，请勿在此添加
 # 请勿修改远程CN REGION规则的排序甚至删除
-IP-CIDR, 28.0.0.1/8, DIRECT
-IP-CIDR, 198.18.0.1/16, DIRECT
-IP-CIDR, 198.18.0.0/15, DIRECT
-IP-CIDR6, fc00::/18, DIRECT
-FINAL, 兜底后备策略
+IP-CIDR,28.0.0.1/8,DIRECT
+IP-CIDR,198.18.0.1/16,DIRECT
+IP-CIDR,198.18.0.0/15,DIRECT
+IP-CIDR6,fc00::/18,DIRECT
+FINAL,兜底后备策略
 
 [Remote Rule]
-https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy = 新国手动场景, tag = TikTok, enabled = true
-https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy = 美国手动场景, tag = AI, enabled = true
-https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr, policy = 全球手动场景, tag = Speedtest Intl, enabled = true
-https://rule.kelee.one/Loon/Netflix.lsr, policy = 新国手动场景, tag = Netflix, enabled = true
-https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy = DIRECT, tag = LAN, enabled = true
-https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy = DIRECT, tag = CN REGION, enabled = true
+https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=新国手动场景, tag=TikTok, enabled=true
+https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=美国手动场景, tag=AI, enabled=true
+https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr, policy=全球手动场景, tag=Speedtest Intl, enabled=true
+https://rule.kelee.one/Loon/Netflix.lsr, policy=新国手动场景, tag=Netflix, enabled=true
+https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
+https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGION, enabled=true
 
 [Host]
 ssid:PHICOMM_5G = server:10.0.0.1
