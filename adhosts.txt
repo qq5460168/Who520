@@ -2,6 +2,7 @@
 !! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 
+43.206.62.10 ck.jp.ap.valuecommerce.com
 23.192.47.137 www.rakuten.co.jp
 133.237.176.198 hb.afl.rakuten.co.jp
 0.0.0.0 icosa-service-cn-01.allawntech.com
