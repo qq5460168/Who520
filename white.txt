@@ -1,6 +1,8 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#谷歌浏览器
+@@||res.openinstall.com^$important
 #王者荣耀小程序英雄头像
 @@||mmocgame.qpic.cn^$important
 #腾讯相关cdn
