@@ -2948,3 +2948,4 @@
 @@||www.hao123.com^
 @@||dns.adguard.com^
 @@||dns-family.adguard.com^
+@@||valuecommerce.com^$important
