@@ -3007,7 +3007,6 @@ www.itdog.cn##.rounded-lg
 ||saad.ms.zhangyue.net^
 ||gorgon.youdao.com^
 ||mobilelog.upqzfile.com^
-||pss.alicdn.com^
 ||c.sm.cn^
 ||api.sm.cn^
 ||cm-10-28.getui.com^
