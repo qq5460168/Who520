@@ -1577,7 +1577,6 @@
 
 #oppo
 ||sfn.opposhop.cn^
-||msec.opposhop.cn^
 ||ck.ads.oppomobile.com^
 ||cm.ads.oppomobile.com^
 ||andes.tech^
