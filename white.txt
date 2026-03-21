@@ -1520,6 +1520,8 @@
 
 #爱奇艺系  
 
+#爱奇艺小说
+@@||wenxue.iqiyi.com^$important
 #微信爱奇艺
 @@||static-s.iqiyi.com^
 @@||m.iqiyi.com^
