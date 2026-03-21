@@ -2666,6 +2666,11 @@
 @@||u.oppomobile.com^
 #OPPO应用配置
 @@||appconf.heytapdownload.com^
+#oppo商城
+@@||msec.opposhop.cn^$important
+#HeyTap（欢太）
+@@||obus-cn.dc.heytapmobi.com^$important
+
 
 #皮皮虾/字节跳动
 @@||mon.snssdk.com^
