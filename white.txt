@@ -779,6 +779,32 @@
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
 
+!华为手机
+
+@@||cloud.huawei.com^$important
+@@||account.huawei.com^$important
+@@||pay.huawei.com^$important
+@@||user.huawei.com^$important
+! 华为应用市场/更新
+@@||appgallery.huawei.com^$important
+@@||update.hicloud.com^$important
+@@||dl.hicloud.com^$important
+! 华为运动健康/穿戴
+@@||health.huawei.com^$important
+@@||healthkit.huawei.com^$important
+@@||wear.huawei.com^$important
+@@||iot.huawei.com^$important
+! 华为视频/音乐/阅读
+@@||video.huawei.com^$important
+@@||music.huawei.com^$important
+@@||read.huawei.com^$important
+! 华为云空间/备份
+@@||drive.huawei.com^$important
+@@||backup.huawei.com^$important
+! 华为浏览器/智慧助手
+@@||browser.huawei.com^$important
+@@||assistant.huawei.com^$important
+
 # vivo手机
 
 # vivo 云服务 & 账号
