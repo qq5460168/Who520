@@ -871,8 +871,7 @@
 @@||cibntv.net^
 
 #↓ 百度系 ↓
-#爱奇艺视频拖动进度条后无法播放
-@@||policy.video.iqiyi.com^
+
 #影响贴吧表情
 #百度地图离线导航无法下载
 @@||boscdn.baidu.com^
@@ -1520,6 +1519,13 @@
 
 #爱奇艺系  
 
+#爱奇艺视频拖动进度条后无法播放
+@@||policy.video.iqiyi.com^
+#爱奇艺漫画
+@@||bud.iqiyi.com^$important
+@@||manhua.iqiyi.com^$important
+#爱奇艺dns
+@@||dns.iqiyi.com^$important
 #爱奇艺小说
 @@||wenxue.iqiyi.com^$important
 #微信爱奇艺
