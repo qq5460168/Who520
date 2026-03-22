@@ -816,6 +816,42 @@
 @@||zhan.vivo.com.cn^
 
 
+! realme 真我手机 系统白名单（AdGuard Home 格式）
+
+! 1. 系统基础/云服务/账号
+@@||api.realme.com^
+@@||cloud.realme.com^
+@@||account.realme.com^
+@@||auth.realme.com^
+@@||user.realme.com^
+@@||id.realme.com^
+! 2. 系统更新/OTA/固件
+@@||update.realme.com^
+@@||ota.realme.com^
+@@||rom.realme.com^
+@@||firmware.realme.com^
+! 3. 应用商店/主题/资源
+@@||store.realme.com^
+@@||theme.realme.com^
+@@||wallpaper.realme.com^
+@@||resource.realme.com^
+! 4. 钱包/支付/安全
+@@||wallet.realme.com^
+@@||pay.realme.com^
+@@||security.realme.com^
+@@||verify.realme.com^
+! 5. 日志/统计/推送
+@@||log.realme.com^
+@@||stat.realme.com^
+@@||push.realme.com^
+@@||msg.realme.com^
+! 6. OPPO 共享服务（realme 共用）
+@@||api.coloros.com^
+@@||api.oppo.com^
+@@||cloud.oppo.com^
+@@||store.oppo.com^
+@@||update.oppo.com^
+
 ! ========== Apple iOS 核心白名单（子域名级） ==========
 
 ! 账号/Apple ID/登录/认证
