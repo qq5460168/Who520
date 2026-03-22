@@ -30,7 +30,6 @@
 ||httpsdns.baidu.com^
 ||httpdns.bcelice.com^
 ||httpsdns.baidubce.com^
-||dns.iqiyi.com^
 ||doh.iqiyi.com^
 ||dns.qiyipic.iqiyi.com^
 ||httpdns.n.shifen.com^
