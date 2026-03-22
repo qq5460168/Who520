@@ -3,21 +3,8 @@
 
 #谷歌浏览器
 @@||res.openinstall.com^$important
-#王者荣耀小程序英雄头像
-@@||mmocgame.qpic.cn^$important
-#腾讯相关cdn
-@@||v.smtcdns.com^
 #MTAPP 更新
 @@||p3-flow-download-sign.byteimg.com^
-#微信公众号
-@@||vm.gtimg.cn^$important
-#抖音扫码登陆
-@@||open.douyin.com^$important
-#OPPO系统更新
-@@||h5fs.coloros.com^
-#oppo手机推送
-@@||spcsz.cdn.bcebos.com^
-@@||*.allawntech.com^
 #迅雷app
 @@|admin-oss-xlvip.a.88cdn.com^
 #芒果手机网页版
@@ -459,8 +446,6 @@
 @@||umiwi.com^
 #> xlivesex直播
 @@||xlivesex.com^
-#> 苹果
-@@||stats.gc.apple.com^
 #> 微软
 @@||click.linksynergy.com^
 #> > 大牌餐饮
@@ -501,8 +486,6 @@
 @@||apiwz.midukanshu.com^
 #路由器
 @@||router.ctc.lan^
-#苹果商店图片
-@@||is1-ssl.mzstatic.com^
 #三星手机商店
 @@||img.samsungapps.com^
 @@||img.galaxyappstore.com^
@@ -787,11 +770,191 @@
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
 
+! ========== Apple iOS 核心白名单（子域名级） ==========
+
+! 账号/Apple ID/登录/认证
+@@||appleid.apple.com^
+@@||idmsa.apple.com^
+@@||auth.icloud.com^
+@@||setup.icloud.com^
+! 系统更新/OTA/固件/安装包
+@@||updates.cdn-apple.com^
+@@||swcdn.apple.com^
+@@||appldnld.apple.com^
+@@||mesu.apple.com^
+@@||gdmf.apple.com^
+! App Store / iTunes / 应用下载
+@@||apps.apple.com^
+@@||itunes.apple.com^
+@@||p47-buy.itunes.apple.com^
+@@||buy.itunes.apple.com^
+@@||init.itunes.apple.com^
+@@||phobos.apple.com^
+! iCloud 云服务/同步/备份/照片/文件
+@@||www.icloud.com^
+@@||api.icloud.com^
+@@||p01-ckdatabase.icloud.com^
+@@||p01-ckdatabasews.icloud.com^
+@@||p01-content.icloud.com^
+@@||p01-fmip.icloud.com^
+@@||p01-keyvalueservice.icloud.com^
+@@||p01-mds.icloud.com^
+@@||p01-ubiquity.icloud.com^
+@@||p01-upload.icloud.com^
+@@||photos.icloud.com^
+@@||files.icloud.com^
+@@||mail.icloud.com^
+@@||calendars.icloud.com^
+@@||contacts.icloud.com^
+@@||reminders.icloud.com^
+@@||notes.icloud.com^
+! 推送通知/APNs/消息
+@@||api.push.apple.com^
+@@||api.sandbox.push.apple.com^
+@@||courier.push.apple.com^
+! 定位/查找/Find My
+@@||fmip.icloud.com^
+@@||gs-loc.apple.com^
+@@||gs.apple.com^
+@@||lcdn-locator.apple.com^
+! 网络检测/热点/ captive portal
+@@||captive.apple.com^
+@@||www.appleiphonecell.com^
+@@||www.airport.us^
+@@||www.ibook.info^
+@@||www.itools.info^
+@@||www.thinkdifferent.us^
+! 系统服务/日志/诊断/安全
+@@||api.smoot.apple.com^
+@@||bag.itunes.apple.com^
+@@||gsp1.apple.com^
+@@||gsp55-apple-com.akamaized.net^
+@@||metrics.icloud.com^
+@@||metrics.apple.com^
+@@||xp.apple.com^
+@@||secrets.icloud.com^
+@@||ocsp.apple.com^
+@@||ocsp2.apple.com^
+@@||crl.apple.com^
+@@||crl3.apple.com^
+@@||crl4.apple.com^
+@@||crl.entrust.net^
+@@||crl.verisign.com^
+! CDN/资源/下载/流媒体
+@@||a1.mzstatic.com^
+@@||a2.mzstatic.com^
+@@||a3.mzstatic.com^
+@@||a4.mzstatic.com^
+@@||a5.mzstatic.com^
+@@||a6.mzstatic.com^
+@@||a7.mzstatic.com^
+@@||a8.mzstatic.com^
+@@||a9.mzstatic.com^
+@@||a10.mzstatic.com^
+@@||a11.mzstatic.com^
+@@||a12.mzstatic.com^
+@@||a13.mzstatic.com^
+@@||a14.mzstatic.com^
+@@||a15.mzstatic.com^
+@@||a16.mzstatic.com^
+@@||a17.mzstatic.com^
+@@||a18.mzstatic.com^
+@@||a19.mzstatic.com^
+@@||a20.mzstatic.com^
+@@||mvod.itunes.apple.com^
+@@||streaming.itunes.apple.com^
+! 其他系统服务
+@@||support.apple.com^
+@@||store.apple.com^
+@@||checkcoverage.apple.com^
+@@||register.apple.com^
+@@||securemetrics.apple.com^
+@@||amp-api-edge.apps.apple.com^
+@@||stats.gc.apple.com^
+#苹果商店图片
+@@||is1-ssl.mzstatic.com^
+
+
+
+! ========== 一加 / OPPO (ColorOS) 系统白名单（子域名级） ==========
+
+! 账号/登录/认证
+@@||account.oppo.com^
+@@||open.account.oppo.com^
+@@||id.heytap.com^
+@@||id.oneplus.com^
+! 应用商店/软件商店/游戏中心
+@@||appstore.heytap.com^
+@@||market.heytap.com^
+@@||game.heytap.com^
+@@||store.oppomobile.com^
+! 云服务/备份/同步
+@@||cloud.oppo.com^
+@@||cloud.heytap.com^
+@@||cloud.oneplus.com^
+@@||sync.oppo.com^
+@@||sync.heytap.com^
+! 系统更新/OTA/固件
+@@||update.coloros.com^
+@@||ota.coloros.com^
+@@||ota.oppo.com^
+@@||ota.oneplus.com^
+! 主题/壁纸/字体
+@@||theme.heytap.com^
+@@||theme.oppo.com^
+@@||wallpaper.heytap.com^
+! 钱包/支付/欢太
+@@||wallet.heytap.com^
+@@||pay.heytap.com^
+@@||pay.oppo.com^
+! 系统推送/消息/日志
+@@||push.heytap.com^
+@@||push.oppo.com^
+@@||log.heytap.com^
+@@||log.oppo.com^
+! 系统服务/定位/安全
+@@||api.coloros.com^
+@@||api.heytap.com^
+@@||api.oppo.com^
+@@||location.heytap.com^
+@@||sec.oppo.com^
+@@||sec.heytap.com^
+! CDN/资源/下载
+@@||cdn.heytap.com^
+@@||cdn.oppo.com^
+@@||download.oppo.com^
+@@||download.heytap.com^
+#OPPO系统更新
+@@||h5fs.coloros.com^
+#oppo手机推送
+@@||spcsz.cdn.bcebos.com^
+@@||*.allawntech.com^
+#OPPO 应用商店 主题 开屏广告
+@@||api-cn.store.heytapmobi.com^
+@@||api-cn.theme.heytapmobi.com^
+#OPPO开放平台
+@@||open.oppomobile.com^
+##OPPO商店登陆
+@@||client-uc.heytapmobi.com^
+@@||dragate.dc.oppomobile.com^
+@@||dragate-cn.dc.heytapmobi.com^
+!一点资讯
+@@||oppo.yidianzixun.com^
+@@||ib11.go2yd.com^
+#OPPO账号相关
+@@||u.oppomobile.com^
+#OPPO应用配置
+@@||appconf.heytapdownload.com^
+#oppo商城
+@@||msec.opposhop.cn^$important
+#HeyTap（欢太）
+@@||obus-cn.dc.heytapmobi.com^$important
+
+
 #电视相关
 ! ==============================
 ! 小米电视4A + 当贝市场 完整白名单
 ! ==============================
-
 ! 小米账号
 @@||account.xiaomi.com^
 @@||id.mi.com^
@@ -872,6 +1035,22 @@
 
 #↓ 百度系 ↓
 
+! 百度地图 Baidu Maps 核心白名单
+@@||api.map.baidu.com^
+@@||map.baidu.com^
+@@||its.map.baidu.com^
+@@||mapdata.map.baidu.com^
+@@||pics.map.baidu.com^
+@@||sv.map.baidu.com^
+@@||log.map.baidu.com^
+@@||lbs.map.baidu.com^
+@@||sdk.map.baidu.com^
+@@||bds.map.baidu.com^
+@@||mapjs.map.baidu.com^
+@@||mapv.baidu.com^
+@@||map.bdimg.com^
+@@||mapdata.bdimg.com^
+@@||ss.map.baidu.com^
 #影响贴吧表情
 #百度地图离线导航无法下载
 @@||boscdn.baidu.com^
@@ -1039,6 +1218,8 @@
 
 #微信系
 
+#微信公众号
+@@||vm.gtimg.cn^$important
 #微信图片
 @@||mmbiz.qpic.cn^
 #微信公众号视频
@@ -1094,6 +1275,10 @@
 
 #QQ系
 
+#王者荣耀小程序英雄头像
+@@||mmocgame.qpic.cn^$important
+#腾讯相关cdn
+@@||v.smtcdns.com^
 #欢乐麻将、欢乐斗地主登录。
 @@||qqlogin.huanleapp.huanle.qq.com^
 #误杀欢乐麻将不少道具图标和角色装扮
@@ -1561,6 +1746,8 @@
 
 # 抖音系
 
+#抖音扫码登陆
+@@||open.douyin.com^$important
 #PC版抖音封面
 @@||p9-pc-sign.douyinpic.com^
 #APP 评论区图片
@@ -2656,28 +2843,6 @@
 #服务支持
 @@||care.meizu.com^
 
-#OPPO 应用商店 主题 开屏广告
-@@||api-cn.store.heytapmobi.com^
-@@||api-cn.theme.heytapmobi.com^
-#OPPO开放平台
-@@||open.oppomobile.com^
-##OPPO商店登陆
-@@||client-uc.heytapmobi.com^
-@@||dragate.dc.oppomobile.com^
-@@||dragate-cn.dc.heytapmobi.com^
-!一点资讯
-@@||oppo.yidianzixun.com^
-@@||ib11.go2yd.com^
-#OPPO账号相关
-@@||u.oppomobile.com^
-#OPPO应用配置
-@@||appconf.heytapdownload.com^
-#oppo商城
-@@||msec.opposhop.cn^$important
-#HeyTap（欢太）
-@@||obus-cn.dc.heytapmobi.com^$important
-
-
 #皮皮虾/字节跳动
 @@||mon.snssdk.com^
 @@||mon.isnssdk.com^
@@ -2899,7 +3064,6 @@
 @@||ingest.sentry.io^
 @@||zm.sm-tc.cn^
 @@||ms.vipstatic.com^
-@@||amp-api-edge.apps.apple.com^
 @@||aweme.snssdk.com^
 @@||ggpht.com^
 @@||t.co^
