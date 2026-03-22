@@ -363,6 +363,15 @@
 @@||pbs.twimg.com^
 !华为账号登录
 @@||oauth-login-drcn.platform.dbankcloud.com^
+! 华为
+@@||appgallery.hicloud.com^
+@@||update.hicloud.com^
+@@||id1.cloud.huawei.com^
+@@||cloud.huawei.com^
+@@||drive.huawei.com^
+@@||dl.hicloud.com^
+@@||res.hicloud.com^
+@@||payment.hicloud.com^
 #华为网盘
 @@||api.cloud.huawei.com^
 #> 同盾
