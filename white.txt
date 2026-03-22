@@ -815,7 +815,6 @@
 @@||support.vivo.com^
 @@||zhan.vivo.com.cn^
 
-
 ! realme 真我手机 系统白名单（AdGuard Home 格式）
 
 ! 1. 系统基础/云服务/账号
@@ -1041,30 +1040,25 @@
 @@||account.xiaomi.com^
 @@||id.mi.com^
 @@||passport.xiaomi.com^
-
 ! 系统接口
 @@||api.tv.xiaomi.com^
 @@||mitv.api.miui.com^
 @@||config.tv.xiaomi.com^
-
 ! 系统更新
 @@||ota.tv.xiaomi.com^
 @@||update.tv.xiaomi.com^
 @@||upgrade.tv.xiaomi.com^
-
 ! 应用商店
 @@||pandora.xiaomi.com^
 @@||appstore.pandora.xiaomi.com^
 @@||cdn.pandora.xiaomi.com^
 @@||de.pandora.xiaomi.com^
-
 ! 投屏
 @@||hpplay.cn^
 @@||lebo.cn^
 @@||cast.mi.com^
 @@||miracast.mi.com^
 @@||dlna.mi.com^
-
 ! ==============================
 ! 当贝市场 全功能放行
 ! ==============================
@@ -1082,7 +1076,6 @@
 ! ==============================
 ! 酷喵APP（CIBN酷喵影视）白名单
 ! ==============================
-
 ! 登录/账号/会员
 @@||passport.youku.com^
 @@||account.youku.com^
@@ -1103,14 +1096,12 @@
 @@||pl-aliyun.youku.com^
 @@||pl-hw.youku.com^
 @@||pl-tx.youku.com^
-
 ! 接口/配置/升级
 @@||api.youku.com^
 @@||api.kumiao.com^
 @@||config.youku.com^
 @@||upgrade.youku.com^
 @@||stat.youku.com^
-
 ! 内容/牌照/播控
 @@||ott.cibntv.net^
 @@||cibntv.net^
