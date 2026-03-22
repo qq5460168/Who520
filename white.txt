@@ -779,6 +779,43 @@
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
 
+# vivo手机
+
+# vivo 云服务 & 账号
+@@||yun.vivo.com.cn^
+@@||i.vivo.com.cn^
+@@||findphone.vivo.com.cn^
+@@||account.vivo.com^
+@@||passport.vivo.com^
+# vivo 系统更新 / OTA
+@@||ota.vivo.com^
+@@||update.vivo.com^
+@@||upgrade.vivo.com^
+# vivo 推送 / 消息服务
+@@||push.vivo.com^
+@@||msg.vivo.com^
+@@||notification.vivo.com^
+# vivo 应用商店 / 游戏中心
+@@||appstore.vivo.com^
+@@||gamecenter.vivo.com^
+@@||store.vivo.com^
+# vivo 安全 / 验证 / 防病毒
+@@||security.vivo.com^
+@@||verify.vivo.com^
+@@||antivirus.vivo.com^
+# vivo 日志 / 统计 / 诊断
+@@||log.vivo.com^
+@@||stat.vivo.com^
+@@||diagnose.vivo.com^
+# vivo 其他常用子域名
+@@||api.vivo.com^
+@@||cdn.vivo.com^
+@@||data.vivo.com^
+@@||service.vivo.com^
+@@||support.vivo.com^
+@@||zhan.vivo.com.cn^
+
+
 ! ========== Apple iOS 核心白名单（子域名级） ==========
 
 ! 账号/Apple ID/登录/认证
@@ -3148,7 +3185,6 @@
 @@||s.ssl.qhres2.com^
 @@||s2.ssl.qhres2.com^
 @@||localads.chengzijianzhan.cn^
-@@||zhan.vivo.com.cn^
 @@||pic.iask.com.cn^
 @@||static.iask.cn^
 @@||s1.kskwai.com^
