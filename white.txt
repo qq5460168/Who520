@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/qq5460168/me
 
 #谷歌浏览器
-@@||res.openinstall.com^$important
+@@||res.openinstall.com^
 #MTAPP 更新
 @@||p3-flow-download-sign.byteimg.com^
 #迅雷app
@@ -38,9 +38,6 @@
 @@||m.jf.10010.com^
 #领跑抽奖
 @@||aisite.wejianzhan.com^
-#华为智慧生活
-@@||smarthome-drcn.dbankcdn.com^
-@@||metrics1-drcn.dt.dbankcloud.cn^
 #csdn
 @@||mall.csdn.net^
 #高德地图工具箱图标
@@ -128,8 +125,6 @@
 #雨课堂
 @@||www.yuketang.cn^
 @@||changjiang.yuketang.cn^
-#华为商店图标
-@@||appimg-drcn.dbankcdn.com^
 #清新云
 @@||ipv4dns.com^
 #拓竹3D打印相关服务
@@ -361,19 +356,6 @@
 # twitter
 @@||api.twitter.com^
 @@||pbs.twimg.com^
-!华为账号登录
-@@||oauth-login-drcn.platform.dbankcloud.com^
-! 华为
-@@||appgallery.hicloud.com^
-@@||update.hicloud.com^
-@@||id1.cloud.huawei.com^
-@@||cloud.huawei.com^
-@@||drive.huawei.com^
-@@||dl.hicloud.com^
-@@||res.hicloud.com^
-@@||payment.hicloud.com^
-#华为网盘
-@@||api.cloud.huawei.com^
 #> 同盾
 @@||fp.tongdun.net^
 @@||fraudmetrix.cn^
@@ -781,29 +763,43 @@
 
 !华为手机
 
-@@||cloud.huawei.com^$important
-@@||account.huawei.com^$important
-@@||pay.huawei.com^$important
-@@||user.huawei.com^$important
+@@||cloud.huawei.com^
+@@||account.huawei.com^
+@@||pay.huawei.com^
+@@||user.huawei.com^
 ! 华为应用市场/更新
-@@||appgallery.huawei.com^$important
-@@||update.hicloud.com^$important
-@@||dl.hicloud.com^$important
+@@||appgallery.huawei.com^
+@@||update.hicloud.com^
+@@||dl.hicloud.com^
 ! 华为运动健康/穿戴
-@@||health.huawei.com^$important
-@@||healthkit.huawei.com^$important
-@@||wear.huawei.com^$important
-@@||iot.huawei.com^$important
+@@||health.huawei.com^
+@@||healthkit.huawei.com^
+@@||wear.huawei.com^
+@@||iot.huawei.com^
 ! 华为视频/音乐/阅读
-@@||video.huawei.com^$important
-@@||music.huawei.com^$important
-@@||read.huawei.com^$important
+@@||video.huawei.com^
+@@||music.huawei.com^
+@@||read.huawei.com^
 ! 华为云空间/备份
-@@||drive.huawei.com^$important
-@@||backup.huawei.com^$important
+@@||drive.huawei.com^
+@@||backup.huawei.com^
 ! 华为浏览器/智慧助手
-@@||browser.huawei.com^$important
-@@||assistant.huawei.com^$important
+@@||browser.huawei.com^
+@@||assistant.huawei.com^
+#华为智慧生活
+@@||smarthome-drcn.dbankcdn.com^
+@@||metrics1-drcn.dt.dbankcloud.cn^
+#华为商店图标
+@@||appimg-drcn.dbankcdn.com^
+!华为账号登录
+@@||oauth-login-drcn.platform.dbankcloud.com^
+! 华为
+@@||appgallery.hicloud.com^
+@@||id1.cloud.huawei.com^
+@@||res.hicloud.com^
+@@||payment.hicloud.com^
+#华为网盘
+@@||api.cloud.huawei.com^
 
 # vivo手机
 
@@ -1053,9 +1049,9 @@
 #OPPO应用配置
 @@||appconf.heytapdownload.com^
 #oppo商城
-@@||msec.opposhop.cn^$important
+@@||msec.opposhop.cn^
 #HeyTap（欢太）
-@@||obus-cn.dc.heytapmobi.com^$important
+@@||obus-cn.dc.heytapmobi.com^
 
 
 #电视相关
@@ -1106,7 +1102,6 @@
 @@||passport.youku.com^
 @@||account.youku.com^
 @@||vip.youku.com^
-
 ! 视频播放/CDN/加速
 @@||vali-dns.cp31.ott.cibntv.net^
 @@||vali-dns.cp32.ott.cibntv.net^
@@ -1131,6 +1126,9 @@
 ! 内容/牌照/播控
 @@||ott.cibntv.net^
 @@||cibntv.net^
+#喵酷扫描登录
+@@||qr.cp31.ott.cibntv.net^
+@@||heyi-acs.cp31.ott.cibntv.net^
 
 #↓ 百度系 ↓
 
@@ -1311,14 +1309,41 @@
 @@||downpack.baidu.com^
 @@||gdown.baidu.com^
 @@||pkg.sinaimg.cn^
-#喵酷扫描登录
-@@||qr.cp31.ott.cibntv.net^
-@@||heyi-acs.cp31.ott.cibntv.net^
+# 视频播放/CDN/流媒体核心
+@@||v.youku.com^
+@@||player.youku.com^
+@@||vod.youku.com^
+@@||vodcdn.youku.com^
+@@||ykstatic.youku.com^
+# 账号/登录/会员/支付
+@@||passport.youku.com^
+@@||account.youku.com^
+@@||vip.youku.com^
+@@||pay.youku.com^
+@@||sky.vip.youku.com^
+# 应用接口/数据/统计
+@@||api.youku.com^
+@@||m.youku.com^
+@@||data.youku.com^
+@@||stat.youku.com^
+@@||log.youku.com^
+# 推送/消息/通知
+@@||push.youku.com^
+@@||msg.youku.com^
+@@||notify.youku.com^
+# 搜索/推荐/内容
+@@||s.youku.com^
+@@||search.youku.com^
+@@||recommend.youku.com^
+# 缓存/离线/下载
+@@||cache.youku.com^
+@@||dl.youku.com^
+@@||download.youku.com^
 
 #微信系
 
 #微信公众号
-@@||vm.gtimg.cn^$important
+@@||vm.gtimg.cn^
 #微信图片
 @@||mmbiz.qpic.cn^
 #微信公众号视频
@@ -1375,7 +1400,7 @@
 #QQ系
 
 #王者荣耀小程序英雄头像
-@@||mmocgame.qpic.cn^$important
+@@||mmocgame.qpic.cn^
 #腾讯相关cdn
 @@||v.smtcdns.com^
 #欢乐麻将、欢乐斗地主登录。
@@ -1806,12 +1831,12 @@
 #爱奇艺视频拖动进度条后无法播放
 @@||policy.video.iqiyi.com^
 #爱奇艺漫画
-@@||bud.iqiyi.com^$important
-@@||manhua.iqiyi.com^$important
+@@||bud.iqiyi.com^
+@@||manhua.iqiyi.com^
 #爱奇艺dns
-@@||dns.iqiyi.com^$important
+@@||dns.iqiyi.com^
 #爱奇艺小说
-@@||wenxue.iqiyi.com^$important
+@@||wenxue.iqiyi.com^
 #微信爱奇艺
 @@||static-s.iqiyi.com^
 @@||m.iqiyi.com^
@@ -1846,7 +1871,7 @@
 # 抖音系
 
 #抖音扫码登陆
-@@||open.douyin.com^$important
+@@||open.douyin.com^
 #PC版抖音封面
 @@||p9-pc-sign.douyinpic.com^
 #APP 评论区图片
@@ -3306,4 +3331,4 @@
 @@||www.hao123.com^
 @@||dns.adguard.com^
 @@||dns-family.adguard.com^
-@@||valuecommerce.com^$important
+@@||valuecommerce.com^
