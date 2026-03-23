@@ -68,7 +68,6 @@
 ||httpdns.bilivideo.com^
 ||dns.wechat.com^
 
-
 ##哔哩哔哩
 ||httpdns.bilivideo.com^
 ||dataflow.biliapi.com^
@@ -101,7 +100,6 @@
 ||jp.ad.gameley.com^
 ||bar2.dcloud.net.cn^
 ||lupic.cdn.bcebos.com^
-
 
 #贴吧弹窗
 ||arm.z74d.cn^
