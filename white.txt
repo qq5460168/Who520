@@ -1,6 +1,8 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#alampy
+@@||static.cloudflareinsights.com^$important
 #谷歌浏览器
 @@||res.openinstall.com^
 #MTAPP 更新
@@ -1053,6 +1055,79 @@
 #HeyTap（欢太）
 @@||obus-cn.dc.heytapmobi.com^
 
+#一加海外版
+
+# 一加海外基础域名
+@@||oxygenos.oneplus.net^
+@@||oxygenos.oneplus.com^
+@@||onepluscommunity.net^
+# 一加客服与售后域名
+@@||oneplus.helpshift.com^
+@@||oneplus.force.com^
+@@||oneplus.secure.force.com^
+# 一加CDN与存储
+@@||oneplus.blob.core.windows.net^
+@@||oneplus.azureedge.net^
+@@||oneplus.cdn.cloudflare.net^
+# 一加系统OTA更新
+@@||ota.oneplus.net^
+@@||update.oneplus.com^
+@@||update.oneplus.net^
+@@||fota.oneplus.com^
+@@||fota.oneplus.net^
+@@||download.oneplus.com^
+@@||download.oneplus.net^
+@@||oxygenos.ota.oneplus.com^
+@@||oxygenos.ota.oneplus.net^
+@@||oxygenos.update.oneplus.com^
+@@||oxygenos.update.oneplus.net^
+# 谷歌账号与应用商店
+@@||android.clients.google.com^
+@@||android.googleapis.com^
+@@||play.googleapis.com^
+@@||accounts.google.com^
+@@||oauth2.googleapis.com^
+# 谷歌Firebase与分析
+@@||firebase.googleapis.com^
+@@||firebaseio.com^
+@@||google-analytics.com^
+@@||googletagmanager.com^
+@@||doubleclick.net^
+@@||googleadservices.com^
+# 一加账号、云服务、同步、备份
+@@||account.oneplus.com^
+@@||account.oneplus.net^
+@@||cloud.oneplus.net^
+@@||sync.oneplus.com^
+@@||sync.oneplus.net^
+@@||backup.oneplus.com^
+@@||backup.oneplus.net^
+@@||oneplusid.oneplus.com^
+@@||oneplusid.oneplus.net^
+# 一加应用商店、主题、壁纸
+@@||store.oneplus.com^
+@@||store.oneplus.net^
+@@||app.oneplus.com^
+@@||app.oneplus.net^
+@@||market.oneplus.com^
+@@||market.oneplus.net^
+@@||games.oneplus.com^
+@@||games.oneplus.net^
+@@||theme.oneplus.com^
+@@||theme.oneplus.net^
+@@||wallpaper.oneplus.com^
+@@||wallpaper.oneplus.net^
+# 消息推送（FCM+一加推送）
+@@||push.oneplus.com^
+@@||push.oneplus.net^
+@@||notify.oneplus.com^
+@@||notify.oneplus.net^
+# 一加社区与技术支持
+@@||forums.oneplus.com^
+@@||community.oneplus.com^
+@@||support.oneplus.com^
+@@||help.oneplus.com^
+@@||service.oneplus.com^
 
 #电视相关
 ! ==============================
