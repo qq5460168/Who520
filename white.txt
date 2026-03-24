@@ -1089,10 +1089,8 @@
 @@||oauth2.googleapis.com^
 # 谷歌Firebase与分析
 @@||firebase.googleapis.com^
-@@||firebaseio.com^
 @@||google-analytics.com^
 @@||googletagmanager.com^
-@@||doubleclick.net^
 @@||googleadservices.com^
 # 一加账号、云服务、同步、备份
 @@||account.oneplus.com^
