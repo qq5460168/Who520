@@ -3329,7 +3329,6 @@ www.itdog.cn##.rounded-lg
 ##虎扑广告
 ||hermes-server.hupu.com^
 ||e-goblin.hupu.com^
-||unpkg.com^
 ||vod-license-m.volccdn.com^
 ||adash-emas.cn-hangzhou.aliyuncs.com^
 #七猫免费小说
