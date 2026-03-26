@@ -2,6 +2,8 @@
 ! Homepage: https://github.com/qq5460168/me
 
 #alampy
+@@||cloudflareinsights.com^$important
+@@||unpkg.com^$important
 @@||static.cloudflareinsights.com^$important
 #谷歌浏览器
 @@||res.openinstall.com^
