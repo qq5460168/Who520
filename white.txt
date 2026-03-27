@@ -1630,6 +1630,9 @@
 #腾讯充值
 @@||midas.gtimg.cn^
 @@||api.unipay.qq.com^
+#腾讯应用宝
+@@||cdn.yyb.gtimg.com^$important
+@@||cms.myapp.com^$important
 !腾讯视频图片资源
 @@||puui.qpic.cn^
 !腾讯网图片资源
@@ -1747,6 +1750,8 @@
 
 # 小米系
 
+#小米游戏中心
+@@||game.xiaomi.com^$important
 #小米预警中心-地震预警
 @@||srv.sec.miui.com^
 #米游社图标
