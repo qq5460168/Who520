@@ -1514,10 +1514,8 @@
 ||esmapi.dangbei.net^
 
 ##搜狗输入法
-||cdn.yyb.gtimg.com^
 ||ime-store-cdn.gtimg.com^
 ||indivi-cdn-v6.shouji.sogou.com^
-||cms.myapp.com^
 ||indivdict.gtimg.com^
 
 ##翡翠影视
@@ -1531,8 +1529,6 @@
 ||yun.hljk.wang^
 ||sta.hljk.wang^
 ||h.wymwyma.cn^
-
-
 
 !微软遥测
 ||wns.notify.windows.com.akadns.net^
