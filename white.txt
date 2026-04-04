@@ -2,12 +2,12 @@
 ! Homepage: https://github.com/qq5460168/me
 
 #稀土掘金
-@@||juejin.cn^$important
+@@||juejin.cn^
 @@||www.juejin.cn^
 #alampy
-@@||cloudflareinsights.com^$important
-@@||unpkg.com^$important
-@@||static.cloudflareinsights.com^$important
+@@||cloudflareinsights.com^
+@@||unpkg.com^
+@@||static.cloudflareinsights.com^
 #谷歌浏览器
 @@||res.openinstall.com^
 #MTAPP 更新
@@ -756,6 +756,36 @@
 #移动端页面内容接口
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
+
+#豆包 APP
+
+# 豆包主域名与API
+@@||doubao-app.cn^
+@@||*.doubao-app.cn^
+@@||open.doubao.com^
+# 豆包核心服务（对话/AI/搜索/智能体）
+@@||api.doubao.com^
+@@||gw.doubao.com^
+@@||chat.doubao.com^
+@@||ai.doubao.com^
+@@||agent.doubao.com^
+@@||search.doubao.com^
+# 日志/统计/推送/风控（必加，否则闪退/异常）
+@@||log.doubao.com^
+@@||track.doubao.com^
+@@||report.doubao.com^
+@@||push.doubao.com^
+@@||security.doubao.com^
+@@||risk.doubao.com^
+# 登录/账号/认证/支付
+@@||sso.doubao.com^
+@@||login.doubao.com^
+@@||passport.doubao.com^
+@@||pay.doubao.com^
+# 图片/资源/静态
+@@||static.doubao.com^
+@@||img.doubao.com^
+@@||cdn.doubao.com^
 
 #淘宝闪购
 
@@ -1511,6 +1541,8 @@
 
 #QQ系
 
+#QQ秀
+@@||images.qqshow.gtimg.com^
 #王者荣耀小程序英雄头像
 @@||mmocgame.qpic.cn^
 #腾讯相关cdn
@@ -1665,8 +1697,8 @@
 @@||midas.gtimg.cn^
 @@||api.unipay.qq.com^
 #腾讯应用宝
-@@||cdn.yyb.gtimg.com^$important
-@@||cms.myapp.com^$important
+@@||cdn.yyb.gtimg.com^
+@@||cms.myapp.com^
 !腾讯视频图片资源
 @@||puui.qpic.cn^
 !腾讯网图片资源
@@ -1785,7 +1817,7 @@
 # 小米系
 
 #小米游戏中心
-@@||game.xiaomi.com^$important
+@@||game.xiaomi.com^
 #小米预警中心-地震预警
 @@||srv.sec.miui.com^
 #米游社图标
