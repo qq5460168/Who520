@@ -794,6 +794,25 @@
 @@||update.doubao.com^
 @@||desktop.doubao.com^
 
+# 豆包输入法 专用白名单
+@@||ime-igw.doubao.com^
+@@||ime-api.doubao.com^
+@@||ime-hot.doubao.com^
+@@||ime-syn.doubao.com^
+@@||ime-conf.doubao.com^
+@@||ime-log.doubao.com^
+@@||ime-stat.doubao.com^
+# 输入法云输入、语音、表情、资源
+@@||cloud-ime.doubao.com^
+@@||asr-ime.doubao.com^
+@@||tts-ime.doubao.com^
+@@||emoji-ime.doubao.com^
+@@||sticker-ime.doubao.com^
+@@||dict-ime.doubao.com^
+# 输入法静态资源 & CDN
+@@||static-ime.doubao.com^
+@@||cdn-ime.doubao.com^
+
 #淘宝闪购
 
 # 闪购/小时达/即时零售核心域名
