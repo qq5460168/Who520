@@ -2157,7 +2157,6 @@
 @@||g.shumafen.cn^
 @@||h5.m.taobao.com^
 @@||ip.taobao.com^
-@@||*.alipay.com^
 @@||click.simba.taobao.com^
 !阿里云盘登录需要
 @@||acs.m.taobao.com^
