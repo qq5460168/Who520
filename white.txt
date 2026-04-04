@@ -757,35 +757,42 @@
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
 
-#豆包 APP
+#豆包
 
-# 豆包主域名与API
-@@||doubao-app.cn^
-@@||*.doubao-app.cn^
-@@||open.doubao.com^
-# 豆包核心服务（对话/AI/搜索/智能体）
+# 核心接口
 @@||api.doubao.com^
 @@||gw.doubao.com^
 @@||chat.doubao.com^
-@@||ai.doubao.com^
 @@||agent.doubao.com^
 @@||search.doubao.com^
-# 日志/统计/推送/风控（必加，否则闪退/异常）
+@@||openapi.doubao.com^
+@@||ai.doubao.com^
+# 文件、画图、多媒体
+@@||file.doubao.com^
+@@||doc.doubao.com^
+@@||draw.doubao.com^
+@@||art.doubao.com^
+@@||media.doubao.com^
+# 静态资源、图片、CDN
+@@||static.doubao.com^
+@@||img.doubao.com^
+@@||cdn.doubao.com^
+# 登录、账号、认证
+@@||sso.doubao.com^
+@@||login.doubao.com^
+@@||passport.doubao.com^
+@@||account.doubao.com^
+# 日志、统计、安全、推送
 @@||log.doubao.com^
 @@||track.doubao.com^
 @@||report.doubao.com^
 @@||push.doubao.com^
 @@||security.doubao.com^
 @@||risk.doubao.com^
-# 登录/账号/认证/支付
-@@||sso.doubao.com^
-@@||login.doubao.com^
-@@||passport.doubao.com^
-@@||pay.doubao.com^
-# 图片/资源/静态
-@@||static.doubao.com^
-@@||img.doubao.com^
-@@||cdn.doubao.com^
+# 客户端下载、更新
+@@||download.doubao.com^
+@@||update.doubao.com^
+@@||desktop.doubao.com^
 
 #淘宝闪购
 
