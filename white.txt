@@ -1332,6 +1332,7 @@
 #百度支付接口
 @@||www.dxmpay.com^
 #百度相关
+@@||passport.baidu.com^
 @@||himg.bdimg.com^
 @@||hectorstatic.baidu.com^
 @@||mbdp02.bdstatic.com^
