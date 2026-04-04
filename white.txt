@@ -368,10 +368,6 @@
 @@||fino.svc.litv.tv^
 !携程移动端主页
 @@||m.ctrip.com^
-#> 饿了么
-@@||inr-op.elemecdn.com^
-@@||ipassport.ele.me^
-@@||sp.ele.me^
 #天翼账号本机号码免注册一键登录
 @@||id6.me^
 #> 建设银行
@@ -500,10 +496,6 @@
 @@||www.tudou.com^
 #A站点赞
 @@||api.kuaishouzt.com^
-#饿了么小程序
-@@||waimai-guide.ele.me^
-#饿了么登录
-@@||ipassport.ele.me^
 #滴滴顺风车
 @@||dorado.xiaojukeji.com^
 #极弧
@@ -764,6 +756,48 @@
 #移动端页面内容接口
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
+
+#淘宝闪购
+
+# 闪购/小时达/即时零售核心域名
+@@||flash.taobao.com^
+@@||market.taobao.com^
+@@||markets.taobao.com^
+@@||xiaoshida.taobao.com^
+@@||retail.taobao.com^
+# 淘宝统计/推送/风控
+@@||log.taobao.com^
+@@||track.taobao.com^
+@@||push.taobao.com^
+@@||security.taobao.com^
+@@||risk.taobao.com^
+# 饿了么统计/推送/风控（必加，否则APP异常）
+@@||log.ele.me^
+@@||track.ele.me^
+@@||report.ele.me^
+@@||push.ele.me^
+@@||mcs.ele.me^
+@@||ut.ele.me^
+@@||alilog.ele.me^
+# 支付/认证
+@@||pay.ele.me^
+@@||cashier.ele.me^
+@@||sso.ele.me^
+# 商家/配送/地图
+@@||merchant.ele.me^
+@@||waimai.ele.me^
+@@||map.ele.me^
+@@||loc.ele.me^
+@@||dispatch.ele.me^
+#其他相关
+#> 饿了么
+@@||inr-op.elemecdn.com^
+@@||ipassport.ele.me^
+@@||sp.ele.me^
+#饿了么小程序
+@@||waimai-guide.ele.me^
+#饿了么登录
+@@||ipassport.ele.me^
 
 !华为手机
 
