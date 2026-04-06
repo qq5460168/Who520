@@ -1398,7 +1398,6 @@
 ||browserkernel.baidu.com^
 ||mshield.baidu.com^
 ||hmma.baidu.com^
-||hm.baidu.com^
 ||eclick.baidu.com^
 ||em.baidu.com^
 ||dup.baidustatic.com^
