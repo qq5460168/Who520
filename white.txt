@@ -1,6 +1,8 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#Reddit
+@@||redditmedia.com^$important
 #稀土掘金
 @@||juejin.cn^
 @@||www.juejin.cn^
