@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/qq5460168/me
 
 #Reddit
-@@||redditmedia.com^$important
+@@||redditmedia.com^
 #稀土掘金
 @@||juejin.cn^
 @@||www.juejin.cn^
@@ -502,12 +502,6 @@
 @@||dorado.xiaojukeji.com^
 #极弧
 @@||about.gitlab.cn^
-#soul签到
-@@||increase-openapi.soulapp.cn^
-#soul支付
-@@||api-pay.soulapp.cn^
-#soul ai
-@@||api-chat.soulapp.cn^
 #脚本之家
 @@||img.jbzj.com^
 #西瓜视频图片
@@ -758,6 +752,53 @@
 #移动端页面内容接口
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
+
+#soul app
+
+# 消息、即时通讯、长连接
+@@||im.soulapp.cn^
+@@||im-*.soulapp.cn^
+@@||ws.soulapp.cn^
+@@||wss.soulapp.cn^
+@@||msg.soulapp.cn^
+# 推送、通知
+@@||push.soulapp.cn^
+@@||tpns.soulapp.cn^
+@@||jpush.soulapp.cn^
+# API、接口、登录
+@@||api.soulapp.cn^
+@@||api-*.soulapp.cn^
+@@||gateway.soulapp.cn^
+@@||passport.soulapp.cn^
+@@||login.soulapp.cn^
+# 内容、图片、视频、存储、CDN
+@@||cdn.soulapp.cn^
+@@||static.soulapp.cn^
+@@||media.soulapp.cn^
+@@||img.soulapp.cn^
+@@||video.soulapp.cn^
+@@||cos.soulapp.cn^
+@@||oss.soulapp.cn^
+# 音视频通话、RTC
+@@||rtc.soulapp.cn^
+@@||av.soulapp.cn^
+@@||voice.soulapp.cn^
+# 支付、充值、订单
+@@||pay.soulapp.cn^
+@@||payment.soulapp.cn^
+@@||trade.soulapp.cn^
+# 数据、统计、上报（保证功能正常）
+@@||data.soulapp.cn^
+@@||log.soulapp.cn^
+@@||report.soulapp.cn^
+@@||stat.soulapp.cn^
+@@||themis.soulapp.cn^
+#soul签到
+@@||increase-openapi.soulapp.cn^
+#soul支付
+@@||api-pay.soulapp.cn^
+#soul ai
+@@||api-chat.soulapp.cn^
 
 #豆包
 
