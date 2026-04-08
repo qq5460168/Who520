@@ -767,7 +767,6 @@
 @@||jpush.soulapp.cn^
 # API、接口、登录
 @@||api.soulapp.cn^
-@@||api-*.soulapp.cn^
 @@||gateway.soulapp.cn^
 @@||passport.soulapp.cn^
 @@||login.soulapp.cn^
