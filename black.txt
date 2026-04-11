@@ -1164,7 +1164,6 @@
 
 #京东
 ||bdsp.x.jd.com^
-||c.fa.jd.com^
 ||ccc.x.jd.com^
 ||jd-mail.co.uk^
 ||jd.btmeifeng.cn^
@@ -3382,7 +3381,6 @@ www.itdog.cn##.rounded-lg
 ||affiliates.minglematch.com^
 ||adasiatagmanager.appspot.com^
 ||69852b1734.com^
-||a8clk.www.jaf.or.jp^
 ||anian1.weebly.com^
 ||688mob.com^
 ||analytics.libertymutual.com.edgekey.net^
@@ -3454,7 +3452,6 @@ www.itdog.cn##.rounded-lg
 ||71360.com^
 ||onemob.mobi^
 ||emar.com^
-||dwz.cn^
 ||4pn.cn^
 ||4a9.cn^
 ||3p4.cn^
