@@ -3597,3 +3597,5 @@
 @@||dns.adguard.com^
 @@||dns-family.adguard.com^
 @@||valuecommerce.com^
+@@||dwz.cn^$important
+@@||c.fa.jd.com^$important
