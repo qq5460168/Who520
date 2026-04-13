@@ -985,6 +985,79 @@
 #华为网盘
 @@||api.cloud.huawei.com^
 
+! 荣耀生态 专用白名单（Honor / Hihonor / HiLink）
+! 适用于：荣耀手机、荣耀智慧空间、荣耀路由器、智能家居、系统更新、云服务
+@@||cloud.hihonor.com^$important
+@@||user.cloud.hihonor.com^$important
+@@||update.hihonor.com^$important
+@@||ota.hihonor.com^$important
+@@||api.hihonor.com^$important
+@@||data.hihonor.com^$important
+@@||res.hihonor.com^$important
+@@||img.hihonor.com^$important
+@@||log.hihonor.com^$important
+@@||report.hihonor.com^$important
+! 荣耀智慧空间 / HiLink 智能家居
+@@||hilink.huawei.com^$important
+@@||hilink.hihonor.com^$important
+@@||smart.hihonor.com^$important
+@@||iot.hihonor.com^$important
+@@||device.hihonor.com^$important
+@@||connect.hihonor.com^$important
+@@||discovery.hihonor.com^$important
+! 荣耀路由器 / 路由管理 / Mesh
+@@||router.hihonor.com^$important
+@@||wifi.hihonor.com^$important
+@@||mesh.hihonor.com^$important
+@@||nms.hihonor.com^$important
+@@||ac.hihonor.com^$important
+! 荣耀账号 / 登录 / 安全
+@@||account.hihonor.com^$important
+@@||id.hihonor.com^$important
+@@||auth.hihonor.com^$important
+@@||login.hihonor.com^$important
+@@||sso.hihonor.com^$important
+@@||verify.hihonor.com^$important
+! 荣耀云服务 / 备份 / 同步
+@@||drive.hihonor.com^$important
+@@||backup.hihonor.com^$important
+@@||sync.hihonor.com^$important
+@@||photos.hihonor.com^$important
+@@||contacts.hihonor.com^$important
+@@||notes.hihonor.com^$important
+! 荣耀应用市场 / 下载 / 推送
+@@||appgallery.hihonor.com^$important
+@@||app.hihonor.com^$important
+@@||dl.hihonor.com^$important
+@@||download.hihonor.com^$important
+@@||push.hihonor.com^$important
+@@||msg.hihonor.com^$important
+! 荣耀系统服务 / 时间 / 定位 / 网络检测
+@@||ntp.hihonor.com^$important
+@@||location.hihonor.com^$important
+@@||geoip.hihonor.com^$important
+@@||check.hihonor.com^$important
+@@||connectivity.hihonor.com^$important
+! 荣耀MagicOS 核心服务
+@@||magic.hihonor.com^$important
+@@||magicui.hihonor.com^$important
+@@||system.hihonor.com^$important
+@@||kernel.hihonor.com^$important
+! 荣耀 一碰传 / 多屏协同 / 分享
+@@||share.hihonor.com^$important
+@@||nfc.hihonor.com^$important
+@@||cast.hihonor.com^$important
+@@||mirror.hihonor.com^$important
+! 荣耀 智慧屏 / 电视 / 影音
+@@||tv.hihonor.com^$important
+@@||media.hihonor.com^$important
+@@||video.hihonor.com^$important
+@@||music.hihonor.com^$important
+! 兼容原华为HiLink（部分老设备仍使用）
+@@||hilink.huawei.com^$important
+@@||iot.huawei.com^$important
+@@||device.huawei.com^$important
+
 # vivo手机
 
 # vivo 云服务 & 账号
