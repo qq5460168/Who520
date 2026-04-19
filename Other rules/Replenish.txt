@@ -6053,7 +6053,6 @@ ip-cidr, 223.111.27.248/32^
 ||top.h.qhmsg.com^
 ||m.qhuik.com^
 ||hs.qhupdate.com^
-||res.qhupdate.com^
 ||s.qhupdate.com^
 ||p.qiailm.com^
 ||download.qianka.com^
