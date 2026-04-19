@@ -16,6 +16,9 @@
 @@||p3-flow-download-sign.byteimg.com^
 #迅雷app
 @@|admin-oss-xlvip.a.88cdn.com^
+#迅雷网页
+@@||res.qhmsg.com^
+@@||img-vip-ssl.a.88cdn.com^$important
 #芒果手机网页版
 @@||video.da.mgtv.com^
 @@||m2.da.mgtv.com^
