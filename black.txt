@@ -2825,9 +2825,6 @@ www.itdog.cn##.rounded-lg
 ||g.doubleclick.net^
 ||loggw.alipay.com.cn^
 ||dotserver.douyucdn.cn^
-#讯飞输入法
-||s*voicecloud.cn^
-||wcp.taobao.com^
 #拷贝漫画
 ||adx-data.yfanads.com^
 ||abe.ymmiyun.com^
