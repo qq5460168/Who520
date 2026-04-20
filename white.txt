@@ -788,9 +788,9 @@
 @@|admin-oss-xlvip.a.88cdn.com^
 #迅雷网页
 @@||res.qhmsg.com^
-@@||img-vip-ssl.a.88cdn.com^$important
+@@||img-vip-ssl.a.88cdn.com^
 #迅雷图标
-@@||xfile2.a.88cdn.com^$important
+@@||xfile2.a.88cdn.com^
 #迅雷下载
 @@||down.sandai.net^
 #> >迅雷
@@ -823,51 +823,51 @@
 #喜马拉雅app
 
 # 登录、账号、通行证
-@@||passport.ximalaya.com^$important
-@@||login.ximalaya.com^$important
-@@||uc.ximalaya.com^$important
+@@||passport.ximalaya.com^
+@@||login.ximalaya.com^
+@@||uc.ximalaya.com^
 # API、网关、业务接口
-@@||api.ximalaya.com^$important
-@@||gateway.ximalaya.com^$important
-@@||mobile.ximalaya.com^$important
-@@||m.ximalaya.com^$important
+@@||api.ximalaya.com^
+@@||gateway.ximalaya.com^
+@@||mobile.ximalaya.com^
+@@||m.ximalaya.com^
 # 播放、音频、直播、声音
-@@||audio.ximalaya.com^$important
-@@||live.ximalaya.com^$important
-@@||play.ximalaya.com^$important
-@@||vod.ximalaya.com^$important
-@@||fdfs.xmcdn.com^$important
-@@||audio.xmcdn.com^$important
-@@||vod.xmcdn.com^$important
+@@||audio.ximalaya.com^
+@@||live.ximalaya.com^
+@@||play.ximalaya.com^
+@@||vod.ximalaya.com^
+@@||fdfs.xmcdn.com^
+@@||audio.xmcdn.com^
+@@||vod.xmcdn.com^
 # 图片、静态资源、CDN
-@@||res.ximalaya.com^$important
-@@||static.ximalaya.com^$important
-@@||image.ximalaya.com^$important
-@@||img.xmcdn.com^$important
-@@||static.xmcdn.com^$important
-@@||res.xmcdn.com^$important
+@@||res.ximalaya.com^
+@@||static.ximalaya.com^
+@@||image.ximalaya.com^
+@@||img.xmcdn.com^
+@@||static.xmcdn.com^
+@@||res.xmcdn.com^
 # 消息、推送、长连接
-@@||im.ximalaya.com^$important
-@@||msg.ximalaya.com^$important
-@@||push.ximalaya.com^$important
-@@||ws.ximalaya.com^$important
-@@||wss.ximalaya.com^$important
+@@||im.ximalaya.com^
+@@||msg.ximalaya.com^
+@@||push.ximalaya.com^
+@@||ws.ximalaya.com^
+@@||wss.ximalaya.com^
 # 支付、会员、订单
-@@||pay.ximalaya.com^$important
-@@||payment.ximalaya.com^$important
-@@||vip.ximalaya.com^$important
-@@||buy.ximalaya.com^$important
-@@||trade.ximalaya.com^$important
+@@||pay.ximalaya.com^
+@@||payment.ximalaya.com^
+@@||vip.ximalaya.com^
+@@||buy.ximalaya.com^
+@@||trade.ximalaya.com^
 # 搜索、推荐、内容
-@@||search.ximalaya.com^$important
-@@||rec.ximalaya.com^$important
-@@||feed.ximalaya.com^$important
+@@||search.ximalaya.com^
+@@||rec.ximalaya.com^
+@@||feed.ximalaya.com^
 # 统计、日志、上报（功能必需）
-@@||data.ximalaya.com^$important
-@@||report.ximalaya.com^$important
-@@||stat.ximalaya.com^$important
-@@||analytics.ximalaya.com^$important
-@@||track.ximalaya.com^$important
+@@||data.ximalaya.com^
+@@||report.ximalaya.com^
+@@||stat.ximalaya.com^
+@@||analytics.ximalaya.com^
+@@||track.ximalaya.com^
 #喜马拉雅音频下载
 @@||audiopaydl.pcdn.xmcdn.com^
 
@@ -1056,76 +1056,76 @@
 
 ! 荣耀生态 专用白名单（Honor / Hihonor / HiLink）
 ! 适用于：荣耀手机、荣耀智慧空间、荣耀路由器、智能家居、系统更新、云服务
-@@||cloud.hihonor.com^$important
-@@||user.cloud.hihonor.com^$important
-@@||update.hihonor.com^$important
-@@||ota.hihonor.com^$important
-@@||api.hihonor.com^$important
-@@||data.hihonor.com^$important
-@@||res.hihonor.com^$important
-@@||img.hihonor.com^$important
-@@||log.hihonor.com^$important
-@@||report.hihonor.com^$important
+@@||cloud.hihonor.com^
+@@||user.cloud.hihonor.com^
+@@||update.hihonor.com^
+@@||ota.hihonor.com^
+@@||api.hihonor.com^
+@@||data.hihonor.com^
+@@||res.hihonor.com^
+@@||img.hihonor.com^
+@@||log.hihonor.com^
+@@||report.hihonor.com^
 ! 荣耀智慧空间 / HiLink 智能家居
-@@||hilink.huawei.com^$important
-@@||hilink.hihonor.com^$important
-@@||smart.hihonor.com^$important
-@@||iot.hihonor.com^$important
-@@||device.hihonor.com^$important
-@@||connect.hihonor.com^$important
-@@||discovery.hihonor.com^$important
+@@||hilink.huawei.com^
+@@||hilink.hihonor.com^
+@@||smart.hihonor.com^
+@@||iot.hihonor.com^
+@@||device.hihonor.com^
+@@||connect.hihonor.com^
+@@||discovery.hihonor.com^
 ! 荣耀路由器 / 路由管理 / Mesh
-@@||router.hihonor.com^$important
-@@||wifi.hihonor.com^$important
-@@||mesh.hihonor.com^$important
-@@||nms.hihonor.com^$important
-@@||ac.hihonor.com^$important
+@@||router.hihonor.com^
+@@||wifi.hihonor.com^
+@@||mesh.hihonor.com^
+@@||nms.hihonor.com^
+@@||ac.hihonor.com^
 ! 荣耀账号 / 登录 / 安全
-@@||account.hihonor.com^$important
-@@||id.hihonor.com^$important
-@@||auth.hihonor.com^$important
-@@||login.hihonor.com^$important
-@@||sso.hihonor.com^$important
-@@||verify.hihonor.com^$important
+@@||account.hihonor.com^
+@@||id.hihonor.com^
+@@||auth.hihonor.com^
+@@||login.hihonor.com^
+@@||sso.hihonor.com^
+@@||verify.hihonor.com^
 ! 荣耀云服务 / 备份 / 同步
-@@||drive.hihonor.com^$important
-@@||backup.hihonor.com^$important
-@@||sync.hihonor.com^$important
-@@||photos.hihonor.com^$important
-@@||contacts.hihonor.com^$important
-@@||notes.hihonor.com^$important
+@@||drive.hihonor.com^
+@@||backup.hihonor.com^
+@@||sync.hihonor.com^
+@@||photos.hihonor.com^
+@@||contacts.hihonor.com^
+@@||notes.hihonor.com^
 ! 荣耀应用市场 / 下载 / 推送
-@@||appgallery.hihonor.com^$important
-@@||app.hihonor.com^$important
-@@||dl.hihonor.com^$important
-@@||download.hihonor.com^$important
-@@||push.hihonor.com^$important
-@@||msg.hihonor.com^$important
+@@||appgallery.hihonor.com^
+@@||app.hihonor.com^
+@@||dl.hihonor.com^
+@@||download.hihonor.com^
+@@||push.hihonor.com^
+@@||msg.hihonor.com^
 ! 荣耀系统服务 / 时间 / 定位 / 网络检测
-@@||ntp.hihonor.com^$important
-@@||location.hihonor.com^$important
-@@||geoip.hihonor.com^$important
-@@||check.hihonor.com^$important
-@@||connectivity.hihonor.com^$important
+@@||ntp.hihonor.com^
+@@||location.hihonor.com^
+@@||geoip.hihonor.com^
+@@||check.hihonor.com^
+@@||connectivity.hihonor.com^
 ! 荣耀MagicOS 核心服务
-@@||magic.hihonor.com^$important
-@@||magicui.hihonor.com^$important
-@@||system.hihonor.com^$important
-@@||kernel.hihonor.com^$important
+@@||magic.hihonor.com^
+@@||magicui.hihonor.com^
+@@||system.hihonor.com^
+@@||kernel.hihonor.com^
 ! 荣耀 一碰传 / 多屏协同 / 分享
-@@||share.hihonor.com^$important
-@@||nfc.hihonor.com^$important
-@@||cast.hihonor.com^$important
-@@||mirror.hihonor.com^$important
+@@||share.hihonor.com^
+@@||nfc.hihonor.com^
+@@||cast.hihonor.com^
+@@||mirror.hihonor.com^
 ! 荣耀 智慧屏 / 电视 / 影音
-@@||tv.hihonor.com^$important
-@@||media.hihonor.com^$important
-@@||video.hihonor.com^$important
-@@||music.hihonor.com^$important
+@@||tv.hihonor.com^
+@@||media.hihonor.com^
+@@||video.hihonor.com^
+@@||music.hihonor.com^
 ! 兼容原华为HiLink（部分老设备仍使用）
-@@||hilink.huawei.com^$important
-@@||iot.huawei.com^$important
-@@||device.huawei.com^$important
+@@||hilink.huawei.com^
+@@||iot.huawei.com^
+@@||device.huawei.com^
 
 # vivo手机
 
@@ -3739,5 +3739,5 @@
 @@||dns.adguard.com^
 @@||dns-family.adguard.com^
 @@||valuecommerce.com^
-@@||dwz.cn^$important
-@@||c.fa.jd.com^$important
+@@||dwz.cn^
+@@||c.fa.jd.com^
