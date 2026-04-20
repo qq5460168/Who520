@@ -765,13 +765,17 @@
 
 ! 讯飞输入法 - 核心功能（语音/手写/云词库）
 
+@@||topic.openspeech.cn^$important
+@@||imeclient.openspeech.cn^$important
 @@||srf.xunfei.cn^
 ! 语音识别/合成服务
 ! 云同步/用户中心
 @@||account.xunfei.cn^
 ! 皮肤/资源/表情CDN
 @@||res.xunfei.cn^
+
 #喜马拉雅app
+
 # 登录、账号、通行证
 @@||passport.ximalaya.com^
 # API、网关、业务接口
@@ -789,9 +793,6 @@
 @@||img.xmcdn.com^
 @@||static.xmcdn.com^
 @@||res.xmcdn.com^
-# 消息、推送、长连接
-# 支付、会员、订单
-# 搜索、推荐、内容
 @@||search.ximalaya.com^
 # 统计、日志、上报（功能必需）
 @@||data.ximalaya.com^
@@ -2610,6 +2611,7 @@
 @@||drive.uc.cn^
 
 #中国移动
+
 @@||config.cmpassport.com^
 @@||www.cmpassport.com^
 @@||wap.cmpassport.com^
@@ -2638,7 +2640,9 @@
 # 放行联通手机营业厅功能页面与图片显示
 @@||img.client.10010.com^
 @@||m1.img.10010.com^
+
 #  京东
+
 @@||wq.jd.com^
 @@||gia.jd.com^
 @@||wl.jd.com^
@@ -2711,7 +2715,9 @@
 @@||jvod.300hu.com^
 #京喜
 @@||st.jingxi.com^
+
 #   美团
+
 #美团图片
 @@||p0.pipi.cn^
 #美团外卖
@@ -2768,6 +2774,7 @@
 @@||pubmsg.meituan.com^
 #猫眼
 @@||api-unionid.meituan.com^
+
 #360
 @@||h5.mse.360.cn^
 @@||jspassport.ssl.qhimg.com^
@@ -2852,6 +2859,7 @@
 @@||mall.360.cn^
 ##360扫地机
 @@||smart.360.cn^
+
 #系统判断联网
 !苹果
 @@||captive.apple.com^
@@ -2990,6 +2998,7 @@
 # 知乎
 @@||appcloud2.zhihu.com^
 @@||sugar.zhihu.com^
+
 #> 其他
 #今日头条≈断网
 @@||api.toutiaoapi.com^
