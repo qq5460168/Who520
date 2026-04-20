@@ -14,11 +14,6 @@
 @@||res.openinstall.com^
 #MTAPP 更新
 @@||p3-flow-download-sign.byteimg.com^
-#迅雷app
-@@|admin-oss-xlvip.a.88cdn.com^
-#迅雷网页
-@@||res.qhmsg.com^
-@@||img-vip-ssl.a.88cdn.com^$important
 #芒果手机网页版
 @@||video.da.mgtv.com^
 @@||m2.da.mgtv.com^
@@ -298,8 +293,6 @@
 @@||img.qidian.com^
 #起点游戏封面
 @@||gameimg.qidian.com^
-#迅雷下载
-@@||down.sandai.net^
 #4399小游戏
 @@||stat.api.4399.com^
 #大圣净化
@@ -387,10 +380,6 @@
 @@||pepsico.com.cn^
 #> 下载
 @@||duote.com^
-#> >迅雷
-@@||api-shoulei-ssl.xunlei.com^
-# 放行迅雷下载加速
-@@||hub5btmain.v6.shub.sandai.net^
 #> 查询
 @@||7x24s.com^
 @@||mac.bmcx.com^
@@ -795,6 +784,19 @@
 @@||play.xunlei.com^
 @@||video.xunlei.com^
 @@||v.xunlei.com^
+#迅雷app
+@@|admin-oss-xlvip.a.88cdn.com^
+#迅雷网页
+@@||res.qhmsg.com^
+@@||img-vip-ssl.a.88cdn.com^$important
+#迅雷图标
+@@||xfile2.a.88cdn.com^$important
+#迅雷下载
+@@||down.sandai.net^
+#> >迅雷
+@@||api-shoulei-ssl.xunlei.com^
+# 放行迅雷下载加速
+@@||hub5btmain.v6.shub.sandai.net^
 
 ! 讯飞输入法 - 核心功能（语音/手写/云词库）
 
