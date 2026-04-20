@@ -754,6 +754,28 @@
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
 
+! 讯飞输入法 - 核心功能（语音/手写/云词库）
+
+@@||srf.xunfei.cn^
+@@||ime.voicecloud.cn^
+! 语音识别/合成服务
+@@||rt.voicecloud.cn^
+@@||sdk.voicecloud.cn^
+@@||openapi.voicecloud.cn^
+@@||tns.voicecloud.cn^
+@@||asr.voicecloud.cn^
+@@||tts.voicecloud.cn^
+! 云同步/用户中心
+@@||user.xunfei.cn^
+@@||account.xunfei.cn^
+@@||passport.xunfei.cn^
+! 皮肤/资源/表情CDN
+@@||down.xunfei.cn^
+@@||dl.xunfei.cn^
+@@||cdn.xunfei.cn^
+@@||static.xunfei.cn^
+@@||res.xunfei.cn^
+
 #喜马拉雅app
 
 # 登录、账号、通行证
