@@ -110,7 +110,6 @@
 ##中国移动
 @@||qwhdcdn.cmcc-cs.cn^
 ##巴哈姆特動畫瘋
-@@||data.flurry.com^
 ##飞猪
 @@||cdn.ynuf.aliapp.org^
 ##酷安
@@ -171,7 +170,6 @@
 #adobe
 @@||na1r.services.adobe.com^
 @@||ereg.adobe.com^
-@@||lmlicenses.wip4.adobe.com^
 #新浪微博
 @@||sax.sina.com.cn^
 # NOMO APP
@@ -205,8 +203,6 @@
 #pornhub
 @@||ss.phncdn.com^
 @@||ei.phncdn.com^
-@@||dm1.phncdn.com^
-@@||di.phncdn.com^
 @@||cdn1d-static-shared.phncdn.com^
 @@||cdn1-smallimg.phncdn.com^
 @@||cn.pornhub.com^
@@ -375,7 +371,6 @@
 #> 百姓网
 @@||baixing.com^
 #> 新疆网上税务局
-@@||xj-n-tax.gov.cn^
 #> 百事公司大中华区
 @@||pepsico.com.cn^
 #> 下载
@@ -399,12 +394,6 @@
 @@||googleadservices.com^
 # 放行Google play商店应用下载接口
 @@||*.xn--ngstr-lra8j.com^
-# 放行Google登录界面布局
-#拦截后点击按钮无反应
-# 放行Google部分网页布局
-#Google搜索右上角头像菜单显示
-# 放行Google搜索移动端
-#网页提示登录时的Logo
 #搜索结果内容预览图片接口＆平台Logo加载
 @@||encrypted-tbn0.gstatic.com^
 @@||encrypted-tbn1.gstatic.com^
@@ -423,7 +412,6 @@
 #> 原神
 @@||log-upload.mihoyo.com^
 #> APP工具
-@@||ereg.wip3.adobe.com^
 @@||similarweb.com^
 #> 短剧
 @@||1sapp.com^
@@ -444,7 +432,6 @@
 @@||3d-platform-pro.obs.cn-south-1.myhuaweicloud.com^
 @@||ichnaea-web.netflix.com^
 #大师兄
-@@||sdk.alibaba.com.ailbaba.me^
 ##Omofun
 @@||pic2.zhimg.com^
 @@||lf6-imcloud-file-sign.bytetos.com^
@@ -470,7 +457,6 @@
 #> 米读小说
 @@||apiwz.midukanshu.com^
 #路由器
-@@||router.ctc.lan^
 #三星手机商店
 @@||img.samsungapps.com^
 @@||img.galaxyappstore.com^
@@ -561,7 +547,6 @@
 @@||act.zhuanzhuan.com^
 @@||app-api.pixiv.net^
 #测速网站
-@@||cdn.iocdn.cc^
 #今日诗词
 @@||v1.jinrishici.com^
 @@||v2.jinrishici.com^
@@ -585,7 +570,6 @@
 @@||pic*.40017.cn^
 # 放行TapTap
 #AD推荐的游戏介绍加载
-@@||static-tapad.tapdb.net^
 #游戏时间统计
 @@||report.taptapdada.com^
 # 放行小鸡词典官网加载
@@ -601,7 +585,6 @@
 @@||f.video.weibocdn.com^
 #酷安模块头条重要通知加载
 #316签名墙
-@@||316.coolapk1s.com^
 @@||api.coolapk1s.com^
 # 放行搜图引擎
 @@||saucenao.com^
@@ -749,39 +732,21 @@
 @@||login.xunlei.com^
 @@||my.xunlei.com^
 @@||user.xunlei.com^
-@@||passport.xunlei.com^
-@@||auth.xunlei.com^
 # 2. 下载加速 & P2P调度
 @@||hub.xunlei.com^
-@@||tracker.xunlei.com^
-@@||bt.m.xunlei.com^
-@@||p2p.xunlei.com^
-@@||node.xunlei.com^
-@@||scheduler.xunlei.com^
 @@||cdn.xunlei.com^
 @@||dl.xunlei.com^
 @@||download.xunlei.com^
 # 3. 离线下载 / 高速通道
 @@||lixian.xunlei.com^
-@@||tb.lixian.vip.xunlei.com^
 @@||vip.xunlei.com^
 @@||pay.xunlei.com^
-@@||payapi.xunlei.com^
 # 4. 迅雷云盘
 @@||pan.xunlei.com^
 @@||cloud.xunlei.com^
-@@||d.xunlei.com^
-@@||upload.xunlei.com^
-@@||api.pan.xunlei.com^
 # 5. 手机/PC客户端服务
-@@||sd.app.xunlei.com^
-@@||thunder.xunlei.com^
-@@||upgrade.xunlei.com^
-@@||update.xunlei.com^
 # 6. 看看/播放相关
 @@||kankan.xunlei.com^
-@@||xl.kankan.com^
-@@||play.xunlei.com^
 @@||video.xunlei.com^
 @@||v.xunlei.com^
 #迅雷app
@@ -801,73 +766,35 @@
 ! 讯飞输入法 - 核心功能（语音/手写/云词库）
 
 @@||srf.xunfei.cn^
-@@||ime.voicecloud.cn^
 ! 语音识别/合成服务
-@@||rt.voicecloud.cn^
-@@||sdk.voicecloud.cn^
-@@||openapi.voicecloud.cn^
-@@||tns.voicecloud.cn^
-@@||asr.voicecloud.cn^
-@@||tts.voicecloud.cn^
 ! 云同步/用户中心
-@@||user.xunfei.cn^
 @@||account.xunfei.cn^
-@@||passport.xunfei.cn^
 ! 皮肤/资源/表情CDN
-@@||down.xunfei.cn^
-@@||dl.xunfei.cn^
-@@||cdn.xunfei.cn^
-@@||static.xunfei.cn^
 @@||res.xunfei.cn^
-
 #喜马拉雅app
-
 # 登录、账号、通行证
 @@||passport.ximalaya.com^
-@@||login.ximalaya.com^
-@@||uc.ximalaya.com^
 # API、网关、业务接口
 @@||api.ximalaya.com^
-@@||gateway.ximalaya.com^
 @@||mobile.ximalaya.com^
 @@||m.ximalaya.com^
 # 播放、音频、直播、声音
 @@||audio.ximalaya.com^
 @@||live.ximalaya.com^
 @@||play.ximalaya.com^
-@@||vod.ximalaya.com^
 @@||fdfs.xmcdn.com^
 @@||audio.xmcdn.com^
 @@||vod.xmcdn.com^
 # 图片、静态资源、CDN
-@@||res.ximalaya.com^
-@@||static.ximalaya.com^
-@@||image.ximalaya.com^
 @@||img.xmcdn.com^
 @@||static.xmcdn.com^
 @@||res.xmcdn.com^
 # 消息、推送、长连接
-@@||im.ximalaya.com^
-@@||msg.ximalaya.com^
-@@||push.ximalaya.com^
-@@||ws.ximalaya.com^
-@@||wss.ximalaya.com^
 # 支付、会员、订单
-@@||pay.ximalaya.com^
-@@||payment.ximalaya.com^
-@@||vip.ximalaya.com^
-@@||buy.ximalaya.com^
-@@||trade.ximalaya.com^
 # 搜索、推荐、内容
 @@||search.ximalaya.com^
-@@||rec.ximalaya.com^
-@@||feed.ximalaya.com^
 # 统计、日志、上报（功能必需）
 @@||data.ximalaya.com^
-@@||report.ximalaya.com^
-@@||stat.ximalaya.com^
-@@||analytics.ximalaya.com^
-@@||track.ximalaya.com^
 #喜马拉雅音频下载
 @@||audiopaydl.pcdn.xmcdn.com^
 
@@ -876,38 +803,17 @@
 # 消息、即时通讯、长连接
 @@||im.soulapp.cn^
 @@||im-*.soulapp.cn^
-@@||ws.soulapp.cn^
-@@||wss.soulapp.cn^
-@@||msg.soulapp.cn^
 # 推送、通知
-@@||push.soulapp.cn^
-@@||tpns.soulapp.cn^
-@@||jpush.soulapp.cn^
 # API、接口、登录
 @@||api.soulapp.cn^
-@@||gateway.soulapp.cn^
-@@||passport.soulapp.cn^
 @@||login.soulapp.cn^
 # 内容、图片、视频、存储、CDN
-@@||cdn.soulapp.cn^
-@@||static.soulapp.cn^
-@@||media.soulapp.cn^
 @@||img.soulapp.cn^
 @@||video.soulapp.cn^
-@@||cos.soulapp.cn^
-@@||oss.soulapp.cn^
 # 音视频通话、RTC
-@@||rtc.soulapp.cn^
-@@||av.soulapp.cn^
-@@||voice.soulapp.cn^
 # 支付、充值、订单
 @@||pay.soulapp.cn^
-@@||payment.soulapp.cn^
-@@||trade.soulapp.cn^
 # 数据、统计、上报（保证功能正常）
-@@||data.soulapp.cn^
-@@||report.soulapp.cn^
-@@||stat.soulapp.cn^
 @@||themis.soulapp.cn^
 #soul签到
 @@||increase-openapi.soulapp.cn^
@@ -919,58 +825,19 @@
 #豆包
 
 # 核心接口
-@@||api.doubao.com^
-@@||gw.doubao.com^
 @@||chat.doubao.com^
-@@||agent.doubao.com^
 @@||search.doubao.com^
-@@||openapi.doubao.com^
-@@||ai.doubao.com^
 # 文件、画图、多媒体
-@@||file.doubao.com^
 @@||doc.doubao.com^
-@@||draw.doubao.com^
-@@||art.doubao.com^
-@@||media.doubao.com^
 # 静态资源、图片、CDN
-@@||static.doubao.com^
-@@||img.doubao.com^
-@@||cdn.doubao.com^
 # 登录、账号、认证
-@@||sso.doubao.com^
-@@||login.doubao.com^
-@@||passport.doubao.com^
-@@||account.doubao.com^
 # 日志、统计、安全、推送
 @@||log.doubao.com^
-@@||track.doubao.com^
-@@||report.doubao.com^
-@@||push.doubao.com^
-@@||security.doubao.com^
-@@||risk.doubao.com^
 # 客户端下载、更新
-@@||download.doubao.com^
-@@||update.doubao.com^
-@@||desktop.doubao.com^
-
 # 豆包输入法 专用白名单
 @@||ime-igw.doubao.com^
-@@||ime-api.doubao.com^
-@@||ime-hot.doubao.com^
-@@||ime-syn.doubao.com^
-@@||ime-conf.doubao.com^
-@@||ime-log.doubao.com^
-@@||ime-stat.doubao.com^
 # 输入法云输入、语音、表情、资源
-@@||cloud-ime.doubao.com^
-@@||asr-ime.doubao.com^
-@@||tts-ime.doubao.com^
-@@||emoji-ime.doubao.com^
-@@||sticker-ime.doubao.com^
-@@||dict-ime.doubao.com^
-# 输入法静态资源 & CDN
-@@||static-ime.doubao.com^
-@@||cdn-ime.doubao.com^
+
 
 #淘宝闪购
 
@@ -982,31 +849,17 @@
 @@||retail.taobao.com^
 # 淘宝统计/推送/风控
 @@||log.taobao.com^
-@@||track.taobao.com^
-@@||push.taobao.com^
 @@||security.taobao.com^
 @@||risk.taobao.com^
 # 饿了么统计/推送/风控（必加，否则APP异常）
-@@||log.ele.me^
-@@||track.ele.me^
-@@||report.ele.me^
-@@||push.ele.me^
 @@||mcs.ele.me^
-@@||ut.ele.me^
-@@||alilog.ele.me^
 # 支付/认证
-@@||pay.ele.me^
 @@||cashier.ele.me^
 @@||sso.ele.me^
 # 商家/配送/地图
-@@||merchant.ele.me^
 @@||waimai.ele.me^
-@@||map.ele.me^
-@@||loc.ele.me^
-@@||dispatch.ele.me^
 #其他相关
 #> 饿了么
-@@||inr-op.elemecdn.com^
 @@||ipassport.ele.me^
 @@||sp.ele.me^
 #饿了么小程序
@@ -1017,28 +870,9 @@
 !华为手机
 
 @@||cloud.huawei.com^
-@@||account.huawei.com^
-@@||pay.huawei.com^
-@@||user.huawei.com^
 ! 华为应用市场/更新
 @@||appgallery.huawei.com^
 @@||update.hicloud.com^
-@@||dl.hicloud.com^
-! 华为运动健康/穿戴
-@@||health.huawei.com^
-@@||healthkit.huawei.com^
-@@||wear.huawei.com^
-@@||iot.huawei.com^
-! 华为视频/音乐/阅读
-@@||video.huawei.com^
-@@||music.huawei.com^
-@@||read.huawei.com^
-! 华为云空间/备份
-@@||drive.huawei.com^
-@@||backup.huawei.com^
-! 华为浏览器/智慧助手
-@@||browser.huawei.com^
-@@||assistant.huawei.com^
 #华为智慧生活
 @@||smarthome-drcn.dbankcdn.com^
 @@||metrics1-drcn.dt.dbankcloud.cn^
@@ -1047,91 +881,19 @@
 !华为账号登录
 @@||oauth-login-drcn.platform.dbankcloud.com^
 ! 华为
-@@||appgallery.hicloud.com^
 @@||id1.cloud.huawei.com^
-@@||res.hicloud.com^
-@@||payment.hicloud.com^
 #华为网盘
 @@||api.cloud.huawei.com^
-
 ! 荣耀生态 专用白名单（Honor / Hihonor / HiLink）
 ! 适用于：荣耀手机、荣耀智慧空间、荣耀路由器、智能家居、系统更新、云服务
 @@||cloud.hihonor.com^
-@@||user.cloud.hihonor.com^
-@@||update.hihonor.com^
-@@||ota.hihonor.com^
-@@||api.hihonor.com^
-@@||data.hihonor.com^
-@@||res.hihonor.com^
-@@||img.hihonor.com^
-@@||log.hihonor.com^
-@@||report.hihonor.com^
 ! 荣耀智慧空间 / HiLink 智能家居
 @@||hilink.huawei.com^
-@@||hilink.hihonor.com^
-@@||smart.hihonor.com^
-@@||iot.hihonor.com^
-@@||device.hihonor.com^
-@@||connect.hihonor.com^
-@@||discovery.hihonor.com^
-! 荣耀路由器 / 路由管理 / Mesh
-@@||router.hihonor.com^
-@@||wifi.hihonor.com^
-@@||mesh.hihonor.com^
-@@||nms.hihonor.com^
-@@||ac.hihonor.com^
-! 荣耀账号 / 登录 / 安全
-@@||account.hihonor.com^
-@@||id.hihonor.com^
-@@||auth.hihonor.com^
-@@||login.hihonor.com^
-@@||sso.hihonor.com^
-@@||verify.hihonor.com^
-! 荣耀云服务 / 备份 / 同步
-@@||drive.hihonor.com^
-@@||backup.hihonor.com^
-@@||sync.hihonor.com^
-@@||photos.hihonor.com^
-@@||contacts.hihonor.com^
-@@||notes.hihonor.com^
-! 荣耀应用市场 / 下载 / 推送
-@@||appgallery.hihonor.com^
-@@||app.hihonor.com^
-@@||dl.hihonor.com^
-@@||download.hihonor.com^
-@@||push.hihonor.com^
-@@||msg.hihonor.com^
-! 荣耀系统服务 / 时间 / 定位 / 网络检测
-@@||ntp.hihonor.com^
-@@||location.hihonor.com^
-@@||geoip.hihonor.com^
-@@||check.hihonor.com^
-@@||connectivity.hihonor.com^
-! 荣耀MagicOS 核心服务
-@@||magic.hihonor.com^
-@@||magicui.hihonor.com^
-@@||system.hihonor.com^
-@@||kernel.hihonor.com^
-! 荣耀 一碰传 / 多屏协同 / 分享
-@@||share.hihonor.com^
-@@||nfc.hihonor.com^
-@@||cast.hihonor.com^
-@@||mirror.hihonor.com^
-! 荣耀 智慧屏 / 电视 / 影音
-@@||tv.hihonor.com^
-@@||media.hihonor.com^
-@@||video.hihonor.com^
-@@||music.hihonor.com^
-! 兼容原华为HiLink（部分老设备仍使用）
-@@||hilink.huawei.com^
-@@||iot.huawei.com^
-@@||device.huawei.com^
 
 # vivo手机
 
 # vivo 云服务 & 账号
 @@||yun.vivo.com.cn^
-@@||i.vivo.com.cn^
 @@||findphone.vivo.com.cn^
 @@||account.vivo.com^
 @@||passport.vivo.com^
@@ -1169,42 +931,16 @@
 @@||api.realme.com^
 @@||cloud.realme.com^
 @@||account.realme.com^
-@@||auth.realme.com^
-@@||user.realme.com^
 @@||id.realme.com^
-! 2. 系统更新/OTA/固件
-@@||update.realme.com^
-@@||ota.realme.com^
-@@||rom.realme.com^
-@@||firmware.realme.com^
-! 3. 应用商店/主题/资源
-@@||store.realme.com^
-@@||theme.realme.com^
-@@||wallpaper.realme.com^
-@@||resource.realme.com^
-! 4. 钱包/支付/安全
-@@||wallet.realme.com^
-@@||pay.realme.com^
-@@||security.realme.com^
-@@||verify.realme.com^
-! 5. 日志/统计/推送
-@@||log.realme.com^
-@@||stat.realme.com^
-@@||push.realme.com^
-@@||msg.realme.com^
 ! 6. OPPO 共享服务（realme 共用）
-@@||api.coloros.com^
-@@||api.oppo.com^
 @@||cloud.oppo.com^
 @@||store.oppo.com^
-@@||update.oppo.com^
 
 ! ========== Apple iOS 核心白名单（子域名级） ==========
 
 ! 账号/Apple ID/登录/认证
 @@||appleid.apple.com^
 @@||idmsa.apple.com^
-@@||auth.icloud.com^
 @@||setup.icloud.com^
 ! 系统更新/OTA/固件/安装包
 @@||updates.cdn-apple.com^
@@ -1221,17 +957,13 @@
 @@||phobos.apple.com^
 ! iCloud 云服务/同步/备份/照片/文件
 @@||www.icloud.com^
-@@||api.icloud.com^
 @@||p01-ckdatabase.icloud.com^
 @@||p01-ckdatabasews.icloud.com^
 @@||p01-content.icloud.com^
 @@||p01-fmip.icloud.com^
 @@||p01-keyvalueservice.icloud.com^
-@@||p01-mds.icloud.com^
 @@||p01-ubiquity.icloud.com^
-@@||p01-upload.icloud.com^
 @@||photos.icloud.com^
-@@||files.icloud.com^
 @@||mail.icloud.com^
 @@||calendars.icloud.com^
 @@||contacts.icloud.com^
@@ -1257,11 +989,9 @@
 @@||api.smoot.apple.com^
 @@||bag.itunes.apple.com^
 @@||gsp1.apple.com^
-@@||gsp55-apple-com.akamaized.net^
 @@||metrics.icloud.com^
 @@||metrics.apple.com^
 @@||xp.apple.com^
-@@||secrets.icloud.com^
 @@||ocsp.apple.com^
 @@||ocsp2.apple.com^
 @@||crl.apple.com^
@@ -1278,20 +1008,7 @@
 @@||a6.mzstatic.com^
 @@||a7.mzstatic.com^
 @@||a8.mzstatic.com^
-@@||a9.mzstatic.com^
-@@||a10.mzstatic.com^
-@@||a11.mzstatic.com^
-@@||a12.mzstatic.com^
-@@||a13.mzstatic.com^
-@@||a14.mzstatic.com^
-@@||a15.mzstatic.com^
-@@||a16.mzstatic.com^
-@@||a17.mzstatic.com^
-@@||a18.mzstatic.com^
-@@||a19.mzstatic.com^
-@@||a20.mzstatic.com^
 @@||mvod.itunes.apple.com^
-@@||streaming.itunes.apple.com^
 ! 其他系统服务
 @@||support.apple.com^
 @@||store.apple.com^
@@ -1303,56 +1020,27 @@
 #苹果商店图片
 @@||is1-ssl.mzstatic.com^
 
-
-
 ! ========== 一加 / OPPO (ColorOS) 系统白名单（子域名级） ==========
 
 ! 账号/登录/认证
 @@||account.oppo.com^
-@@||open.account.oppo.com^
 @@||id.heytap.com^
 @@||id.oneplus.com^
 ! 应用商店/软件商店/游戏中心
-@@||appstore.heytap.com^
-@@||market.heytap.com^
 @@||game.heytap.com^
 @@||store.oppomobile.com^
 ! 云服务/备份/同步
 @@||cloud.oppo.com^
 @@||cloud.heytap.com^
 @@||cloud.oneplus.com^
-@@||sync.oppo.com^
-@@||sync.heytap.com^
 ! 系统更新/OTA/固件
-@@||update.coloros.com^
-@@||ota.coloros.com^
-@@||ota.oppo.com^
-@@||ota.oneplus.com^
 ! 主题/壁纸/字体
-@@||theme.heytap.com^
-@@||theme.oppo.com^
-@@||wallpaper.heytap.com^
 ! 钱包/支付/欢太
-@@||wallet.heytap.com^
 @@||pay.heytap.com^
-@@||pay.oppo.com^
 ! 系统推送/消息/日志
-@@||push.heytap.com^
 @@||push.oppo.com^
-@@||log.heytap.com^
-@@||log.oppo.com^
 ! 系统服务/定位/安全
-@@||api.coloros.com^
-@@||api.heytap.com^
-@@||api.oppo.com^
-@@||location.heytap.com^
-@@||sec.oppo.com^
-@@||sec.heytap.com^
 ! CDN/资源/下载
-@@||cdn.heytap.com^
-@@||cdn.oppo.com^
-@@||download.oppo.com^
-@@||download.heytap.com^
 #OPPO系统更新
 @@||h5fs.coloros.com^
 #oppo手机推送
@@ -1378,36 +1066,17 @@
 @@||msec.opposhop.cn^
 #HeyTap（欢太）
 @@||obus-cn.dc.heytapmobi.com^
-
 #一加海外版
-
 #一加相册插件
 @@||fourier-videoclip-eu.allawnos.com^
 @@||fourier-videoclip-in.allawnos.com^
 # 一加海外基础域名
-@@||oxygenos.oneplus.net^
 @@||oxygenos.oneplus.com^
-@@||onepluscommunity.net^
 # 一加客服与售后域名
 @@||oneplus.helpshift.com^
-@@||oneplus.force.com^
-@@||oneplus.secure.force.com^
 # 一加CDN与存储
-@@||oneplus.blob.core.windows.net^
-@@||oneplus.azureedge.net^
 @@||oneplus.cdn.cloudflare.net^
 # 一加系统OTA更新
-@@||ota.oneplus.net^
-@@||update.oneplus.com^
-@@||update.oneplus.net^
-@@||fota.oneplus.com^
-@@||fota.oneplus.net^
-@@||download.oneplus.com^
-@@||download.oneplus.net^
-@@||oxygenos.ota.oneplus.com^
-@@||oxygenos.ota.oneplus.net^
-@@||oxygenos.update.oneplus.com^
-@@||oxygenos.update.oneplus.net^
 # 谷歌账号与应用商店
 @@||android.clients.google.com^
 @@||android.googleapis.com^
@@ -1421,37 +1090,12 @@
 @@||googleadservices.com^
 # 一加账号、云服务、同步、备份
 @@||account.oneplus.com^
-@@||account.oneplus.net^
-@@||cloud.oneplus.net^
-@@||sync.oneplus.com^
-@@||sync.oneplus.net^
-@@||backup.oneplus.com^
-@@||backup.oneplus.net^
-@@||oneplusid.oneplus.com^
-@@||oneplusid.oneplus.net^
 # 一加应用商店、主题、壁纸
-@@||store.oneplus.com^
-@@||store.oneplus.net^
-@@||app.oneplus.com^
-@@||app.oneplus.net^
-@@||market.oneplus.com^
-@@||market.oneplus.net^
-@@||games.oneplus.com^
-@@||games.oneplus.net^
-@@||theme.oneplus.com^
-@@||theme.oneplus.net^
-@@||wallpaper.oneplus.com^
-@@||wallpaper.oneplus.net^
 # 消息推送（FCM+一加推送）
-@@||push.oneplus.com^
-@@||push.oneplus.net^
-@@||notify.oneplus.com^
-@@||notify.oneplus.net^
 # 一加社区与技术支持
 @@||forums.oneplus.com^
 @@||community.oneplus.com^
 @@||support.oneplus.com^
-@@||help.oneplus.com^
 @@||service.oneplus.com^
 
 #电视相关
@@ -1461,68 +1105,30 @@
 ! 小米账号
 @@||account.xiaomi.com^
 @@||id.mi.com^
-@@||passport.xiaomi.com^
-! 系统接口
-@@||api.tv.xiaomi.com^
-@@||mitv.api.miui.com^
-@@||config.tv.xiaomi.com^
-! 系统更新
-@@||ota.tv.xiaomi.com^
-@@||update.tv.xiaomi.com^
-@@||upgrade.tv.xiaomi.com^
 ! 应用商店
-@@||pandora.xiaomi.com^
 @@||appstore.pandora.xiaomi.com^
 @@||cdn.pandora.xiaomi.com^
 @@||de.pandora.xiaomi.com^
 ! 投屏
 @@||hpplay.cn^
 @@||lebo.cn^
-@@||cast.mi.com^
-@@||miracast.mi.com^
-@@||dlna.mi.com^
 ! ==============================
 ! 当贝市场 全功能放行
 ! ==============================
 @@||dangbei.com^
-@@||app.dangbei.com^
 @@||api.dangbei.com^
-@@||down.dangbei.com^
-@@||download.dangbei.com^
 @@||data.dangbei.com^
-@@||stat.dangbei.com^
-@@||config.dangbei.com^
-@@||upgrade.dangbei.com^
-@@||market.dangbei.com^
-
 ! ==============================
 ! 酷喵APP（CIBN酷喵影视）白名单
 ! ==============================
 ! 登录/账号/会员
-@@||passport.youku.com^
 @@||account.youku.com^
 @@||vip.youku.com^
 ! 视频播放/CDN/加速
 @@||vali-dns.cp31.ott.cibntv.net^
-@@||vali-dns.cp32.ott.cibntv.net^
-@@||vali-dns.cp33.ott.cibntv.net^
-@@||vali-dns.cp34.ott.cibntv.net^
-@@||vali-dns.cp35.ott.cibntv.net^
-@@||vali-dns.cp36.ott.cibntv.net^
-@@||vali-dns.cp37.ott.cibntv.net^
-@@||vali-dns.cp38.ott.cibntv.net^
-@@||vali-dns.cp39.ott.cibntv.net^
-@@||vali-dns.cp40.ott.cibntv.net^
 @@||pl-ali.youku.com^
-@@||pl-aliyun.youku.com^
-@@||pl-hw.youku.com^
-@@||pl-tx.youku.com^
 ! 接口/配置/升级
 @@||api.youku.com^
-@@||api.kumiao.com^
-@@||config.youku.com^
-@@||upgrade.youku.com^
-@@||stat.youku.com^
 ! 内容/牌照/播控
 @@||ott.cibntv.net^
 @@||cibntv.net^
@@ -1536,17 +1142,9 @@
 @@||api.map.baidu.com^
 @@||map.baidu.com^
 @@||its.map.baidu.com^
-@@||mapdata.map.baidu.com^
-@@||pics.map.baidu.com^
 @@||sv.map.baidu.com^
-@@||log.map.baidu.com^
-@@||lbs.map.baidu.com^
-@@||sdk.map.baidu.com^
-@@||bds.map.baidu.com^
-@@||mapjs.map.baidu.com^
 @@||mapv.baidu.com^
 @@||map.bdimg.com^
-@@||mapdata.bdimg.com^
 @@||ss.map.baidu.com^
 #影响贴吧表情
 #百度地图离线导航无法下载
@@ -1670,7 +1268,6 @@
 @@||f11.baidu.com^
 @@||f10.baidu.com^
 #↑ 百度系 ↑ 
-
 #快手系
 
 #快手图标
@@ -1690,12 +1287,10 @@
 ##快手
 @@||d*.static.yximgs.com^
 @@||d*-magic.static.yximgs.com^
-@@||bs-origin.pull.yximgs.com^
 @@||live*.static.yximgs.com^
 @@||*m.chenzhongtech.com^
 @@||js-gamezone.static.yximgs.com^
 @@||ali-gamezone.static.yximgs.com^
-
 #优酷系
 #优酷app 兑换vip
 @@||activity.youku.com^
@@ -1713,11 +1308,7 @@
 # 视频播放/CDN/流媒体核心
 @@||v.youku.com^
 @@||player.youku.com^
-@@||vod.youku.com^
-@@||vodcdn.youku.com^
-@@||ykstatic.youku.com^
 # 账号/登录/会员/支付
-@@||passport.youku.com^
 @@||account.youku.com^
 @@||vip.youku.com^
 @@||pay.youku.com^
@@ -1726,23 +1317,16 @@
 @@||api.youku.com^
 @@||m.youku.com^
 @@||data.youku.com^
-@@||stat.youku.com^
-@@||log.youku.com^
 # 推送/消息/通知
 @@||push.youku.com^
 @@||msg.youku.com^
-@@||notify.youku.com^
 # 搜索/推荐/内容
 @@||s.youku.com^
 @@||search.youku.com^
-@@||recommend.youku.com^
 # 缓存/离线/下载
-@@||cache.youku.com^
 @@||dl.youku.com^
 @@||download.youku.com^
-
 #微信系
-
 #微信公众号
 @@||vm.gtimg.cn^
 #微信图片
@@ -1790,7 +1374,6 @@
 #QQ微信小(程序)游戏
 @@||dir.minigame.qq.com^
 @@||game.html5.qq.com^
-@@||user1.game.qq.com^
 #微信广告政策
 @@||ads.privacy.qq.com^
 #QQ微信头像
@@ -1800,12 +1383,10 @@
 
 #QQ系
 
-#QQ秀
 @@||images.qqshow.gtimg.com^
 #王者荣耀小程序英雄头像
 @@||mmocgame.qpic.cn^
 #腾讯相关cdn
-@@||v.smtcdns.com^
 #欢乐麻将、欢乐斗地主登录。
 @@||qqlogin.huanleapp.huanle.qq.com^
 #误杀欢乐麻将不少道具图标和角色装扮
@@ -1855,7 +1436,6 @@
 #推荐歌曲图片加载
 @@||y.gtimg.cn^
 #应用宝模拟器登录接口
-@@||v.stream.qq.com^
 #腾讯健康系统
 @@||jiazhang.qq.com^
 #腾讯游戏协议
@@ -1868,7 +1448,6 @@
 @@||qzone-web-v2.cdn-go.cn^
 #QQ相关
 @@||soft.imtt.qq.com^
-@@||tcdn.qq.com^
 @@||info.zb.qq.com^
 @@||npm.cdn-go.cn^
 @@||pub.idqqimg.com^
@@ -2007,22 +1586,21 @@
 @@||img.ssl.msdk.qq.com^
 #> > 应用宝
 @@||sqdd.myapp.com^
+
 #QQ相关
+
 @@||pacaio.match.qq.com^
 @@||btrace.qq.com^
 @@||c.y.qq.com^
 @@||cdn.ark.qq.com^
 @@||cfg.imtt.qq.com^
-@@||cmshow.qq.com^
 @@||dd.myapp.com^
 @@||graph.qq.com^
 @@||im.qq.com^
 @@||imtt.dd.qq.com^
 @@||mail.qq.com^
-@@||pingfore.qq.com^
 @@||pingjs.qq.com^
 @@||pingtas.qq.com^
-@@||pingtcss.qq.com^
 @@||pp.myapp.com^
 @@||res.imtt.qq.com^
 @@||recmd.html5.qq.com^
@@ -2031,7 +1609,6 @@
 @@||guanjia.qq.com^
 @@||c.pc.qq.com^
 @@||sqimg.qq.com^
-@@||pinghot.qq.com^
 @@||debugtbs.qq.com^
 @@||3gimg.qq.com^
 @@||tdid.m.qq.com^
@@ -2039,8 +1616,6 @@
 @@||dnet.mb.qq.com^
 @@||map.qq.com^
 @@||qun.qzone.qq.com^
-@@||vdun.weibo.com^
-@@||soft.tbs.imtt.qq.com^
 @@||stat.y.qq.com^
 @@||tbs.imtt.qq.com^
 @@||vectorsdk.map.qq.com^
@@ -2085,7 +1660,6 @@
 @@||store.assistant.miui.com^
 @@||cdn-f1.assistant.miui.com^
 #小米商店
-@@||3746760377.qnqcdn.net^
 !小米隐私政策撤回同意
 @@||data.sec.miui.com^
 # 小米社区
@@ -2099,11 +1673,9 @@
 #MIUI浏览器关键词联想
 @@||activity.browser.intl.miui.com^
 @@||reader.browser.miui.com^
-
 ## 小米云服务备份
 @@||a0.app.xiaomi.com^
 @@||a0.app.xiaomi.com^
-@@||globalapi.ad.xiaomi.com^
 #小米矫正流量，
 @@||adv.sec.miui.com^
 @@||flash.sec.miui.com^
@@ -2124,7 +1696,6 @@
 #小米隐私收集
 @@||data.mistat.*xiaomi.com^
 @@||www.data.mistat.*xiaomi.com^
-@@||o.data.mistat.xiaomi.com^
 #小米主题设计师注册
 @@||market.xiaomi.com^
 #MIUI手机管家
@@ -2136,7 +1707,6 @@
 @@||register*mi.com^
 @@||resolver*mi.com^
 @@||app.chat.xiaomi.net^
-@@||abtest.mistat.xiaomi.com^
 @@||cn.register.xmpush.xiaomi.com^
 @@||idmb.register.xmpush.global.xiaomi.com^
 @@||ru.register.xmpush.global.xiaomi.com^
@@ -2146,13 +1716,10 @@
 @@||api.huangye.miui.com^
 #MIUI垃圾清理
 @@||flash.sec.intl.miui.com^
-@@||staging.flash.sec.miui.com^
 #小米文件下载
 @@||api.airpush.com^
-@@||file.xmpush.xiaomi.com^
 @@||api.airpush.com^
 @@||api-push.meizu.com^
-@@||file.xiaomi.com^
 @@||f4.market.xiaomi.com^
 #MIUI 流量中心
 @@||api.sec.intl.miui.com^
@@ -2162,7 +1729,6 @@
 @@||tracker.ai.xiaomi.com^
 #锁屏画报正常化
 @@||wallpaper.cdn.pandora.xiaomi.com^
-@@||package.wallpaper.cdn.pandora.xiaomi.com.lan^
 @@||w.pandora.xiaomi.com^
 #应用商店
 @@||sec-cdn.static.xiaomi.net^
@@ -2175,7 +1741,6 @@
 #主题商店
 @@||f*.market.xiaomi.com^
 @@||f*.market.mi-img.com^
-@@||market.mi-img.com^
 #小米其他
 @@||connect.intl.rom.miui.com^
 @@||global-search.browser.miui.com^
@@ -2206,11 +1771,9 @@
 @@||file.market.xiaomi.com^
 @@||nileapi.market.xiaomi.com^
 @@||cn.app.chat.xiaomi.net^
-@@||connect.rom.miui.com/generate_204^
 @@||m.video.xiaomi.com^
 @@||metok.sys.miui.com^
 @@||mibi.api.xiaomi.com^
-@@||migrate.driveapi.micloud.xiaomi.net^
 @@||pdc.micloud.xiaomi.net^
 @@||phonecallapi.micloud.xiaomi.net^
 @@||resolver.msg.xiaomi.net^
@@ -2222,7 +1785,6 @@
 @@||app-measurement.com^
 @@||exp.sug.browser.miui.com^
 @@||*.mi-img.com^
-@@||xzz.xiaomin.tech^
 @@||api.io.mi.com^
 @@||tracker.ai.xiaomi.com^
 @@||*.micloud.xiaomi.net^
@@ -2250,7 +1812,6 @@
 @@||m.iqiyi.com^
 #爱奇艺
 @@||cache.video.iqiyi.com^
-@@||abbott.iqiyi.com^
 @@||www.iqiyi.com^
 @@||t7z.cupid.iqiyi.com^
 @@||cmts.iqiyi.com^
@@ -2415,7 +1976,6 @@
 #淘宝授权
 @@||acs4baichuan.m.taobao.com^
 #淘宝活动
-@@||s.click.alimama.com^
 #淘宝菜鸟裹裹
 @@||appdownload.alicdn.com^
 ##菜鸟裹裹
@@ -2455,6 +2015,7 @@
 @@||img.alicdn.com^
 
 # 番茄系
+
 #网页排版
 @@||lf3-cdn-tos.bytescm.com^
 @@||lf3-short.bytegoofy.com^
@@ -2506,7 +2067,6 @@
 @@||tnc3-aliec2.snssdk.com^
 #番茄小说网页
 @@||fanqienovel.com^
-
 #懂车帝
 @@||p1-dcd.byteimg.com^
 @@||p3-dcd.byteimg.com^
@@ -2526,7 +2086,6 @@
 @@||p9-webcast-sign.douyinpic.com^
 #二手车详情界面加载
 @@||lf6-cdn2-tos.bytegoofy.com^
-
 ##豆包
 @@||lf-c-flwb.bytetos.com^
 @@||lf-cdn-tos.bytescm.com^
@@ -2543,6 +2102,7 @@
 @@||swimg1.hstdyf.com^
 
 # 放行小红书
+
 #官网
 @@||www.xiaohongshu.com^
 #小红书分享链接
@@ -2561,10 +2121,8 @@
 #网络诊断
 @@||edith.xiaohongshu.com^
 
-
 # 放行拼多多
-#官网
-@@||www.pinduoduo.com^
+
 #移动端官网
 @@||m.pinduoduo.com^
 @@||api.pinduoduo.com^
@@ -2605,6 +2163,7 @@
 @@||video2.pddpic.com^
 
 !google系
+
 @@||facebook.com^
 @@||m.youtube.com^
 @@||www.google.com^
@@ -2856,17 +2415,15 @@
 @@||wbapp.mobile.sina.cn^
 @@||*.img.mobile.sina.cn^
 @@||wx2.sinaimg.cn^
-
 # 酷狗
-
 #酷狗vip抽年卡
 @@||gateway.kugou.com^
 #> 酷狗音乐
 @@||mobilelog.kugou.com^
-
 #  哔哩哔哩
 
 #B站
+
 @@||cm.bilibili.com^
 @@||broadcastlv.chat.bilibili.com^
 @@||app.bilibili.com^
@@ -2992,6 +2549,7 @@
 @@||article.zlink.toutiao.com^
 
 ##夸克网盘
+
 @@||drive.quark.cn^
 ##夸克首页
 @@||myquark.cn^
@@ -3071,20 +2629,15 @@
 @@||pcvideoaliyun.titan.mgtv.com^
 #咪咕
 @@||aikanvod.miguvideo.com^
-
-
 #中国联通
 @@||opencloud.wostore.cn^
 @@||auth.wosms.cn^
-@@||id.mail.wo.cn^
-@@||mdn.open.wo.cn^
 @@||hmrz.wo.cn^
 @@||nishub1.10010.com^
 @@||enrichgw.10010.com^
 # 放行联通手机营业厅功能页面与图片显示
 @@||img.client.10010.com^
 @@||m1.img.10010.com^
-
 #  京东
 @@||wq.jd.com^
 @@||gia.jd.com^
@@ -3097,8 +2650,6 @@
 @@||me-api.jd.com^
 @@||ms.jr.jd.com^
 @@||active.jd.com^
-@@||m.jd.watbe.top^
-@@||m.jd.watbc.top^
 @@||orbit.jd.com^
 @@||wl.jd.com^
 @@||mapi.m.jd.com^
@@ -3160,9 +2711,7 @@
 @@||jvod.300hu.com^
 #京喜
 @@||st.jingxi.com^
-
 #   美团
-
 #美团图片
 @@||p0.pipi.cn^
 #美团外卖
@@ -3219,9 +2768,7 @@
 @@||pubmsg.meituan.com^
 #猫眼
 @@||api-unionid.meituan.com^
-
 #360
-
 @@||h5.mse.360.cn^
 @@||jspassport.ssl.qhimg.com^
 @@||qhres2.com^
@@ -3240,7 +2787,6 @@
 #360热点
 @@||www.360kuai.com^
 @@||360kuai.com^
-@@||img.360kuai.com^
 #360升级
 @@||update.360safe.com^
 @@||down.360safe.com^
@@ -3306,7 +2852,6 @@
 @@||mall.360.cn^
 ##360扫地机
 @@||smart.360.cn^
-
 #系统判断联网
 !苹果
 @@||captive.apple.com^
@@ -3316,7 +2861,6 @@
 @@||connectivitycheck.platform.hicloud.com^
 !vivo
 @@||wifi.vivo.com.cn^
-
 !海外
 @@||self.events.data.microsoft.com^
 @@||bing.com^
@@ -3356,7 +2900,6 @@
 @@||m.jiaoyimao.com^
 @@||jumpluna.58.com^
 @@||oss-asq-static.11222.cn^
-
 #魅族
 @@||aider.meizu.com^
 @@||www.meizu.com^
@@ -3373,7 +2916,6 @@
 @@||detail.meizu.com^
 #服务支持
 @@||care.meizu.com^
-
 #皮皮虾/字节跳动
 @@||mon.snssdk.com^
 @@||mon.isnssdk.com^
@@ -3384,7 +2926,6 @@
 @@||sf3-ttcdn-tos.pstatp.com^
 #页面布局＆图片加载
 @@||lf1-cdn-tos.bytescm.com^
-
 #放行一堆click
 @@||click-trk.com^
 @@||clickcease.com^
@@ -3421,13 +2962,11 @@
 @@||click.klarna.de^
 @@||click.chp.kohls.com^
 @@||click.s.kohls.com^
-@@||click.e.krogermail.com^
 @@||click.landsend.com^
 @@||click.e.lowes.com^
 @@||click.mail.macmillan.com^
 @@||click.microsoft*.com^
 @@||click.mlsend.com^
-@@||click.email.newegg.com^
 @@||click.members.nra.org^
 @@||clicks.pipaffiliates.com^
 @@||click.pstmrk.it^
@@ -3442,7 +2981,6 @@
 @@||clicks.trx-hub.com^
 @@||cdn.webclicks24.com^
 @@||click.zoom.us^
-
 !知乎评论
 @@||zhihu-web-analytics.zhihu.com/api/v2/za/payload-verification
 @@||mparticle.uc.cn^
@@ -3452,9 +2990,7 @@
 # 知乎
 @@||appcloud2.zhihu.com^
 @@||sugar.zhihu.com^
-
 #> 其他
-
 #今日头条≈断网
 @@||api.toutiaoapi.com^
 #kimi智能助手没网，然而放行一次之后再禁却没事
@@ -3493,8 +3029,6 @@
 @@||gae2-spclient.spotify.com^
 #【Reddit】无网络
 @@||gql-fed.reddit.com^
-
-@@||auditude.com^
 @@||bitsumactivationserver.com^
 @@||c.evidon.com^
 @@||clarins.com.cn^
@@ -3510,7 +3044,6 @@
 @@||knet.cn^
 @@||lc-cn-n1-shared.com^
 @@||livere.com^
-@@||profile.csdnimg.cn^
 @@||s0.2mdn.net^
 @@||statsig.com^
 @@||tagtic.cn^
@@ -3526,9 +3059,6 @@
 @@||000714.xyz^
 @@||blueskyxn.com^
 @@||openap-alps.51y5.net^
-@@||177j.wodenongtiacom^
-@@||177d.wodeshougoncom^
-@@||177h.wodeshougong.com^
 @@||rs.xmeye.net^
 @@||wwo.wps.cn^
 @@||www.123pan.com^
@@ -3563,8 +3093,6 @@
 @@||readstatic.zhulang.com^
 @@||wx.17u.cn^
 @@||hotel.17u.cn^
-@@||mcc1684939218000.lgecqrb.com^
-@@||mcc1684939331000.lgecqrb.com^
 @@||wb.amap.com^
 @@||lf9-mgsdk-sign.dailygn.com^
 @@||lf6-mgsdk-sign.dailygn.com^
@@ -3575,22 +3103,17 @@
 @@||wm.makeding.com^
 @@||cpv2.mairuan.com^
 @@||edge.activity.windows.com^
-@@||o.actio.systems^
-@@||studcat.infra.systems^
 @@||www.crossoverchina.com^
 @@||c.duomai.com^
 @@||browser.events.data.msn.com^
 @@||mediation.adnxs.com^
 @@||disneyplus.bn5x.net^
-@@||lf1-ttcdn-tos.pstatp.com^
 @@||mx.technolutions.net^
 @@||chrome-infra-packages.appspot.com^
-@@||cps.kaola.com^
 @@||s.click.tmall.com^
 @@||www1.appcleanermac.com^
 @@||widget.mibbit.com^
 @@||cros-updates-serving.appspot.com^
-@@||ptmi.gitv.tv^
 @@||puui.qpic.cn^
 @@||ingest.sentry.io^
 @@||zm.sm-tc.cn^
@@ -3598,7 +3121,6 @@
 @@||aweme.snssdk.com^
 @@||ggpht.com^
 @@||t.co^
-@@||scs.openspeech.cn^
 @@||www.ntdtv.com^
 @@||jump.luna.58.com^
 @@||games.mobileapi.hupu.com^
@@ -3635,8 +3157,6 @@
 @@||play.googleapis.com^
 @@||nsclick.baidu.com^
 @@||da.mmarket.com^
-@@||177e.wodenongtian.com^
-@@||177f.wodenongtian.com^
 @@||wodenongtian.com^
 @@||m.ykimg.com^
 @@||v2.get.sogou.com^
@@ -3662,7 +3182,6 @@
 @@||train.17u.cn^
 @@||s3.pstatp.com^
 @@||click.aliyun.com^
-@@||cn-cd-dx-2.natfrp.cloud^
 @@||alps.51y5.net^
 @@||analysis.chatglm.cn^
 @@||up.cm.ksmobile.com^
@@ -3688,7 +3207,6 @@
 @@||f.51240.com^
 @@||hosts-file.net^
 @@||kyaru-concat.now.sh^
-@@||lhl.zxcs.linghit.com^
 @@||yun.rili.cn^
 @@||counter-strike.net^
 @@||www.chemdraw.com.cn^
@@ -3696,21 +3214,18 @@
 @@||parked-content.godaddy.com^
 @@||ydstatic.com^
 @@||iteye.com^
-@@||ohssr.cn^
 @@||akamaized.net^
 @@||duckduckgo.com^
 @@||bmap6.cn^
 @@||api.ts.feedback.qy.net^
 @@||bonuscloud.io^
 @@||computemaster.bxcearth.com^
-@@||gcable.com.cn^
 @@||96956.com.cn^
 @@||uee.me^
 @@||www.kanjiantu.com^
 @@||analytics.yinxiang.com^
 @@||pic.mairuan.com^
 @@||quapp.shenbabao.com^
-@@||dataprajna.net^
 @@||cn.bing.com^
 @@||img.zuoyebang.cc^
 @@||mb.yidianzixun.com^
@@ -3722,8 +3237,6 @@
 @@||adnmb3.com^
 @@||cnnic.net.cn^
 @@||wappass.baidu.com^
-@@||dilidili.live^
-@@||dataprajna.net^
 @@||ip.rtbasia.com^
 @@||credit.heytap.com^
 @@||credit-cdn.heytap.com^
@@ -3732,7 +3245,6 @@
 @@||in.appcenter.ms^
 @@||io75a.ocloud.heytapmobi.com^
 @@||apd-pcdnwxstat.teg.tencent-cloud.net^
-@@||fcbox.cfcom^
 @@||hugelog.fcbox.com^
 @@||assets.giocdn.com^
 @@||www.hao123.com^
