@@ -754,6 +754,48 @@
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
 
+#迅雷
+
+# 1. 账号登录 & 用户中心
+@@||login.xunlei.com^
+@@||my.xunlei.com^
+@@||user.xunlei.com^
+@@||passport.xunlei.com^
+@@||auth.xunlei.com^
+# 2. 下载加速 & P2P调度
+@@||hub.xunlei.com^
+@@||tracker.xunlei.com^
+@@||bt.m.xunlei.com^
+@@||p2p.xunlei.com^
+@@||node.xunlei.com^
+@@||scheduler.xunlei.com^
+@@||cdn.xunlei.com^
+@@||dl.xunlei.com^
+@@||download.xunlei.com^
+# 3. 离线下载 / 高速通道
+@@||lixian.xunlei.com^
+@@||tb.lixian.vip.xunlei.com^
+@@||vip.xunlei.com^
+@@||pay.xunlei.com^
+@@||payapi.xunlei.com^
+# 4. 迅雷云盘
+@@||pan.xunlei.com^
+@@||cloud.xunlei.com^
+@@||d.xunlei.com^
+@@||upload.xunlei.com^
+@@||api.pan.xunlei.com^
+# 5. 手机/PC客户端服务
+@@||sd.app.xunlei.com^
+@@||thunder.xunlei.com^
+@@||upgrade.xunlei.com^
+@@||update.xunlei.com^
+# 6. 看看/播放相关
+@@||kankan.xunlei.com^
+@@||xl.kankan.com^
+@@||play.xunlei.com^
+@@||video.xunlei.com^
+@@||v.xunlei.com^
+
 ! 讯飞输入法 - 核心功能（语音/手写/云词库）
 
 @@||srf.xunfei.cn^
