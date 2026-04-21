@@ -1965,6 +1965,7 @@
 ||api2.coolapk.com/v6/main/init$replace=/{"id":1170.*?}\,/ /! 应用游戏页去除推广视频
 ||api2.coolapk.com/v6/page/dataList$replace=/{"entityType":"card"\,"entityTemplate":"apkImageCard".*?\\u0022}"}\,/ /! 去除首页还有什么值得买推广
 ||api2.coolapk.com/v6/main/indexV8$replace=/{"entityType":"card"\,"entityTemplate":"listCard".*?}"}\,/ /
+
 ##https://www.itdog.cn/
 www.itdog.cn##.lantern_right
 www.itdog.cn##.lantern_left
@@ -2001,6 +2002,7 @@ www.itdog.cn##.rounded-lg
 ||e.duomeng.org^
 ||guomob.com^
 ||ads.static.madserving.com^
+
 #Tracking
 ||line1-log.biligame.net^
 ||tracker.gitee.com^
@@ -2411,9 +2413,7 @@ www.itdog.cn##.rounded-lg
 ||785008.com^  
 ||778538.com^  
 ||49789c.com^  
-# [小说]
-||5eucpusr8lbadd6e66vmuv1sok57bf04dcdpidko5hpg5od8erhfuuoo.saxysec.com^
-||mc2jm0545vj420i4qbr2bds8q1pocd8jlfr887i10c0hdlsccqqfun19.saxysec.com^
+
 # [视频客户端过滤器]
 ||ipinfo.io^
 ||pow.wandx5.cn^
@@ -2505,7 +2505,6 @@ www.itdog.cn##.rounded-lg
 #夏普电视开机广告
 ||flnet.com^
 ||miaozhen.com^
-#酷友APPea 分享
 ||qm989.com^
 ||touch-moblie.com^
 ||cn-fp.apitd.net^
@@ -2528,7 +2527,6 @@ www.itdog.cn##.rounded-lg
 ||log-verify.mob.com^
 #京东存储和图片提供
 ||ali-stats.jpush.cn^
-###
 ||p9-developer-sign.bytemaimg.com^
 ||lf9-cdn-tos.bytegecko.com^
 ||beacon-api.aliyuncs.com^
@@ -2910,7 +2908,6 @@ www.itdog.cn##.rounded-lg
 ||megadatav7.ultralisk.cn^
 ||ai-static.vivo.com.cn^
 #晴雅↑
-# 拦截大象驾到APP广告接口
 # 拦截蓝狐视频APP广告API
 ||api.admange.com^
 #X8沙箱
