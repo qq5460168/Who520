@@ -19,8 +19,6 @@
 @@||m2.da.mgtv.com^
 #gamezop
 @@||gamezop.com^
-#新浪股票页面行情
-@@||woocall.sina.com.cn^
 #deepseek
 @@||static.deepseek.com^
 @@||cdn.deepseek.com^
@@ -170,8 +168,6 @@
 #adobe
 @@||na1r.services.adobe.com^
 @@||ereg.adobe.com^
-#新浪微博
-@@||sax.sina.com.cn^
 # NOMO APP
 @@||sdkapi.sms.mob.com^
 @@||news-l.play.aiseet.atianqi.com^
@@ -765,10 +761,10 @@
 
 ! 讯飞输入法 - 核心功能（语音/手写/云词库）
 
-@@||topic.openspeech.cn^$important
-@@||imeclient.openspeech.cn^$important
+@@||cardservice.openspeech.cn^
+@@||topic.openspeech.cn^
+@@||imeclient.openspeech.cn^
 @@||srf.xunfei.cn^
-! 语音识别/合成服务
 ! 云同步/用户中心
 @@||account.xunfei.cn^
 ! 皮肤/资源/表情CDN
@@ -804,14 +800,12 @@
 # 消息、即时通讯、长连接
 @@||im.soulapp.cn^
 @@||im-*.soulapp.cn^
-# 推送、通知
 # API、接口、登录
 @@||api.soulapp.cn^
 @@||login.soulapp.cn^
 # 内容、图片、视频、存储、CDN
 @@||img.soulapp.cn^
 @@||video.soulapp.cn^
-# 音视频通话、RTC
 # 支付、充值、订单
 @@||pay.soulapp.cn^
 # 数据、统计、上报（保证功能正常）
@@ -830,15 +824,9 @@
 @@||search.doubao.com^
 # 文件、画图、多媒体
 @@||doc.doubao.com^
-# 静态资源、图片、CDN
-# 登录、账号、认证
-# 日志、统计、安全、推送
-@@||log.doubao.com^
-# 客户端下载、更新
 # 豆包输入法 专用白名单
 @@||ime-igw.doubao.com^
 # 输入法云输入、语音、表情、资源
-
 
 #淘宝闪购
 
@@ -885,8 +873,7 @@
 @@||id1.cloud.huawei.com^
 #华为网盘
 @@||api.cloud.huawei.com^
-! 荣耀生态 专用白名单（Honor / Hihonor / HiLink）
-! 适用于：荣耀手机、荣耀智慧空间、荣耀路由器、智能家居、系统更新、云服务
+!荣耀手机
 @@||cloud.hihonor.com^
 ! 荣耀智慧空间 / HiLink 智能家居
 @@||hilink.huawei.com^
@@ -914,10 +901,6 @@
 @@||security.vivo.com^
 @@||verify.vivo.com^
 @@||antivirus.vivo.com^
-# vivo 日志 / 统计 / 诊断
-@@||log.vivo.com^
-@@||stat.vivo.com^
-@@||diagnose.vivo.com^
 # vivo 其他常用子域名
 @@||api.vivo.com^
 @@||cdn.vivo.com^
@@ -1034,14 +1017,10 @@
 @@||cloud.oppo.com^
 @@||cloud.heytap.com^
 @@||cloud.oneplus.com^
-! 系统更新/OTA/固件
-! 主题/壁纸/字体
 ! 钱包/支付/欢太
 @@||pay.heytap.com^
 ! 系统推送/消息/日志
 @@||push.oppo.com^
-! 系统服务/定位/安全
-! CDN/资源/下载
 #OPPO系统更新
 @@||h5fs.coloros.com^
 #oppo手机推送
@@ -1091,8 +1070,6 @@
 @@||googleadservices.com^
 # 一加账号、云服务、同步、备份
 @@||account.oneplus.com^
-# 一加应用商店、主题、壁纸
-# 消息推送（FCM+一加推送）
 # 一加社区与技术支持
 @@||forums.oneplus.com^
 @@||community.oneplus.com^
@@ -1105,14 +1082,10 @@
 ! ==============================
 ! 小米账号
 @@||account.xiaomi.com^
-@@||id.mi.com^
 ! 应用商店
 @@||appstore.pandora.xiaomi.com^
 @@||cdn.pandora.xiaomi.com^
 @@||de.pandora.xiaomi.com^
-! 投屏
-@@||hpplay.cn^
-@@||lebo.cn^
 ! ==============================
 ! 当贝市场 全功能放行
 ! ==============================
@@ -1147,7 +1120,6 @@
 @@||mapv.baidu.com^
 @@||map.bdimg.com^
 @@||ss.map.baidu.com^
-#影响贴吧表情
 #百度地图离线导航无法下载
 @@||boscdn.baidu.com^
 #误杀百度地图(V19)_底栏_周边
@@ -1269,6 +1241,7 @@
 @@||f11.baidu.com^
 @@||f10.baidu.com^
 #↑ 百度系 ↑ 
+
 #快手系
 
 #快手图标
@@ -1292,6 +1265,7 @@
 @@||*m.chenzhongtech.com^
 @@||js-gamezone.static.yximgs.com^
 @@||ali-gamezone.static.yximgs.com^
+
 #优酷系
 #优酷app 兑换vip
 @@||activity.youku.com^
@@ -1327,6 +1301,7 @@
 # 缓存/离线/下载
 @@||dl.youku.com^
 @@||download.youku.com^
+
 #微信系
 #微信公众号
 @@||vm.gtimg.cn^
@@ -1390,7 +1365,6 @@
 #腾讯相关cdn
 #欢乐麻将、欢乐斗地主登录。
 @@||qqlogin.huanleapp.huanle.qq.com^
-#误杀欢乐麻将不少道具图标和角色装扮
 #王者荣耀资源包更新
 @@||down-update.qq.com^
 #掌上穿越火线无法登录
@@ -1398,7 +1372,6 @@
 #道聚城无法购买活动页面的游戏道具，掌上穿越火线的也是无法购买。腾讯系游戏都无法弹出付款窗口。
 #掌上穿越火线开屏，但会让一些腾讯系游戏活动无图。
 @@||yoyo.qq.com^
-#Tim空间图片
 #QQ微信小程序图标
 @@||miniapp.gtimg.cn^
 #QQ验证页
@@ -1436,7 +1409,6 @@
 @@||y.qq.com^
 #推荐歌曲图片加载
 @@||y.gtimg.cn^
-#应用宝模拟器登录接口
 #腾讯健康系统
 @@||jiazhang.qq.com^
 #腾讯游戏协议
@@ -1481,7 +1453,6 @@
 @@||cdn-go.cn^
 #互动标识图标加载
 @@||*.dlied1.cdntips.net^
-#游戏充值加载
 #授权登录用户图标加载
 @@||thirdqq.qlogo.cn^
 #卡片加载
@@ -1660,7 +1631,6 @@
 #小米部件
 @@||store.assistant.miui.com^
 @@||cdn-f1.assistant.miui.com^
-#小米商店
 !小米隐私政策撤回同意
 @@||data.sec.miui.com^
 # 小米社区
@@ -1848,7 +1818,6 @@
 @@||imagex.bytedanceapi.com^
 #手机网页端抖音直播
 @@||webcast.amemv.com^
-#App登录接口
 #拦截后登录提示「系统繁忙」
 @@||log.snssdk.com^
 #用户头像加载
@@ -1932,7 +1901,6 @@
 @@||main.m.taobao.com^
 #官网
 @@||www.taobao.com^
-#移动端官网
 #登录接口
 @@||login.taobao.com^
 #移动端登录接口
@@ -1976,7 +1944,6 @@
 @@||yixiu-abtest.alicdn.com^
 #淘宝授权
 @@||acs4baichuan.m.taobao.com^
-#淘宝活动
 #淘宝菜鸟裹裹
 @@||appdownload.alicdn.com^
 ##菜鸟裹裹
@@ -2020,10 +1987,8 @@
 #网页排版
 @@||lf3-cdn-tos.bytescm.com^
 @@||lf3-short.bytegoofy.com^
-#手机网页端顶部Logo加载＆作家福利轮播图加载
 #手机网页端下载宣传轮播图加载
 @@||lf3-static.bytednsdoc.com^
-# 放行番茄小说APP
 #小说封面
 @@||p6-novel.byteimg.com^
 #听书智能朗读接口
@@ -2031,7 +1996,6 @@
 @@||v6-fq-tts.fqnovelvod.com^
 @@||v11-fq-tts.fqnovelvod.com^
 @@||v26-fq-tts.fqnovelvod.com^
-#听书真人讲书接口
 #倘若下方链接放行后，有个别音频无法播放，可使用通配符进行放行。
 #@@||v*-novelapp.fqnovelvod.com^
 @@||v5-novelapp.fqnovelvod.com^
@@ -2116,7 +2080,6 @@
 @@||picasso-static.xiaohongshu.com^
 #手机网页端左上角Logo加载
 @@||ci.xiaohongshu.com^
-#英文介绍页宣传视频加载
 #PC网页端登录界面二维码加载＆评论显示接口
 @@||fe-video-qc.xhscdn.com^
 #网络诊断
@@ -2127,7 +2090,6 @@
 #移动端官网
 @@||m.pinduoduo.com^
 @@||api.pinduoduo.com^
-#移动端网页布局
 #拦截后「打开网页白屏」
 @@||mcdn.pinduoduo.com^
 #移动端顶部宣传图＆官网页面布局
@@ -2142,8 +2104,6 @@
 @@||download.pinduoduo.com^
 #APP下载页面布局
 @@||lpcdn.pinduoduo.com^
-#商品分享链接加载
-#同时也是助力扫码跳转链接
 #页面端商品跳转网页布局
 @@||static.pddpic.com^
 #页面端商品跳转网页图片
@@ -2152,7 +2112,6 @@
 @@||pifa.pinduoduo.com^
 #批发移动端官网
 @@||mms.pinduoduo.com^
-#批发网页布局
 #拦截后「打开网页空白」
 @@||mms-static.pddpic.com^
 #商家版官网
@@ -2196,7 +2155,6 @@
 @@||mam.netease.com^
 @@||webzjcaptcha.reg.163.com^
 @@||api.iplay.163.com^
-# 放行网易云音乐
 #页面端及资源加载
 @@||*.music.126.net^
 #客户端音乐加载
@@ -2232,7 +2190,6 @@
 @@||cms-bucket.ws.126.net^
 # 放行网易云游戏平台
 @@||cg.163.com^
-# 放行网易邮箱
 #163邮箱官网
 @@||mail.163.com^
 #126邮箱官网
@@ -2245,7 +2202,6 @@
 @@||qiye.163.com^
 #企业邮箱登录入口
 @@||qy.163.com^
-#进入网页版邮箱跳转
 #下载页面跳转
 @@||u.163.com^
 #下载接口跳转
@@ -2254,29 +2210,24 @@
 @@||cstaticdun-v6.126.net^
 # 放行网易靓号官网
 @@||haoma.163.com^
-# 放行网易CC直播
 #官网
 @@||cc.163.com^
 #移动端官网
 @@||h5.cc.163.com^
 #移动网页端布局
 @@||h5static.cc.163.com^
-#移动网页端内容加载
 #拦截显示加载失败
 @@||api.cc.163.com^
-# 放行网易大神社区
 #PC首页
 @@||ds.163.com^
 #移动端首页
 @@||m.ds.163.com^
 #API调用
 @@||api.ds.163.com^
-#App内视频加载
 #CC直播域名
 @@||vod.cc.163.com^
 #App内网易心小易界面游戏图标跳转链接
 @@||s.163.com^
-# 放行网易DNS检测工具
 # 放行网易易盾
 @@||dun.163.com^
 # 放行手机网易网
@@ -2285,7 +2236,6 @@
 @@||mp.163.com^
 # 放行网易新闻官网＆邮箱看世界窗口
 @@||news.163.com^
-# 放行网易云商
 #七鱼官网
 @@||qi.163.com^
 #云商官网
@@ -2294,8 +2244,6 @@
 @@||res.qiyukf.net^
 #官网Logo
 @@||ysf.qiyukf.net^
-# 放行网易云课堂
-#官网
 @@||study.163.com^
 #网页布局
 @@||swap.stu.126.net^
@@ -2319,12 +2267,10 @@
 @@||gm.163.com^
 #网页布局
 @@||urswebzj.nosdn.127.net^
-# 放行网易藏宝阁
 #官网
 @@||cbg.163.com^
 #链接跳转
 @@||url.163.com^
-# 放行网易招聘
 #校园招聘官网
 @@||campus.163.com^
 #社会招聘官网
@@ -2337,7 +2283,6 @@
 #页面布局
 #拦截后打开官网会黑屏
 @@||mpay-web.g.mkey.163.com^
-#客户端连接接口
 #拦截后打开客户端显示「网络连接失败」
 @@||fcount-api.webapp.163.com^
 # 放行网易体育网
@@ -2392,10 +2337,14 @@
 @@||login.sina.com.cn^
 #新浪通行证登录页面
 @@||passport.weibo.com^
+#新浪股票页面行情
+@@||woocall.sina.com.cn^
 #网易年度总结
 @@||count.mail.163.com^
 #新浪新闻图片^
 @@||k.sinaimg.cn^
+#新浪微博
+@@||sax.sina.com.cn^
 #网易光遇 sky 登录
 @@||fp-upload.dun.163.com^
 # 网易云蜗牛阅读^
@@ -2416,6 +2365,7 @@
 @@||wbapp.mobile.sina.cn^
 @@||*.img.mobile.sina.cn^
 @@||wx2.sinaimg.cn^
+
 # 酷狗
 #酷狗vip抽年卡
 @@||gateway.kugou.com^
@@ -2532,20 +2482,16 @@
 @@||open.snssdk.com^
 #官网
 @@||www.toutiao.com^
-#手机页面端官网
 #同时也是懂车帝手机页面端文章顶部内容推荐＆热门推荐＆精彩推荐接口
 @@||m.toutiao.com^
 #文章作者头像加载
 @@||sf1-cdn-tos.toutiaostatic.com^
 @@||sf3-cdn-tos.toutiaostatic.com^
 @@||sf6-cdn-tos.toutiaostatic.com^
-#文章封面接口＆文章内图片接口＆视频封面接口
-#手机网页端作者主页加载
 #拦截显示网络不给力
 @@||sf6-cdn-tos.douyinstatic.com^
 #作者主页头像加载
 @@||sf3-cdn-tos.bdxiguastatic.com^
-#下载App页面
 #作者主页内点击文章跳转
 @@||article.zlink.toutiao.com^
 
@@ -2562,8 +2508,6 @@
 @@||pan.quark.cn^
 #手机号码登陆接口＆网页端扫描登陆接口
 @@||uop.quark.cn^
-#手机号码登录窗口布局(PC端＆手机端)
-#网页端资源列表加载
 #拦截后显示「网络异常，请稍后重试。」
 @@||drive-pc.quark.cn^
 @@||drive-h.quark.cn^
@@ -2631,6 +2575,7 @@
 @@||pcvideoaliyun.titan.mgtv.com^
 #咪咕
 @@||aikanvod.miguvideo.com^
+
 #中国联通
 @@||opencloud.wostore.cn^
 @@||auth.wosms.cn^
@@ -2684,7 +2629,6 @@
 @@||erp.jd.com^
 #官网
 @@||www.jd.com^
-#移动端官网
 #同时也是官网的商品加载接口
 @@||m.jd.com^
 #官网登录界面网页布局
@@ -2749,12 +2693,10 @@
 #美团外卖商家自入驻网页布局
 #拦截后「网页白屏」
 @@||lx.meituan.net^
-#客服反馈信息短链接平台
 #客服反馈信息上传平台
 @@||h5.dianping.com^
 #APP设置页各选项内容布局加载
 @@||i.meituan.com^
-#APP消息列表加载
 #含商家骑手聊天
 @@||api.neixin.cn^
 #APP聊天窗口内图片加载
@@ -2824,12 +2766,10 @@
 @@||sd.360.cn^
 #360杀毒下载接口
 @@||sfdl.360safe.com^
-#360安全浏览器官网
 #360安全浏览器下载接口
 @@||down.360safe.com^
 #360手机浏览器官网
 @@||mse.360.cn^
-#360手机浏览器下载接口
 #奇元图片资源官网
 @@||www.360simg.com^
 # 放行360搜索
@@ -2869,6 +2809,7 @@
 @@||connectivitycheck.platform.hicloud.com^
 !vivo
 @@||wifi.vivo.com.cn^
+
 !海外
 @@||self.events.data.microsoft.com^
 @@||bing.com^
@@ -2885,6 +2826,7 @@
 @@||dmm.co.jp^
 @@||vmware.com^
 @@||www.paypalobjects.com^
+
 !国内大站/app
 @@||zkres.myzaker.com^
 @@||adidasapp.api.adidas.com.cn^
@@ -2908,6 +2850,7 @@
 @@||m.jiaoyimao.com^
 @@||jumpluna.58.com^
 @@||oss-asq-static.11222.cn^
+
 #魅族
 @@||aider.meizu.com^
 @@||www.meizu.com^
@@ -2924,6 +2867,7 @@
 @@||detail.meizu.com^
 #服务支持
 @@||care.meizu.com^
+
 #皮皮虾/字节跳动
 @@||mon.snssdk.com^
 @@||mon.isnssdk.com^
@@ -2989,6 +2933,7 @@
 @@||clicks.trx-hub.com^
 @@||cdn.webclicks24.com^
 @@||click.zoom.us^
+
 !知乎评论
 @@||zhihu-web-analytics.zhihu.com/api/v2/za/payload-verification
 @@||mparticle.uc.cn^
@@ -3015,6 +2960,7 @@
 #七猫小说正文图片广告和全部小说的封面
 @@||cdn.wtzw.com^
 #七猫免费小说获取章节失败
+
 #据说123云盘卡开屏
 #sdk-api.beizi.biz
 #值得买无法跳转京东
