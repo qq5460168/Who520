@@ -23,33 +23,21 @@ internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
 proxy-test-url = http://www.gstatic.com/generate_204
 resource-parser = https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-parser.loon.min.js
 geoip-url = https://geodata.kelee.one/Country-Masaiki.mmdb
-ipasn-url = https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
 skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
 bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
 
 
 [Proxy]
-🇯🇵日本 04 | 专线 = trojan,jp4.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.69408ae5.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇸🇬新加坡 06 | 专线 = trojan,sg6.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.0aca10d1.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇸🇬新加坡 08 | 专线 = trojan,sg8.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.c586e7c2.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇯🇵日本 02 | 专线 = trojan,jp2.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.02444020.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇯🇵日本 02 | 专线-2055320162 = trojan,jp2.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.02444020.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇯🇵日本 01 | 专线 = trojan,jp1.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.7adf211e.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇸🇬新加坡 05 | 专线-1733557077 = trojan,sg5.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.dede0d54.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇸🇬新加坡 05 | 专线-2916883 = trojan,sg5.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.dede0d54.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇯🇵日本 03 | 专线 = trojan,jp3.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.5584fc1f.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇺🇸美国 02 | 专线 = trojan,us2.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.2f6cd430.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇺🇸美国 01 | 专线 = trojan,us1.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.36a8c922.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
-🇸🇬新加坡 05 | 专线-2916883 = trojan,sg5.a689c8c7-ecc0-b4f9-5129-da25efbce8d2.dede0d54.the-best-airport.com,443,"ddafc088-957a-47bd-894d-af257a3a8598",transport=tcp,sni=new.download.the-best-airport.com,skip-cert-verify=true,path=/,host=new.download.the-best-airport.com,udp=true,block-quic=false,fast-open=true
+
 
 [Remote Proxy]
+2026 = https://2026.v3ml.cc/s/ce70c942a18b2721401adc19938fe1b8,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+51229ff3f4e43f6d = https://tiantizmlb.dpdns.org/sub?token=82ceac117a36cf7fd442560736b8b966,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+墨鱼 = https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 656bdc19bd8db1c2 = https://zhuzhuzhu.whtjdasha.com/api/v1/client/subscribe?token=27ea6f0f6850808f52a43e3a70a64de7,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-魔戒 = https://msub.xn--m7r52rosihxm.com/api/v1/client/subscribe?token=2d845e484b98393776129f1f59bbc3f9,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 f72ac69653a1264c = https://42.194.232.60:10387/iplist/rSqulWDuRPglw7Oy?clash=2&new=1,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-猎户座 = https://edu.dianping.men/iv/verify_mode.htm?token=8d48d24d5363b2c9b67b3fe7ddc5e802,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-717da8830614cea3 = https://wode.hcl2025.dpdns.org/download/sub,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 泡芙云 = https://www.paofusub2.com/link/UhYmljLve9J9DR9K?sub=1,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-一元 = https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=d1ecc379051e4a3099208c4858b9564b,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+一元 = https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=a57c6dafd3684456bd059baa70647029,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 
 [Remote Filter]
 香港节点 = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
@@ -155,13 +143,14 @@ ssid:PHICOMM_5G = server:10.0.0.1
 https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, tag=HTTPDNS拦截器, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, enabled=true
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/blockAds.plugin, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/AliYunDrive_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/ShuQiCenterReader_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/AutoHome_remove_ads.lpx, enabled=true
-https://kelee.one/Tool/Loon/Lpx/MeetYou_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BaiduSearchWebpage_remove_ads.lpx, enabled=true
@@ -177,7 +166,6 @@ https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/1.1.1.1.lpx, enabled=true
-https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/plugin/blockAds.plugin, enabled=true
 https://raw.githubusercontent.com/mist-whisper/Loon/master/Plugins/Soul_remove_ads.plugin, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx, enabled=true
@@ -195,7 +183,6 @@ https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BaiduMap_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/FC_Box_remove_ads.lpx, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/WPS_checkin.lpx, enabled=true
 https://raw.githubusercontent.com/ClydeTime/BiliBili/master/modules/BiliBiliDailyBonus.plugin, enabled=true
 https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx, policy=兜底后备策略, enabled=true
