@@ -1,5 +1,5 @@
 # Loon自用配置
-# 注意事项: 以下内容中，带“#”开头的行都是注释，去掉注释符号该行才有效
+# 注意事项: 以下内容中，带"#"开头的行都是注释，去掉注释符号该行才有效
 # 重要提示：导入本文件会覆盖原本配置，请谨慎使用
 # 文件地址：https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/config/Loon.conf
 # 交流群组：https://t.me/lanjieguanggao
@@ -37,7 +37,7 @@ internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
 # > 测速超时 (s)
 test-timeout = 5
 # > 解决一些ip请求无法匹配域名类规则的问题。real-ip指定的域名将不返回fake ip响应，直接将dns请求发往目标dns服务器
-#real-ip = msftconnecttest.com,msftncsi.com,*.msftconnecttest.com,*.msftncsi.com,*.srv.nintendo.net,*.stun.playstation.net,xbox.*.microsoft.com,*.xboxlive.com,*.battlenet.com.cn,*.battlenet.com,*.blzstatic.cn,*.battle.net
+#real-ip = msftconnecttest.com,msftncsi.com,*.msftconnecttest.com,*.msftncsi.com,*.srv.nintendo.net,*.stun.playstation.net,xbox.*.microsoft.com,*.xboxlive.com,*.battlenet.com.cn,*.battlenet.com,*.blzs[...]
 # 解析器
 # resource-parser = https://gitlab.com/sub-store/Sub-Store/-/releases/permalink/latest/downloads/sub-store-parser.loon.min.js
 # geoip
@@ -67,51 +67,35 @@ iosapps.itunes.apple.com = iosapps.itunes.apple.com.download.ks-cdn.com
 [Remote Proxy]
 2026 = https://2026.v3ml.cc/s/ce70c942a18b2721401adc19938fe1b8,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 51229ff3f4e43f6d = https://tiantizmlb.dpdns.org/sub?token=82ceac117a36cf7fd442560736b8b966,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-墨鱼 = https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-f72ac69653a1264c = https://42.194.232.60:10387/iplist/rSqulWDuRPglw7Oy?clash=2&new=1,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+墨鱼 = https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7,parser-enabled=true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true
+f72ac69653a1264c = https://42.194.232.60:10387/iplist/rSqulWDuRPglw7Oy?clash=2&new=1,parser-enabled=true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true
 泡芙云 = https://www.paofusub2.com/link/UhYmljLve9J9DR9K?sub=1,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-2026 = https://2026.v3ml.cc/s/ce70c942a18b2721401adc19938fe1b8,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-51229ff3f4e43f6d = https://tiantizmlb.dpdns.org/sub?token=82ceac117a36cf7fd442560736b8b966,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-墨鱼 = https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-f72ac69653a1264c = https://42.194.232.60:10387/iplist/rSqulWDuRPglw7Oy?clash=2&new=1,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-泡芙云 = https://www.paofusub2.com/link/UhYmljLve9J9DR9K?sub=1,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-一元 = https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=a57c6dafd3684456bd059baa70647029,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-2026 = https://2026.v3ml.cc/s/ce70c942a18b2721401adc19938fe1b8,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-51229ff3f4e43f6d = https://tiantizmlb.dpdns.org/sub?token=82ceac117a36cf7fd442560736b8b966,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-墨鱼 = https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-f72ac69653a1264c = https://42.194.232.60:10387/iplist/rSqulWDuRPglw7Oy?clash=2&new=1,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-泡芙云 = https://www.paofusub2.com/link/UhYmljLve9J9DR9K?sub=1,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-一元 = https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=a57c6dafd3684456bd059baa70647029,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-2026 = https://2026.v3ml.cc/s/ce70c942a18b2721401adc19938fe1b8,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-51229ff3f4e43f6d = https://tiantizmlb.dpdns.org/sub?token=82ceac117a36cf7fd442560736b8b966,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-墨鱼 = https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-f72ac69653a1264c = https://42.194.232.60:10387/iplist/rSqulWDuRPglw7Oy?clash=2&new=1,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-泡芙云 = https://www.paofusub2.com/link/UhYmljLve9J9DR9K?sub=1,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+一元 = https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=a57c6dafd3684456bd059baa70647029,parser-enabled=true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true
 
 
 # =====================================
 # Proxy Group
 # =====================================
 [Proxy Group]
-兜底策略 = select,香港节点,台湾节点,狮城节点,美国节点,日本节点,韩国节点,DIRECT,img-url = https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Loon_02.png
-大陆网址 = select,香港节点,台湾节点,美国节点,日本节点,韩国节点,狮城节点,DIRECT,img-url = https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/flag/CN_02.png
-电报消息 = select,香港节点,狮城节点,美国节点,日本节点,img-url = https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Telegram_01.png
-微信消息 = select,DIRECT,香港节点,台湾节点,狮城节点,美国节点,img-url = https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/wechat.png
-微博服务 = select,香港节点,台湾节点,美国节点,狮城节点,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Weibo.png
-大陆抖音 = select,香港节点,台湾节点,美国节点,日本节点,韩国节点,狮城节点,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_2.png
-海外抖音 = select,香港节点,台湾节点,狮城节点,韩国节点,美国节点,日本节点,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_1.png
-人工智能 = select,日本节点,狮城节点,美国节点,img-url = https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ChatGPT3.png
-苹果服务 = select,DIRECT,香港节点,狮城节点,美国节点,img-url = https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Apple_02.png
-谷歌服务 = select,香港节点,狮城节点,美国节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
-油管视频 = select,香港节点,美国节点,日本节点,韩国节点,狮城节点,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+兜底策略 = select,香港节点,台湾节点,狮城节点,美国节点,日本节点,韩国节点,DIRECT,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Loon_02.png
+大陆网址 = select,香港节点,台湾节点,美国节点,日本节点,韩国节点,狮城节点,DIRECT,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/flag/CN_02.png
+电报消息 = select,香港节点,狮城节点,美国节点,日本节点,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Telegram_01.png
+微信消息 = select,DIRECT,香港节点,台湾节点,狮城节点,美国节点,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/wechat.png
+微博服务 = select,香港节点,台湾节点,美国节点,狮城节点,DIRECT,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Weibo.png
+大陆抖音 = select,香港节点,台湾节点,美国节点,日本节点,韩国节点,狮城节点,DIRECT,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_2.png
+海外抖音 = select,香港节点,台湾节点,狮城节点,韩国节点,美国节点,日本节点,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_1.png
+人工智能 = select,日本节点,狮城节点,美国节点,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ChatGPT3.png
+苹果服务 = select,DIRECT,香港节点,狮城节点,美国节点,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Apple_02.png
+谷歌服务 = select,香港节点,狮城节点,美国节点,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
+油管视频 = select,香港节点,美国节点,日本节点,韩国节点,狮城节点,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 # 节点筛选
-香港节点 = url-test,HK_Filter,interval = 600,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
-台湾节点 = url-test,TW_Filter,interval = 600,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
-美国节点 = url-test,US_Filter,interval = 600,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
-日本节点 = url-test,JP_Filter,interval = 600,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
-韩国节点 = url-test,KR_Filter,interval = 600,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
-狮城节点 = url-test,SG_Filter,interval = 600,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
-其他节点 = url-test,OT_Filter,interval = 600,tolerance = 50,img-url = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Flag_icon/120px/WW.png
+香港节点 = url-test,HK_Filter,interval=600,tolerance=50,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+台湾节点 = url-test,TW_Filter,interval=600,tolerance=50,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+美国节点 = url-test,US_Filter,interval=600,tolerance=50,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+日本节点 = url-test,JP_Filter,interval=600,tolerance=50,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+韩国节点 = url-test,KR_Filter,interval=600,tolerance=50,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
+狮城节点 = url-test,SG_Filter,interval=600,tolerance=50,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+其他节点 = url-test,OT_Filter,interval=600,tolerance=50,img-url=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Flag_icon/120px/WW.png
 
 
 # =====================================
@@ -119,15 +103,15 @@ f72ac69653a1264c = https://42.194.232.60:10387/iplist/rSqulWDuRPglw7Oy?clash=2&n
 # (?i)：表示后面整个括号内的表达式不区分大小写
 # =====================================
 [Remote Filter]
-OT_Filter = NameRegex, FilterKey = "^(?!.*(?:US|TW|JP|SG|美|韩|日本|新|港|澳|台|英|🇬🇧|🇺🇸|🇲🇴|🇸🇬|🇯🇵|🇭🇰|🇰🇷)).*$"
-HK_Filter = NameRegex, FilterKey = "(?i)(🇭🇰|港|HK)"
-MO_Filter = NameRegex, FilterKey = "(?i)(🇲🇴|澳门|MO)"
-TW_Filter = NameRegex, FilterKey = "(?i)(台|TW|Tai)"
-US_Filter = NameRegex, FilterKey = "(?i)(🇺🇸|美|US)"
-JP_Filter = NameRegex, FilterKey = "(?i)(🇯🇵|日本|JP|Japan)"
-KR_Filter = NameRegex, FilterKey = "(?i)(🇰🇷|KR|Korea|KOR|首尔|韩|韓)"
-SG_Filter = NameRegex, FilterKey = "(?i)(🇸🇬|新加坡|狮城|SG|Singapore)"
-UK_Filter = NameRegex, FilterKey = "(?i)(🇬🇧|英国)"
+OT_Filter = NameRegex, FilterKey="^(?!.*(?:US|TW|JP|SG|美|韩|日本|新|港|澳|台|英|🇬🇧|🇺🇸|🇲🇴|🇸🇬|🇯🇵|🇭🇰|🇰🇷)).*$"
+HK_Filter = NameRegex, FilterKey="(?i)(🇭🇰|港|HK)"
+MO_Filter = NameRegex, FilterKey="(?i)(🇲🇴|澳门|MO)"
+TW_Filter = NameRegex, FilterKey="(?i)(台|TW|Tai)"
+US_Filter = NameRegex, FilterKey="(?i)(🇺🇸|美|US)"
+JP_Filter = NameRegex, FilterKey="(?i)(🇯🇵|日本|JP|Japan)"
+KR_Filter = NameRegex, FilterKey="(?i)(🇰🇷|KR|Korea|KOR|首尔|韩|韓)"
+SG_Filter = NameRegex, FilterKey="(?i)(🇸🇬|新加坡|狮城|SG|Singapore)"
+UK_Filter = NameRegex, FilterKey="(?i)(🇬🇧|英国)"
 
 
 # =====================================
@@ -221,9 +205,7 @@ https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-
 # Mitm
 # =====================================
 [Mitm]
-ca-p12 = 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
+ca-p12 = MIIJ/wIBAzCCCcUGCSqGSIb3DQEHAaCCCbYEggmyMIIJrjCCBCIGCSqGSIb3DQEHBqCCBBMwggQPAgEAMIIECAYJKoZIhvcNAQcBMFcGCSqGSIb3DQEFDTBKMCkGCSqGSIb3DQEFDDAcBAj+TnHIAdjd3QICCAAwDAYIKoZIhvcNAgkFADAdBglghkgBZQMEAwEwDAYIKoZIhvcNAgkFADCCBDgGCSqGSIb3DQEHBqCCBCkwggQlAgEAMIIEIAYJKoZIhvcNAQcBMFcGCSqGSIb3DQEFDTBKMCkGCSqGSIb3DQEFDDAcBAj+TnHIAdjd3QICCAAwDAYIKoZIhvcNAgkFADAdBglghkgBZQMEAwEwDAYIKoZIhvcNAgkFAKCCBBAwggQMMIIECAYJKoZIhvcNAQcDoIIEBTCCBAEwggP9BglghkgBZQMEAwEwggPsBoHp
 ca-passphrase = 317XWP90
 hostname = -www.google.com
-ca-p12 = 
-ca-passphrase = 
 skip-server-cert-verify = false
