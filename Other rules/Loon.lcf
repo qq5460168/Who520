@@ -34,9 +34,6 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 2026 = https://2026.v3ml.cc/s/ce70c942a18b2721401adc19938fe1b8,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 51229ff3f4e43f6d = https://tiantizmlb.dpdns.org/sub?token=82ceac117a36cf7fd442560736b8b966,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 墨鱼 = https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-656bdc19bd8db1c2 = https://zhuzhuzhu.whtjdasha.com/api/v1/client/subscribe?token=27ea6f0f6850808f52a43e3a70a64de7,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-f72ac69653a1264c = https://42.194.232.60:10387/iplist/rSqulWDuRPglw7Oy?clash=2&new=1,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
-泡芙云 = https://www.paofusub2.com/link/UhYmljLve9J9DR9K?sub=1,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 一元 = https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=a57c6dafd3684456bd059baa70647029,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 
 [Remote Filter]
