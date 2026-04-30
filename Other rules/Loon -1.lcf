@@ -72,7 +72,6 @@ iosapps.itunes.apple.com = iosapps.itunes.apple.com.download.ks-cdn.com
 微信消息 = select,DIRECT,香港节点,台湾节点,狮城节点,美国节点,img-url = https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/wechat.png
 微博服务 = select,香港节点,台湾节点,美国节点,狮城节点,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Weibo.png
 大陆抖音 = select,香港节点,台湾节点,美国节点,日本节点,韩国节点,狮城节点,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_2.png
-海外抖音 = select,香港节点,台湾节点,狮城节点,韩国节点,美国节点,日本节点,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_1.png
 人工智能 = select,日本节点,狮城节点,美国节点,img-url = https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ChatGPT3.png
 苹果服务 = select,DIRECT,香港节点,狮城节点,美国节点,img-url = https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Apple_02.png
 谷歌服务 = select,香港节点,狮城节点,美国节点,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
@@ -107,8 +106,6 @@ UK_Filter = NameRegex, FilterKey = "(?i)(🇬🇧|英国)"
 [Rule]
 # 信息收集拦截
 URL-REGEX,"\.log\.",REJECT
-# 海角社区分流
-DOMAIN-KEYWORD,haijiao,美国节点
 # 兜底规则
 FINAL,兜底策略
 
@@ -121,7 +118,7 @@ https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/apple_update.list, pol
 https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/AI.list, policy=人工智能, tag=AI分流合集@奶思, enabled=true
 https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/RedBook.list, policy=狮城节点, tag=小红书IP@bm7, enabled=true
 https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/Douyin.list, policy=大陆抖音, tag=DouYin@bm7, enabled=false
-https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Loon/TikTok/TikTok.list, policy=海外抖音, tag=TikTok@bm7, enabled=true
+https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Loon/TikTok/TikTok.list, policy=DIRECT, tag=TikTok@bm7, enabled=true
 https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Loon/WeChat/WeChat.list, policy=微信消息, tag=WeChat@bm7, enabled=true
 https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Loon/Weibo/Weibo.list, policy=微博服务, tag=Weibo@bm7, enabled=true
 https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Loon/BiliBili/BiliBili.list, policy=香港节点, tag=哔哩哔哩@bm7, enabled=true
