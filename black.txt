@@ -4,6 +4,13 @@
 ! Expires: 12 Hours
 ! Homepage: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=WmWX4G6Sk1-J1GwHX3qA13i_1gxIazOK&authKey=5DlhX4GFrjJI%2BHWs4odOSwQL%2F9Kr0yKLOH50a1oQJkKwl0GU88C%2BhvtUoG636WOi&noverify=0&group_code=930869948
 
+
+#禁止苹果系统更新
+||gdmf.apple.com^
+||mesu.apple.com^
+||updates-http.cdn-apple.com^
+||xp.apple.com^
+
 #HTTPDNS拦截
 ||yyapp-httpdns.gslb.yy.com^
 ||union-httpdns.gslb.yy.com^
