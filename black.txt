@@ -1645,7 +1645,7 @@
 #18+不良网站
 ||1.huanle739.cc^$important
 ||3.se2208hu.cc^$important
-||*.cc^$important
+||*.cc^
 ||7600mqsv.njoomsj4.top^$important
 ||kd2bchz.qinall.com^$important
 ||m1e3hifb.wbzr100.com^$important
