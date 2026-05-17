@@ -3208,3 +3208,5 @@
 @@||valuecommerce.com^
 @@||dwz.cn^
 @@||c.fa.jd.com^
+@@||1music.cc^$important
+@@||backend.1music.cc^$important
