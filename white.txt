@@ -927,11 +927,11 @@
 @@||idmsa.apple.com^
 @@||setup.icloud.com^
 ! 系统更新/OTA/固件/安装包
-@@||updates.cdn-apple.com^
-@@||swcdn.apple.com^
-@@||appldnld.apple.com^
-@@||mesu.apple.com^
-@@||gdmf.apple.com^
+#@@||updates.cdn-apple.com^
+#@@||swcdn.apple.com^
+#@@||appldnld.apple.com^
+#@@||mesu.apple.com^
+#@@||gdmf.apple.com^
 ! App Store / iTunes / 应用下载
 @@||apps.apple.com^
 @@||itunes.apple.com^
