@@ -5,10 +5,15 @@
 ! Homepage: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=WmWX4G6Sk1-J1GwHX3qA13i_1gxIazOK&authKey=5DlhX4GFrjJI%2BHWs4odOSwQL%2F9Kr0yKLOH50a1oQJkKwl0GU88C%2BhvtUoG636WOi&noverify=0&group_code=930869948
 
 
-#禁止苹果系统更新
+# 屏蔽iOS/iPadOS OTA更新
 ||gdmf.apple.com^
 ||mesu.apple.com^
+||swscan.apple.com^
+||swquery.apple.com^
+||swdownload.apple.com^
+||swcdn.apple.com^
 ||updates-http.cdn-apple.com^
+||appldnld.apple.com^
 ||xp.apple.com^
 
 #HTTPDNS拦截
