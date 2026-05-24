@@ -124,6 +124,8 @@
 #中国电信app
 @@||appgoad.189.cn^
 @@||xbk.189.cn^
+#检测升级
+@@||appupdates.189.cn^
 #爱回收
 @@||aihuishou.com^
 #雨课堂
