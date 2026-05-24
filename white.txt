@@ -1,6 +1,8 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+#阿里云 CDN 加速用域名
+@@||kunlunpi.com^$important
 #Reddit
 @@||redditmedia.com^
 #稀土掘金
