@@ -2126,9 +2126,6 @@ www.itdog.cn##.rounded-lg
 ||ad.xmmnsd.com^
 ||cfgc.flysleep.cn^
 ||a1.alibabausercontent.com^
-||vdn5-1.vzuu.com^
-||vdn5.vzuu.com^
-||vdn6.vzuu.com^
 ||download1.vzuu.com^
 ||vod-settings.volcvod.com^
 ||auni.unioncom.cc^
