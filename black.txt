@@ -2810,9 +2810,6 @@ www.itdog.cn##.rounded-lg
 ||6osurvos.fn.bytedance.net^
 ||microapp.bytedance.com^
 ||bdxiguaimg.com^
-##云闪付
-||analytics.95516.com^
-||tongzhi.cup.com.cn^
 ##朴朴买菜
 ||sdk.verification.jiguang.cn^
 ||smartop-sdkapi.jiguang.cn^
