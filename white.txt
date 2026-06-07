@@ -2035,6 +2035,9 @@
 @@||p3-reading-sign.fqnovelpic.com^
 @@||p6-reading-sign.fqnovelpic.com^
 @@||p9-reading-sign.fqnovelpic.com^
+#番茄小说听书
+@@||*-misc-lf.fqnovel.com^$important
+@@||*-novelapp.fqnovelvod.com^
 #番茄小说短信登陆
 @@||tnc3-aliec2.snssdk.com^
 #番茄小说网页
