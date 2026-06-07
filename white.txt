@@ -2021,9 +2021,6 @@
 @@||p3-novelfm-sign.novelfmpic.com^
 @@||p6-novelfm-sign.novelfmpic.com^
 @@||p9-novelfm-sign.novelfmpic.com^
-#番茄小说听书
-@@||v3-novelapp.fqnovelvod.com^
-@@||ma.zijieapi.com^
 #番茄小说
 @@||tnc3-aliec2.snssdk.com^
 @@||v*-fq-tts.fqnovelvod.com^
