@@ -1,6 +1,7 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
+
 #云闪付消息
 @@||tongzhi.cup.com.cn^
 #知乎视频
@@ -2022,6 +2023,7 @@
 @@||p9-novelfm-sign.novelfmpic.com^
 #番茄小说听书
 @@||v3-novelapp.fqnovelvod.com^
+@@||ma.zijieapi.com^
 #番茄小说
 @@||tnc3-aliec2.snssdk.com^
 @@||v*-fq-tts.fqnovelvod.com^
