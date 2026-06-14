@@ -2700,7 +2700,6 @@ www.itdog.cn##.rounded-lg
 ||advertising.yandex.ru^
 ||advertising.apple.com^
 ||advertising.yahoo.com^
-||na61-na62.wagbridge.advertisement.tanx.com^
 ||ads.pinterest.com^
 ||ads-api.tiktok.com^
 ||partnerads-test.ysm.yahoo.net^

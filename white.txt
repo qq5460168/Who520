@@ -1,7 +1,10 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
-
+#QQ咸鱼界面
+@@||appcfg.v.qq.com^$important
+#uc 浏览器备份
+@@||m-api.uc.cn^
 #云闪付消息
 @@||tongzhi.cup.com.cn^
 #知乎视频
