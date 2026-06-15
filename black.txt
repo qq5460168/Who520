@@ -2053,7 +2053,6 @@ www.itdog.cn##.rounded-lg
 ||ios-dc.51y5.net^
 ||b.qchannel03.cn^
 ||im64.jpush.cn^
-||tieba-ares.cdn.bcebos.com^
 ||devs.data.mob.com^
 ||ping.pinyin.sogou.com^
 ||topnewsfeeds.net^

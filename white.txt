@@ -1232,6 +1232,8 @@
 @@||med-fe.cdn.bcebos.com^
 #百度贴吧表情误杀
 @@||static.tieba.baidu.com^
+#个人中心图标
+@@||tieba-ares.cdn.bcebos.com^
 #网页版「吧」头像加载
 @@||imgsrc.baidu.com^
 @@||tb.himg.baidu.com^
