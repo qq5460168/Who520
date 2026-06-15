@@ -1,7 +1,8 @@
 ! Title: 广告白名单规则，反馈🐧群
 ! Homepage: https://github.com/qq5460168/me
 
-@@||na61-na62.wagbridge.advertisement.tanx.com^
+#养基宝app登录
+@@||alb-jjexm35p5nv4ven8gt.cn-shenzhen.alb.aliyuncsslb.com^
 #QQ咸鱼界面
 @@||appcfg.v.qq.com^$important
 #uc 浏览器备份
@@ -3222,3 +3223,4 @@
 @@||valuecommerce.com^
 @@||dwz.cn^
 @@||c.fa.jd.com^
+@@||na61-na62.wagbridge.advertisement.tanx.com^
