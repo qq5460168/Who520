@@ -736,6 +736,22 @@
 #同时也是美团App内消息页面布局
 @@||s0.meituan.net^
 
+# 顽鹿运动/顽鹿竞技 主域名全局放行
+@@||onelap.cn^
+@@||u.onelap.cn^
+@@||onelap.com^
+@@||wattp.net^
+# 图片、资源、赛事、数据接口子域名
+@@||api.onelap.cn^
+@@||static.onelap.cn^
+@@||img.onelap.cn^
+@@||cdn.onelap.cn^
+@@||race.onelap.cn^
+@@||data.onelap.cn^
+# 迈金硬件配套域名（码表/骑行台联动必需）
+@@||magene.cn^
+@@||api.magene.cn^
+
 #迅雷
 
 # 1. 账号登录 & 用户中心
