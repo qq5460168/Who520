@@ -3226,3 +3226,7 @@
 @@||dwz.cn^
 @@||c.fa.jd.com^
 @@||na61-na62.wagbridge.advertisement.tanx.com^
+@@||obus-dc20058-cn.heytapmobi.com^
+@@||dorangesource.alicdn.com^
+@@||conn1.oppomobile.com^$important
+@@||*.heytapdownload.com^$important
