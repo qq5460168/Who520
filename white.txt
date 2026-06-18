@@ -4,15 +4,13 @@
 #养基宝app登录
 @@||alb-jjexm35p5nv4ven8gt.cn-shenzhen.alb.aliyuncsslb.com^
 #QQ咸鱼界面
-@@||appcfg.v.qq.com^$important
+@@||appcfg.v.qq.com^
 #uc 浏览器备份
 @@||m-api.uc.cn^
 #云闪付消息
 @@||tongzhi.cup.com.cn^
 #知乎视频
 @@||vdn5.vzuu.com^
-#阿里云 CDN 加速用域名
-@@||kunlunpi.com^
 #Reddit
 @@||redditmedia.com^
 #稀土掘金
@@ -535,6 +533,8 @@
 #欢太软件商店
 @@||storedl1.nearme.com.cn^
 @@||api-cn.cdo.heytapmobi.com^
+@@||obus-dc20058-cn.heytapmobi.com^
+@@||*.heytapdownload.com^
 #直播吧
 @@||m.zhibo8.com^
 #脚本之家
@@ -1070,6 +1070,7 @@
 @@||ib11.go2yd.com^
 #OPPO账号相关
 @@||u.oppomobile.com^
+@@||conn1.oppomobile.com^
 #OPPO应用配置
 @@||appconf.heytapdownload.com^
 #oppo商城
@@ -2013,6 +2014,10 @@
 @@||acs.m.taobao.com^
 #阿里图片
 @@||img.alicdn.com^
+#阿里云 CDN 加速用域名
+@@||kunlunpi.com^
+#阿里 CDN 橙色资源站
+@@||dorangesource.alicdn.com^
 
 # 番茄系
 
@@ -2059,7 +2064,7 @@
 @@||p6-reading-sign.fqnovelpic.com^
 @@||p9-reading-sign.fqnovelpic.com^
 #番茄小说听书
-@@||*-misc-lf.fqnovel.com^$important
+@@||*-misc-lf.fqnovel.com^
 @@||*-novelapp.fqnovelvod.com^
 #番茄小说短信登陆
 @@||tnc3-aliec2.snssdk.com^
@@ -3242,7 +3247,3 @@
 @@||dwz.cn^
 @@||c.fa.jd.com^
 @@||na61-na62.wagbridge.advertisement.tanx.com^
-@@||obus-dc20058-cn.heytapmobi.com^
-@@||dorangesource.alicdn.com^
-@@||conn1.oppomobile.com^$important
-@@||*.heytapdownload.com^$important
