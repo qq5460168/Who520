@@ -3152,7 +3152,3 @@ www.itdog.cn##.rounded-lg
 ||books-analytics-events.apple.com^
 ||weather-analytics-events.apple.com^
 ||notes-analytics-events.apple.com^
-*$3p,domain=d3ward.github.io
-/pagead.js$domain=d3ward.github.io
-@@*$redirect-rule,domain=d3ward.github.io
-d3ward.github.io##.textads
