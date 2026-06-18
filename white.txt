@@ -62,7 +62,7 @@
 #大师兄
 @@||anythinktech.com^
 #星空视频
-@@||h35.ynodd.cn^$
+@@||h35.ynodd.cn^
 # CrashGuard服务
 @@||api.crashguard.me^
 #老毛桃更新
@@ -776,7 +776,7 @@
 @@||video.xunlei.com^
 @@||v.xunlei.com^
 #迅雷app
-@@|admin-oss-xlvip.a.88cdn.com^
+@@||admin-oss-xlvip.a.88cdn.com^
 #迅雷网页
 @@||res.qhmsg.com^
 @@||img-vip-ssl.a.88cdn.com^
@@ -1374,7 +1374,7 @@
 @@||wx.tenpay.com^
 @@||wxpay.qpic.cn^
 @@||gtimg.wechatpay.cn^
-@@|wxpaylogo.qpic.cn^
+@@||wxpaylogo.qpic.cn^
 @@||payapp.weixin.qq.com^
 !部分微信小程序登录
 @@||cnlogin.cainiao.com^
