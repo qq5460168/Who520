@@ -1653,6 +1653,72 @@
 ||j5z.cn.w.kunlunaq.com^
 #安心花
 ||uk.sgrrz.cn^
+#桔小花
+! ========== 桔子数科全系（桔小花/桔多多/宜口袋）主域名拦截 ==========
+||juzijinke.com^
+||juzishuke.com^
+||juhuiwangluokeji.com^
+! 双协议拦截，防止IPv4/IPv6绕过过滤
+||juzijinke.com^$dnstype=A
+||juzijinke.com^$dnstype=AAAA
+||juzishuke.com^$dnstype=A
+||juzishuke.com^$dnstype=AAAA
+||juhuiwangluokeji.com^$dnstype=A
+||juhuiwangluokeji.com^$dnstype=AAAA
+! ========== APP接口、商城、静态资源、风控埋点子域名 ==========
+||api.juzijinke.com^
+||mall.juzijinke.com^
+||static.juzijinke.com^
+||track.juzijinke.com^
+||loan-track.juzishuke.com^
+||push.juzidata.com^
+||ad.juziloan.com^
+||stat.juzitrack.com^
+! 宜口袋主站拦截
+||juhuiwangluokeji.com^
+! ========== 桔多多/桔子数科主域名全拦截 ==========
+||juzijinke.com^
+||juzishuke.com^
+! 同时拦截IPv4 A记录、IPv6 AAAA解析，防止双协议绕过
+||juzijinke.com^$dnstype=A
+||juzijinke.com^$dnstype=AAAA
+||juzishuke.com^$dnstype=A
+||juzishuke.com^$dnstype=AAAA
+! ========== APP接口、商城子域名兜底 ==========
+||api.juzijinke.com^
+||mall.juzijinke.com^
+||static.juzijinke.com^
+||track.juzijinke.com^
+! ========== 配套网贷广告/推送/催收追踪域名 ==========
+||push.juzidata.com^
+||ad.juziloan.com^
+||stat.juzitrack.com^
+||loan-track.juzishuke.com^
+! 网贷营销短信、推送追踪
+||track.loan-ad.cn^
+||push.loan-stat.com^
+||ad.loansdk.com^
+!=============================================
+! 违规高炮：桔子数科全套（宜口袋/桔多多/桔小花）
+!=============================================
+||juzifenqi.com^
+||bestfenqi.com^
+!=============================================
+! 网贷通用广告、催收、追踪、短信跳转兜底
+!=============================================
+||loan-ad.cn^
+||ad-loan.com^
+||loan-advert.com^
+||loan-track.com^
+||loan-stat.com^
+||loantrack.cn^
+||shturl.cc^
+||loanlink.cn^
+!=============================================
+! 第三方推送SDK（拦截APP推送广告）
+!=============================================
+||push.jiguang.cn^
+||tracking.umeng.com^
 
 #18+不良网站
 ||1.huanle739.cc^$important
