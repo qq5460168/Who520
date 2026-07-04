@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+         <!-- 18Bit DNS DoH -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerURL</key>
+					<string>https://doh.18bit.cn/dns-query</string>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>18Bit公共加密DoH</string>
+				<key>PayloadDisplayName</key>
+				<string>18Bit DNS</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.18bit</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>550db1b9-de9c-48bb-bb46-a64d827d9a40</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			
+		 <!-- 海哥 DoT 自定义端口可修改ServerPort，默认853 -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>TLS</string>
+					<key>ServerName</key>
+					<string>dns.hgzs.host</string>
+					<key>ServerPort</key>
+					<integer>853</integer>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>海哥 DoT加密解析，默认853端口</string>
+				<key>PayloadDisplayName</key>
+				<string>海哥 DoT</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.hgzdot</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a42</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+			<!-- 关圣去广告DNS DoH -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerURL</key>
+					<string>https://2026.dns1.top/dns-query</string>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>关圣去广告加密DoH</string>
+				<key>PayloadDisplayName</key>
+				<string>关圣去广告DNS</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.gs</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a43</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+			<!-- 阿里云 DoH -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerURL</key>
+					<string>https://dns.alidns.com/dns-query</string>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>阿里云公共DoH加密解析</string>
+				<key>PayloadDisplayName</key>
+				<string>阿里云</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.ali</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a44</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+			<!-- 腾讯云 DoH -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerURL</key>
+					<string>https://doh.pub/dns-query</string>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>腾讯云公共DoH加密解析</string>
+				<key>PayloadDisplayName</key>
+				<string>腾讯云</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.tencent</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a45</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+			<!-- 冷莫doh3域名-有中国cdn节点 -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerURL</key>
+					<string>https://dns-cdn-cf.trli.club/doh/ad-dns-pro</string>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>冷莫DoH，国内CDN加速节点</string>
+				<key>PayloadDisplayName</key>
+				<string>冷莫doh3域名-有中国cdn节点</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.lm-doh3</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a46</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+			<!-- 冷莫doh域名-oray服务商 -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerURL</key>
+					<string>https://1541x448j6.vicp.fun/doh/ad-dns-pro</string>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>冷莫DoH，花生壳动态域名服务商线路</string>
+				<key>PayloadDisplayName</key>
+				<string>冷莫doh域名-oray服务商</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.lm-doh-oray</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a47</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+			<!-- 冷莫dot域名-纯ipv6，可修改ServerPort切换端口 -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>TLS</string>
+					<key>ServerName</key>
+					<string>addnspro.trli.club</string>
+					<key>ServerPort</key>
+					<integer>853</integer>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>冷莫纯IPv6 DoT解析服务，默认853端口</string>
+				<key>PayloadDisplayName</key>
+				<string>冷莫dot域名-纯ipv6</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.lm-dot-v6</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a48</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+			<!-- 易安云网联加密DNS DoT -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>TLS</string>
+					<key>ServerName</key>
+					<string>bl-dns.yiancloud.com.cn</string>
+					<key>ServerPort</key>
+					<integer>853</integer>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>易安云网联DoT加密解析</string>
+				<key>PayloadDisplayName</key>
+				<string>易安云网联加密DNS</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.yian</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a49</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+            <!-- 快点DNS DoT -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>TLS</string>
+					<key>ServerName</key>
+					<string>dns.quickso.cn</string>
+					<key>ServerPort</key>
+					<integer>853</integer>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>快点DNS DoT加密解析，默认853端口</string>
+				<key>PayloadDisplayName</key>
+				<string>快点DNS</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.quickso</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a50</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+			<!-- ALEX DoH -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerURL</key>
+					<string>https://ns1.amazehome.xyz/dns-query</string>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>ALEX DoH加密DNS解析</string>
+				<key>PayloadDisplayName</key>
+				<string>ALEX</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.alex-doh</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a51</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+			<!-- ALEX DoT -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>TLS</string>
+					<key>ServerName</key>
+					<string>ns1.amazehome.xyz</string>
+					<key>ServerPort</key>
+					<integer>853</integer>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>ALEX DoT加密DNS解析，默认853端口</string>
+				<key>PayloadDisplayName</key>
+				<string>ALEX</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.alex-dot</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a52</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
+		</array>
+
+		<key>PayloadDescription</key>
+		<string>多组DoH/DoT加密DNS解析配置，兼容WiFi/蜂窝网络</string>
+		<key>PayloadDisplayName</key>
+		<string>加密DNS合集</string>
+		<key>PayloadIdentifier</key>
+		<string>660db1b9-de9c-48bb-bb46-a64d827d9a40</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false/>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>e63b30e4-dadb-4005-bfcf-c9ff40e434ef</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
