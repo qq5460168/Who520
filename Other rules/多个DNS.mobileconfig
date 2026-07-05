@@ -28,26 +28,26 @@
 				<key>PayloadVersion</key>
 				<integer>1</integer>
 			</dict>
-			
-		 <!-- 海哥 DoT 自定义端口可修改ServerPort，默认853 -->
+
+			<!-- sanmeber DoT -->
 			<dict>
 				<key>DNSSettings</key>
 				<dict>
 					<key>DNSProtocol</key>
 					<string>TLS</string>
 					<key>ServerName</key>
-					<string>dns.hgzs.host</string>
+					<string>dns.sanmeber.cn</string>
 					<key>ServerPort</key>
 					<integer>853</integer>
 					<key>ProxiesAllowed</key>
 					<true/>
 				</dict>
 				<key>PayloadDescription</key>
-				<string>海哥 DoT加密解析，默认853端口</string>
+				<string>sanmeber DoT加密解析，默认853端口</string>
 				<key>PayloadDisplayName</key>
-				<string>海哥 DoT</string>
+				<string>sanmeber</string>
 				<key>PayloadIdentifier</key>
-				<string>com.apple.dnsSettings.managed.hgzdot</string>
+				<string>com.apple.dnsSettings.managed.sanmeber</string>
 				<key>PayloadType</key>
 				<string>com.apple.dnsSettings.managed</string>
 				<key>PayloadUUID</key>
