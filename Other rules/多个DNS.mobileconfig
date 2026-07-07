@@ -56,6 +56,33 @@
 				<integer>1</integer>
 			</dict>
 
+            <!-- Jeray.Wang DoT 新增节点 -->
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>TLS</string>
+					<key>ServerName</key>
+					<string>dns.jeray.wang</string>
+					<key>ServerPort</key>
+					<integer>853</integer>
+					<key>ProxiesAllowed</key>
+					<true/>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>Jeray.Wang DoT加密解析，默认853端口</string>
+				<key>PayloadDisplayName</key>
+				<string>Jeray.Wang</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.jeraywang</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>660db1b9-de9c-48bb-bb46-a64d827d9a53</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+
 			<!-- 关圣去广告DNS DoH -->
 			<dict>
 				<key>DNSSettings</key>
