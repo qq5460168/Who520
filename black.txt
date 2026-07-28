@@ -4,6 +4,14 @@
 ! Expires: 12 Hours
 ! Homepage: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=WmWX4G6Sk1-J1GwHX3qA13i_1gxIazOK&authKey=5DlhX4GFrjJI%2BHWs4odOSwQL%2F9Kr0yKLOH50a1oQJkKwl0GU88C%2BhvtUoG636WOi&noverify=0&group_code=930869948
 
+! ====== 360壁纸 PC客户端 完整拦截 ======
+||bizhi.360.cn^
+||wallpaper.apc.360.cn^
+||huabao.360.cn^
+||openbox.mobilem.360.cn^
+! 壁纸图片资源域名（qhimg是360公共图床，谨慎！屏蔽后所有360图片失效）
+! ||qhimg.com^
+||bizhi360.com^
 
 # 屏蔽iOS/iPadOS OTA更新
 ||gdmf.apple.com^
@@ -968,7 +976,6 @@
 ||w.l.qq.com^
 ||wit.qq.com^
 ||ws.sj.qq.com^
-||www.baidu.com.sogou.360.cn.qq.com.hunlaife.cn^
 ||wxsnsad.tc.qq.com^
 ||wxsnsdy.tc.qq.com^
 ||wxsnsdy.video.qq.com^
