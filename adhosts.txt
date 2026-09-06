@@ -5687,8 +5687,6 @@
 0.0.0.0 bsync3-normal.zijieapi.com
 0.0.0.0 bsync5-normal-hl.zijieapi.com
 0.0.0.0 bsync5-normal.zijieapi.com
-0.0.0.0 cdn.yinxiang.com
-0.0.0.0 cdn.yyb.gtimg.com
 0.0.0.0 client-tracking.tantanapp.com
 0.0.0.0 client-tracking.tantanapp.com.ctc
 0.0.0.0 creative.medproad.com
