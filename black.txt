@@ -4,13 +4,60 @@
 ! Expires: 12 Hours
 ! Homepage: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=WmWX4G6Sk1-J1GwHX3qA13i_1gxIazOK&authKey=5DlhX4GFrjJI%2BHWs4odOSwQL%2F9Kr0yKLOH50a1oQJkKwl0GU88C%2BhvtUoG636WOi&noverify=0&group_code=930869948
 
+#360
+!! ====================== 360 广告拦截【保留软件管家 & 软件升级】 ======================
+! 360广告域名
+||ad.360.cn^
+||ad.jia.360.cn^
+||ad.life.360.cn^
+||ad.iot.360.cn^
+||ad.360safe.com^
+||adv.360.cn^
+||adpop.360.cn^
+||adlog.360.cn^
+! 360统计/埋点/遥测上报（不影响升级，只阻断上报）
+||log.360.cn^
+||stat.360.cn^
+||report.360.cn^
+||upload.360.cn^
+||trace.360.cn^
+||data.360.cn^
+||mcloud.360.cn^
+||cloud.360safe.com^
+||mvconf.cloud.360safe.com^
+||mclean.cloud.360safe.com^
+! 360壁纸专项拦截（壁纸广告，不影响软件管家）
+||bizhi.360.cn^
+||wallpaper.360.cn^
+||wp.360.cn^
+||pic.bizhi.360.cn^
+||recommend.bizhi.360.cn^
+! 弹窗、消息推送、推广广告（不包含升级/下载核心域名）
+||pop.360.cn^
+||msg.360.cn^
+||notice.360.cn^
+||push.360.cn^
+! 360搜索/浏览器广告推荐
+||s.360.cn^
+||f.360.cn^
+||so.360.cn^
+||sp.360.cn^
+! 360手机卫士 / 360手机助手广告
+||m.360.cn^
+||mapp.360.cn^
+||appstore.360.cn^
+||app.360.cn^
+! 360游戏大厅、推广、软件推荐广告
+||game.360.cn^
+||gamead.360.cn^
+||tuiguang.360.cn^
+||promo.360.cn^
 ! ====== 360壁纸 PC客户端 完整拦截 ======
 ||bizhi.360.cn^
 ||wallpaper.apc.360.cn^
 ||huabao.360.cn^
 ||openbox.mobilem.360.cn^
 ! 壁纸图片资源域名（qhimg是360公共图床，谨慎！屏蔽后所有360图片失效）
-! ||qhimg.com^
 ||bizhi360.com^
 
 # 屏蔽iOS/iPadOS OTA更新
