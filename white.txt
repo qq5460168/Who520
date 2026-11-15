@@ -2519,10 +2519,6 @@
 @@||p6-shortvideo-sign.toutiaoimg.com^
 @@||p3-sign.toutiaoimg.com^
 @@||d.toutiao.com^
-#头条授权登陆
-@@||open.snssdk.com^
-#官网
-@@||www.toutiao.com^
 #同时也是懂车帝手机页面端文章顶部内容推荐＆热门推荐＆精彩推荐接口
 @@||m.toutiao.com^
 #文章作者头像加载
