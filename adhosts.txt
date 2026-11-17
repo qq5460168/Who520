@@ -69,7 +69,6 @@
 0.0.0.0 c1.gdt.qq.com
 0.0.0.0 c3.gdt.qq.com
 0.0.0.0 c6.y.qq.com
-185.199.110.133 camo.githubusercontent.com
 0.0.0.0 cc.oceanengine.com
 0.0.0.0 cdn-api-auth.flysleep.cn
 0.0.0.0 cdn-api-auth.zztfly.com
