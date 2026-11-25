@@ -75,8 +75,6 @@
 ||yyapp-httpdns.gslb.yy.com^
 ||union-httpdns.gslb.yy.com^
 ||dns2.q2cdn.com^
-||dns.weixin.qq.com^
-||dns.weixin.qq.com.cn^
 ||httpdns.kg.qq.com^
 ||httpdns.browser.miui.com^
 ||resolver.msg.xiaomi.net^
@@ -1041,7 +1039,6 @@
 ||log.tpns.tencent.com^
 ||adcdn6.tencentmusic.com^
 ||tencent-dtv.m.cn.miaozhen.com^
-||apd-pcdnwxlogin.teg.tencent-cloud.net^
 
 #蜻蜓FM
 ||adlog.qingting.fm^

@@ -1339,7 +1339,8 @@
 @@||download.youku.com^
 
 #微信系
-#微信公众号
+@@||apd-pcdnwxlogin.teg.tencent-cloud.net^、
+
 @@||vm.gtimg.cn^
 #微信图片
 @@||mmbiz.qpic.cn^
@@ -1915,6 +1916,9 @@
 
 #  阿里系
 
+#阿里人机验证，淘宝、闲鱼登录
+@@||mum.alibabachengdun.com^
+@@||mum.alibabachengdun.net^
 #高德地图主界面地图空白无图
 @@||render.amap.com^
 @@||render-prod-backup-tile.amap.com^
