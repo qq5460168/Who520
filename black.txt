@@ -1772,7 +1772,12 @@
 ||tracking.umeng.com^
 
 #18+不良网站
-||1.huanle739.cc^$important
+
+||i1.go2yd.com^
+||022022.cc^
+||tb6999.com^
+||256kpdz.com^
+huanle739.cc^$important
 ||3.se2208hu.cc^$important
 ||7600mqsv.njoomsj4.top^$important
 ||kd2bchz.qinall.com^$important
