@@ -196,7 +196,6 @@
 23.215.0.204 steamcdn-a.akamaihd.net
 103.230.123.190 steamcommunity.com
 23.53.35.204 store.akamai.steamstatic.com
-23.222.193.171 store.steampowered.com
 0.0.0.0 stqt.weathercn.com
 0.0.0.0 tapi.apkpure.net
 0.0.0.0 tg.flysleep.cn
