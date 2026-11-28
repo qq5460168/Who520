@@ -1551,225 +1551,192 @@
 ||api.eu.hismarttv.com^
 ||api.sa.hismarttv.com^
 
-#安逸花
-||vayh.msxf.com^
-||anyihua.msxf.com^
+! ========== 安逸花 / 马上消费金融 ==========
 ||msxf.com^
-#度小满
-||w1.dxmstatic.com^
-||umoney.dxmstatic.com^
-||bi-sensors.duxiaoman.com^
-||app.duxiaomanfintech.com^
-||xindai.duxiaoman.com^
-||app.duxiaoman.com^
+! ========== 度小满（有钱花） ==========
 ||duxiaoman.com^
-#众安金融
+||duxiaomanfintech.com^
+||dxmstatic.com^
+! ========== 众安金融 / 众安贷 ==========
 ||wm4.cn^
-||tfrpapi.shanghaihagai.com^
 ||n4q.cn^
-#马上消费
-||u.msxf.com^
-#滴滴数科
+||shanghaihagai.com^
+||zaxdcredit.cn^
+||zaxdcredit.com^
+||zhongan.io^
+||finance-gateway.diandian.com.cn^
+! ========== 滴滴数科 ==========
 ||v.didi.cn^
 ||c.didi.cn^
-#招联金融
+! ========== 招联金融 ==========
 ||mucf.cc^
-#携程金融
+! ========== 携程金融 ==========
 ||t.ctrip.cn^
-#天星金融
+! ========== 天星金融（小米） ==========
 ||help.jr.mi.com^
 ||f.airstar.com^
-#360借贷
+! ========== 360 借贷 / 360 数科 ==========
 ||xjietiao.com^
 ||360shuke.com^
-#分期乐
-||www.fenqile.com^
-||opengw.xiaoying.com^
-||cresauth1.fenqile.cn^
-||action.fenqile.com^
-||cres.fenqile.cn^
-||cresauth.fenqile.cn^
-||cresauth2.fenqile.cn^
-||dc.fenqile.com^
-||coss-shark-down.fenqile.com^
-||cm.m.fenqile.com^
-||coss-fit.fenqile.com^
-||bridge.fenqile.com^
-||szl-oa-other-default.gtm.fenqile.com^
-||zone-szl-moblie-app.gtm.fenqile.com^
-#小赢
-||cardloan.xiaoying.com^
-#快贷
-||www.cdkuaidai.com^
-#宜人贷
-||www.yirendai.com^
-#拍拍贷
-||ac.ppdaicdn.com^
-||maumkt.ppdaicdn.com^
-||r.ppdai.com^
-||ld.ppdai.com^
-#众安贷
-||tfurl.zaxdcredit.cn^
-||pub-osscdn.zaxdcredit.com^
-||static-seraph.zhongan.io^
-||finance-gateway.diandian.com.cn^
-||seraph-cdn.zhongan.io^
-#宜享花
-||www.yxh1.cn^
-||static.yxh1.cn^
-#洋钱罐
-||appweb.yangqianguan.com^
-||static-ali.yangqianguan.com^
-||api.yangqianguan.com^
-||public.yangqianguan.com^
-||public-test.yangqianguan.com^
-||sentry.fintopia.tech^
-#融逸花
-||slbh5.youkawallet.com^
-||ninformation.15dai.cn^
-||apih5.yocdk.com^
-||gw.yoccj.cn^
-#龙享花
+! ========== 分期乐 / 乐信 ==========
+||fenqile.com^
+||fenqile.cn^
+! ========== 小赢 / 小赢卡贷 ==========
+||xiaoying.com^
+! ========== 快贷 ==========
+||cdkuaidai.com^
+! ========== 宜人贷 ==========
+||yirendai.com^
+! ========== 拍拍贷（信也） ==========
+||ppdai.com^
+||ppdaicdn.com^
+! ========== 宜享花 ==========
+||yxh1.cn^
+! ========== 洋钱罐 ==========
+||yangqianguan.com^
+||fintopia.tech^
+! ========== 融逸花 ==========
+||youkawallet.com^
+||15dai.cn^
+||yocdk.com^
+||yoccj.cn^
+! ========== 龙享花 ==========
 ||longshangxiaodai.cn^
-#钱多多
+! ========== 钱多多 ==========
 ||d.com.cn^
-#乐享借
+! ========== 乐享借 ==========
 ||xcwl.tech^
-||web.xurongwl.com^
-||apk.xurongwl.com^
-||upload.xurongwl.com^
-#微银信用
-||yxtapi.wuzhouali.top^
-#借钱呗
-||jqbapiweb.wzyzxedkgs.com^
-||jqb.wzyzxedkgs.com^
-#薇钱包
-||wqbapi.veredloanweb.com^
-||wqbweb.veredloanweb.com^
-#惠融钱包
+||xurongwl.com^
+! ========== 微银信用 ==========
+||wuzhouali.top^
+! ========== 借钱呗 ==========
+||wzyzxedkgs.com^
+! ========== 薇钱包 ==========
+||veredloanweb.com^
+! ========== 惠融钱包 ==========
 ||f3q.cn^
-||m1.h5.ygmicroloan.com^
-||api.hrshuke.cn^
-#信用分
+||ygmicroloan.com^
+||hrshuke.cn^
+! ========== 信用飞 / 信用分 ==========
 ||fh4.cn^
-||flow.xinyongfei.cn^
-||m-v8.duzhongkj.com^
-||gw.xinfei.cn^
-||feanalysisprod.xinfei.cn^
-||api.xinfei.cn^
-||xyf-test.oss-cn-beijing.aliyuncs.com^
-||event-tracking.xinfei.cn^
+||xinyongfei.cn^
+||duzhongkj.com^
+||xinfei.cn^
 ||sr0.cn^
 ||sr0.cn.w.kunlunaq.com^
-#好分期
+||xyf-test.oss-cn-beijing.aliyuncs.com^
+! ========== 好分期 ==========
 ||w9t.cn^
 ||ql7.cn^
 ||ql7.cn.w.kunlunaq.com^
-||www.51hicard.com^
-||datahub.haohuan.com^
-||www.haohuan.com^
-#吉用花
+||51hicard.com^
+||haohuan.com^
+! ========== 吉用花 ==========
 ||g94.cn^
-#小花钱包
-||s.xh1.cn^
+! ========== 小花钱包 ==========
+||xhqb.com^
+||xhqbapp.com^
+||xh1.cn^
 ||cdn.xinstall.com^
-||sp.xhqb.com^
-||sen.xh1.cn^
-||s2.xh1.cn^
-||sp.xhqbapp.com^
-#极融平台
-||static.niwodai.com^
-||gio-hub.jirongyunke.com^
-||sta.jirongyunke.net^
-||statictest.niwodai.com^
-||static5.niwodai.com^
-||applet.cftcredit.com^
-||applet-static.cftcredit.com^
-#保险专家
+! ========== 极融 / 你我贷 ==========
+||niwodai.com^
+||jirongyunke.com^
+||jirongyunke.net^
+||cftcredit.com^
+! ========== 保险专家 ==========
 ||y3m.cn^
-#国美金融
+! ========== 国美金融 ==========
 ||ez4.cn^
-||jie.gomemyf.com^
-||sms.gomemyf.com^
-||static.gomefinance.com.cn^
-||datasink-sensorsdata.gomefinance.com.cn^
-#小辉付
-||r.yhyunjin.com^
-||ld.yhyunjin.com^
+||gomemyf.com^
+||gomefinance.com.cn^
+! ========== 小辉付 ==========
 ||yhyunjin.com^
-#分子借钱
-||zd.fzmf.cn^
-#小辉付
 ||j5z.cn^
 ||j5z.cn.w.kunlunaq.com^
-#安心花
-||uk.sgrrz.cn^
-#桔小花
-! ========== 桔子数科全系（桔小花/桔多多/宜口袋）主域名拦截 ==========
+! ========== 分子借钱 ==========
+||fzmf.cn^
+! ========== 安心花 ==========
+||sgrrz.cn^
+! ========== 桔子数科（桔小花/桔多多/宜口袋） ==========
 ||juzijinke.com^
 ||juzishuke.com^
 ||juhuiwangluokeji.com^
-! 双协议拦截，防止IPv4/IPv6绕过过滤
-||juzijinke.com^$dnstype=A
-||juzijinke.com^$dnstype=AAAA
-||juzishuke.com^$dnstype=A
-||juzishuke.com^$dnstype=AAAA
-||juhuiwangluokeji.com^$dnstype=A
-||juhuiwangluokeji.com^$dnstype=AAAA
-! ========== APP接口、商城、静态资源、风控埋点子域名 ==========
-||api.juzijinke.com^
-||mall.juzijinke.com^
-||static.juzijinke.com^
-||track.juzijinke.com^
-||loan-track.juzishuke.com^
-||push.juzidata.com^
-||ad.juziloan.com^
-||stat.juzitrack.com^
-! 宜口袋主站拦截
-||juhuiwangluokeji.com^
-! ========== 桔多多/桔子数科主域名全拦截 ==========
-||juzijinke.com^
-||juzishuke.com^
-! 同时拦截IPv4 A记录、IPv6 AAAA解析，防止双协议绕过
-||juzijinke.com^$dnstype=A
-||juzijinke.com^$dnstype=AAAA
-||juzishuke.com^$dnstype=A
-||juzishuke.com^$dnstype=AAAA
-! ========== APP接口、商城子域名兜底 ==========
-||api.juzijinke.com^
-||mall.juzijinke.com^
-||static.juzijinke.com^
-||track.juzijinke.com^
-! ========== 配套网贷广告/推送/催收追踪域名 ==========
-||push.juzidata.com^
-||ad.juziloan.com^
-||stat.juzitrack.com^
-||loan-track.juzishuke.com^
-! 网贷营销短信、推送追踪
-||track.loan-ad.cn^
-||push.loan-stat.com^
-||ad.loansdk.com^
-!=============================================
-! 违规高炮：桔子数科全套（宜口袋/桔多多/桔小花）
-!=============================================
 ||juzifenqi.com^
 ||bestfenqi.com^
-!=============================================
-! 网贷通用广告、催收、追踪、短信跳转兜底
-!=============================================
+||juzidata.com^
+||juziloan.com^
+||juzitrack.com^
+! ========== 网贷推广短链 / 广告追踪（通用兜底） ==========
 ||loan-ad.cn^
 ||ad-loan.com^
 ||loan-advert.com^
 ||loan-track.com^
 ||loan-stat.com^
 ||loantrack.cn^
-||shturl.cc^
 ||loanlink.cn^
-!=============================================
-! 第三方推送SDK（拦截APP推送广告）
-!=============================================
+||loansdk.com^
+||shturl.cc^
+! ========== 网贷推送 / 埋点 SDK ==========
 ||push.jiguang.cn^
 ||tracking.umeng.com^
+! ========== 网贷站实测：广告投放 / 追踪（页面请求实录） ==========
+! xbgbzz / a0008a / ayhnl / y1k7u 为同一套「3s_web_detect」广告落地系统，网贷站大量调用
+||xbgbzz.com^
+||a0008a.com^
+||ayhnl.com^
+||y1k7u.com^
+! 广告落地域名存活探测（domain_status）
+||qjkzldkj2378.com^
+||zjkxhc7639.com^
+||cuiqowj87687.com^
+||jkcjol27893.com^
+||nkjnvk73290.com^
+! 广告联盟 / 投放追踪
+||agrantsem.com^
+||agrant.cn^
+||mediav.com^
+||cm.g.doubleclick.net^
+! ========== 网贷站实测：埋点统计 / 查询导流 ==========
+||dn-growing.qbox.me^
+||js.ptengine.cn^
+||collect.ptengine.cn^
+||sadata.yixin.com^
+||program.xinchacha.com^
+! ========== 51 信用卡系（网贷 + 账单代管） ==========
+||u51.com^
+||51zhangdan.com^
+! ========== 补充：主流平台与网贷资讯 ==========
+||rong360.com^
+||51credit.com^
+||51rp.com^
+||p2peye.com^
+||rongzi.com^
+||9fgroup.com^
+||9fbank.com^
+! ===== 网贷站实测：广告投放 / 追踪 =====
+||shturl.cc/^
+||a0008a.com^
+||shturl.cc^
+||shturl.cc^
+||shturl.cc/KeLGxh^
+||zjkxhc7639.com^
+||cuiqowj87687.com^
+||jkcjol27893.com^
+||nkjnvk73290.com^
+||agrantsem.com^
+||agrant.cn^
+||mediav.com^
+||cm.g.doubleclick.net^
+! ===== 网贷站实测：埋点统计 / 查询导流 =====
+||dn-growing.qbox.me^
+||js.ptengine.cn^
+||collect.ptengine.cn^
+||sadata.yixin.com^
+||program.xinchacha.com^
+! ===== 51 信用卡系 =====
+||u51.com^
+||51zhangdan.com^
+
 
 #18+不良网站
 
