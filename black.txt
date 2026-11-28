@@ -7,51 +7,27 @@
 #360
 !! ====================== 360 广告拦截【保留软件管家 & 软件升级】 ======================
 ! 360广告域名
-||ad.360.cn^
 ||ad.jia.360.cn^
 ||ad.life.360.cn^
 ||ad.iot.360.cn^
-||ad.360safe.com^
-||adv.360.cn^
-||adpop.360.cn^
-||adlog.360.cn^
 ! 360统计/埋点/遥测上报（不影响升级，只阻断上报）
-||log.360.cn^
-||stat.360.cn^
-||report.360.cn^
-||upload.360.cn^
-||trace.360.cn^
-||data.360.cn^
-||mcloud.360.cn^
-||cloud.360safe.com^
 ||mvconf.cloud.360safe.com^
 ||mclean.cloud.360safe.com^
 ! 360壁纸专项拦截（壁纸广告，不影响软件管家）
 ||bizhi.360.cn^
 ||wallpaper.360.cn^
 ||wp.360.cn^
-||pic.bizhi.360.cn^
-||recommend.bizhi.360.cn^
 ! 弹窗、消息推送、推广广告（不包含升级/下载核心域名）
-||pop.360.cn^
-||msg.360.cn^
-||notice.360.cn^
-||push.360.cn^
 ! 360搜索/浏览器广告推荐
 ||s.360.cn^
 ||f.360.cn^
 ||so.360.cn^
-||sp.360.cn^
 ! 360手机卫士 / 360手机助手广告
 ||m.360.cn^
 ||mapp.360.cn^
-||appstore.360.cn^
 ||app.360.cn^
 ! 360游戏大厅、推广、软件推荐广告
 ||game.360.cn^
-||gamead.360.cn^
-||tuiguang.360.cn^
-||promo.360.cn^
 ! ====== 360壁纸 PC客户端 完整拦截 ======
 ||bizhi.360.cn^
 ||wallpaper.apc.360.cn^
@@ -273,7 +249,6 @@
 #Umeng | 友盟
 ||ulogs.umeng.com^
 ||umeng.co^
-||ar.umeng.com^
 ||msg.umengcloud.com^
 ||errlog.umeng.com^
 ||plbslog.umeng.com^
@@ -523,7 +498,6 @@
 ||nl-rcd.iqiyi.com^
 ||bar-i.iqiyi.com^
 ||iqiyi-mipdx.cn.miaozhen.com^
-||newstreamcdncmnet.inter.iqiyi.com^
 ||emoticon-sns.iqiyi.com^
 ||tkcloud.iqiyi.com^
 ||qosp.iqiyi.com^
@@ -541,7 +515,6 @@
 ||liveats-vod.video.iqiyi.com^
 ||search.video.iqiyi.com^
 ||msgv6.qy.net^
-||phnpush.iqiyi.com^
 ||swan-api.iqiyi.com^
 ||api-yuedu.iqiyi.com^
 ||file-yuedu.iqiyi.com^
@@ -1372,7 +1345,6 @@
 ##翡翠影视
 ||guanggao-prod.cn-shanghai.log.aliyuncs.com^
 ||errnotice.oss-cn-shenzhen.aliyuncs.com^
-||stun.syncthing.net^
 ||h.wymwyma.cn^
 
 !微软遥测
@@ -1626,7 +1598,6 @@
 ||sr0.cn.w.kunlunaq.com^
 ||xyf-test.oss-cn-beijing.aliyuncs.com^
 ! ========== 好分期 ==========
-||w9t.cn^
 ||ql7.cn^
 ||ql7.cn.w.kunlunaq.com^
 ||51hicard.com^
@@ -1664,21 +1635,10 @@
 ||juzifenqi.com^
 ||bestfenqi.com^
 ||juzidata.com^
-||juziloan.com^
-||juzitrack.com^
 ! ========== 网贷推广短链 / 广告追踪（通用兜底） ==========
-||loan-ad.cn^
-||ad-loan.com^
-||loan-advert.com^
-||loan-track.com^
-||loan-stat.com^
-||loantrack.cn^
 ||loanlink.cn^
 ||loansdk.com^
-||shturl.cc^
 ! ========== 网贷推送 / 埋点 SDK ==========
-||push.jiguang.cn^
-||tracking.umeng.com^
 ! ========== 网贷站实测：广告投放 / 追踪（页面请求实录） ==========
 ! xbgbzz / a0008a / ayhnl / y1k7u 为同一套「3s_web_detect」广告落地系统，网贷站大量调用
 ||xbgbzz.com^
@@ -1716,8 +1676,6 @@
 ! ===== 网贷站实测：广告投放 / 追踪 =====
 ||shturl.cc/^
 ||a0008a.com^
-||shturl.cc^
-||shturl.cc^
 ||shturl.cc/KeLGxh^
 ||zjkxhc7639.com^
 ||cuiqowj87687.com^
@@ -1988,7 +1946,6 @@
 ||51.la^
 ||v1.cnzz.com^
 ||hm.baidu.com^
-||shturl.cc^
 ||happy-data.net^
 ||api.72.chat^
 ||shturl.cc/Z6^
@@ -2131,7 +2088,6 @@ www.itdog.cn##.rounded-lg
 ||click*forhz.adsmogo.com^
 ||ad.sohu.com^
 ||adx.xiaodutv.com^
-||adx-static.ksosoft.com^
 ||e.duomeng.org^
 ||guomob.com^
 ||ads.static.madserving.com^
@@ -2166,32 +2122,23 @@ www.itdog.cn##.rounded-lg
 ||660pxbm.top^
 ||6nxdfc.top^
 ||8122888tp.com^
-||87367.xyz^
 ||9129666tp.com^
-||91pions.com^
-||91polkmj.com^
 ||battlekun.com^
 ||bcydy.com^
 ||dy44.live^
-||dysohvv.com^
 ||fun.360.cn^
 ||hza01.com^
-||jfm522.com^
 ||jlpckj.com^
 ||kn-wk-2.cc^
 ||naaifood.cn^
-||nkadc.xyz^
 ||ns01.fyi^
 ||ptfxh.com^
 ||qisaoba.com^
 ||qjnbdgcfax.com^
-||qp89pj.com^
 ||readfar.com^
 ||shsunedu.com^
-||tanju.vip^
 ||tczyt8.cn^
 ||v871.cc^
-||wxebdv2te.vip^
 ||xygj.cc^
 ||y8rb4.com^
 ||yikanghuitang.cn^
@@ -2286,11 +2233,8 @@ www.itdog.cn##.rounded-lg
 ||zt.gifshow.com^
 ||badjs.weixinbridge.com^
 ||c.sayhi.360.cn^
-||adash.man.aliyuncs.com^
 ||ad.xmmnsl.com^
 ||msg.qy.net^
-||datacollector-drcn.dt.dbankcloud.cn^
-||datacollector-drcn.dt.hicloud.com^
 ||pig.pupuapi.com^
 ||ad.oceanengine.com^
 ||ads.tiktok.com^
@@ -2545,9 +2489,6 @@ www.itdog.cn##.rounded-lg
 
 # [视频客户端过滤器]
 ||ipinfo.io^
-||pow.wandx5.cn^
-||qw.wandx5.cn^
-||jibh.zhangxy2.cn^
 ||picgg.idti.cn^
 ||ad-sdk-config.youdao.com^
 ||ad.cyapi.cn^
@@ -2587,7 +2528,6 @@ www.itdog.cn##.rounded-lg
 ||sv-video.play.aiseet.atianqi.com^
 ||chn-feedback.adsrvr.cn^
 ||ssp.1rtb.com^
-||metrics-collector.xaidc.com^
 ||mediaad.tadu.com^
 ||goblin.hupu.com^
 ||advert.tadu.com^
@@ -2624,7 +2564,6 @@ www.itdog.cn##.rounded-lg
 #熊猫小说
 ||a-qmad.qimao.com^
 #笔趣阁网页广告
-||bcnsport.us^
 #书旗
 ||api.th.wanzjhb.com^
 ||opehs.tanx.com^
@@ -2661,15 +2600,12 @@ www.itdog.cn##.rounded-lg
 ||beacon-api.aliyuncs.com^
 ||adsoptimal.com^
 ||adversaldisplay.com^
-||affiliates.minglematch.com^
 ||adasiatagmanager.appspot.com^
 ||anian1.weebly.com^
 ||688mob.com^
 ||analytics.libertymutual.com.edgekey.net^
 ||adsrv.lua.pl^
-||amynx.com^
 ||api.userstyles.org^
-||a.dxzy163.com^
 ||app.pyypl.io^
 ||adoptimize.info^
 ||a8lp-tebiki.e-sogi.com^
@@ -2686,7 +2622,6 @@ www.itdog.cn##.rounded-lg
 ||a8.creativevillage.ne.jp^
 ||7067.top^
 ||adstage-analytics.herokuapp.com^
-||app.fairparkdallas.com^
 ||app.okstate.com^
 ||2e7zgbpky6h.chinese.freecodecamp.org^
 ||advserver.cgv.vn^
@@ -2961,7 +2896,6 @@ www.itdog.cn##.rounded-lg
 !Social Trackers
 ||ads-dev.pinterest.com^
 ||widgets.pinterest.com^
-||qq.guansenff.cn^
 !
 # 拦截广告布局接口
 ! 均为视频网站、小说网站、漫画网站抓取
@@ -3001,11 +2935,9 @@ www.itdog.cn##.rounded-lg
 ||cmws.iad.apple.com^
 ||cs.iadsdk.apple.com^
 ||display-apps-ui.iad.apple.com^
-||https-apple.com^
 ||iad.apple.com^
 ||iadfeed.iad.apple.com^
 ||iadsdk.apple.com^
-||iadworkbench-soak.iad.apple.com^
 ||news.iadsdk.apple.com^
 ||notes-analytics-events.apple.com^
 ||securemetrics.apple.com^
@@ -3018,7 +2950,6 @@ www.itdog.cn##.rounded-lg
 ||ut.iadsdk.apple.com^
 ||weather-analytics-events.apple.com^
 ||p66-ad.adkwai.com^
-||openlog.cashcatads.com^
 ||analytics.woozooo.com^
 ||sis-ipv6.jpush.cn^
 ||status-ipv6.jpush.cn^
@@ -3051,9 +2982,6 @@ www.itdog.cn##.rounded-lg
 #阅友去广告
 ||ads.reader.yueyouxs.com^
 #人人视频
-||avapp.calvapib.me^
-||avapp.calvapic.me^
-||avapp.calvapid.me^
 ||cloudconf.fengkongcloud.com^
 ||adashxgc.ut.taobao.com^
 ||www.qchannel01.cn^
@@ -3074,9 +3002,7 @@ www.itdog.cn##.rounded-lg
 ||*.04kai.org^
 ||*.rhjdc.com^
 ||*.kbddftp.cn^
-||frt041202.045189.cc^
 ||kowuie.sydneypass.info^
-||yu041202.982051.cc^
 ||*.searesource.top^
 ||*.guanaibao.com^
 ||*.xiangde.top^
@@ -3110,7 +3036,6 @@ www.itdog.cn##.rounded-lg
 ! --- Media.net
 ||static.media.net^
 ||media.net^
-||adservetx.media.net^
 !========= Analytics ==========
 ! --- Google Analytics
 ||analytics.google.com^
@@ -3124,7 +3049,6 @@ www.itdog.cn##.rounded-lg
 ||script.hotjar.com^
 ||surveys.hotjar.com^
 ||careers.hotjar.com^
-||events.hotjar.io^
 ! --- MouseFlow
 ||mouseflow.com^
 ||cdn.mouseflow.com^
